@@ -1,0 +1,5 @@
+Object oriented design principles
+
+open closed principle
+
+
