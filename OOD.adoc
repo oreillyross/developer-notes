@@ -1,5 +1,13 @@
 Object oriented design principles
 
-open closed principle
+Open closed principle
+
+Liskov substitution principle
+
+favor composition over inheritance
+
+
+
+
 
 
