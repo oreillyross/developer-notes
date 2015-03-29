@@ -2,11 +2,24 @@ Object oriented design principles
 
 Open closed principle
 
+The Open Close Principle states that the design and writing of the code should be done in a way that new functionality 
+should be added with minimum changes in the existing code. The design should be done in a 
+way to allow the adding of new functionality as new classes, keeping as much as possible existing code unchanged.
+
 Liskov substitution principle
+
+
 
 favor composition over inheritance
 
+Single responsibility principle
 
+A class should have only one reason to change.
+
+Dependency inversion principle
+
+High-level modules should not depend on low-level modules. Both should depend on abstractions.
+Abstractions should not depend on details. Details should depend on abstractions.
 
 
 
