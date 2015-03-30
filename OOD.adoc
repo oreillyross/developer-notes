@@ -2,10 +2,10 @@ Object oriented design principles
 ===========
 Optional Author Name <optional@author.email>
 Optional version, optional date
-:Author:    Ross O'Reilly
-:Email:     oreillyross@gmail.com
-:Date:     30 March 2015
-:Revision:  1.1
+:Author:    AlternativeWayToSetOptional Author Name
+:Email:     <AlternativeWayToSetOptional@author.email>
+:Date:      AlternativeWayToSetOptional date
+:Revision:  AlternativeWayToSetOptional version
 
 
 
