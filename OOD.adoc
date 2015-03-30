@@ -8,13 +8,39 @@ way to allow the adding of new functionality as new classes, keeping as much as 
 
 Liskov substitution principle
 
-
+Likov's Substitution Principle states that if a program module is using a Base class, then the reference 
+to the Base class can be replaced with a Derived class without affecting the functionality of the program module.
+Derived types must be completely substitutable for their base types.
 
 favor composition over inheritance
+
+Prefer composition over inheritance as it is more malleable / easy to modify later, but do not use a compose-always
+approach. With composition, it's easy to change behavior on the fly with Dependency Injection / Setters. Inheritance
+is more rigid as most languages do not allow you to derive from more than one type.. So the goose is more or less cooked
+once you derive from Class A.
+
+My acid test for the above is:
+
+Does TypeB want to expose the complete interface (all public methods no less) of TypeA such that TypeB can be used
+where TypeA is expected? Indicates Inheritance.
+e.g. A Cessna biplane will expose the complete interface of an airplane, if not more. So that makes it fit 
+to derive from Airplane.
+
+Does TypeB only want only some/part of the behavior exposed by TypeA? Indicates need for Composition.
+e.g. A Bird may need only the fly behavior of an Airplane. In this case, it makes sense to extract it out as
+an interface / class / both and make it a member of both classes.
+
+Update: Just came back to my answer and it seems now that it is incomplete without a specific mention of 
+Barbara Liskov's Liskov Substitution Principle as a test for 'Should I be inheriting from this type?'
 
 Single responsibility principle
 
 A class should have only one reason to change.
+
+Single-Responsibility-Principle is the basis of a good design.
+If you have this principle in your mind while designing and developing, you will have a simpler more readable code.
+
+
 
 Dependency inversion principle
 
