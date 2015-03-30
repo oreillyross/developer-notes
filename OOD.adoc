@@ -2,6 +2,8 @@
 
 == Object oriented design principles
 
+<hr>
+
 == Open closed principle
 
 The Open Close Principle states that the design and writing of the code should be done in a way that new functionality 
@@ -28,7 +30,7 @@ where TypeA is expected? Indicates Inheritance.
 e.g. A Cessna biplane will expose the complete interface of an airplane, if not more. So that makes it fit 
 to derive from Airplane.
 
-IMPORTANT: 
+
 
 Does TypeB only want only some/part of the behavior exposed by TypeA? Indicates need for Composition.
 e.g. A Bird may need only the fly behavior of an Airplane. In this case, it makes sense to extract it out as
