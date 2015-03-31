@@ -2,7 +2,7 @@
 
 == Object oriented design principles
 
-<hr>
+
 
 == Open closed principle
 
@@ -52,6 +52,10 @@ If you have this principle in your mind while designing and developing, you will
 
 High-level modules should not depend on low-level modules. Both should depend on abstractions.
 Abstractions should not depend on details. Details should depend on abstractions.
+
+== Functional programming
+
+
 
 
 
