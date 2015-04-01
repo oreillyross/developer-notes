@@ -1,1 +1,12 @@
 
+System.in represents the keyboard
+
+System.in provides access to raw bytes of data from the input device, which is the keyboard in our example. It is
+the job of the InputStreamReader class to take those bytes and convert them into characters in your current character
+set. System.in is passed to the InputStreamReader() constructor to create an InputStreamReader object.
+InputStreamReader knows about characters, but not about lines. It is the BufferedReader class’s job to detect
+line breaks in the input stream, and to enable you to conveniently read a line at a time. BufferedReader also aids
+efficiency by allowing physical reads from the input device to be done in different-size chunks than by which your
+application consumes the data. This aspect can make a difference when the input stream is a large file rather than the
+keyboard.
+
