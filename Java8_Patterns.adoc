@@ -10,3 +10,17 @@ efficiency by allowing physical reads from the input device to be done in differ
 application consumes the data. This aspect can make a difference when the input stream is a large file rather than the
 keyboard.
 
+
+Functional Interfaces
+
+Lambda expressions allow you to encapsulate functionality and assign to a variable for later use, if desired. Believe
+it or not, there is a simplified variation of a lambda expression referred to as a method reference. If a class contains
+a method that is derived from the implementation of a functional interface, then that method can be obtained or
+“captured” and assigned to a variable for later use. The concept being that the method contains functionality that can
+be assigned to a variable of the same type as the functional interface.
+
+
+
+The double colon operator is used to indicate a method reference. In this example, a reference to an instance
+method of a specific object is used
+
