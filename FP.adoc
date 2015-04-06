@@ -7,3 +7,6 @@ sequences of computations. The monad determines how combined computations form a
 the programmer from having to code the combination manually each time it is required.
 .d
 <a href="https://wiki.haskell.org/All_About_Monads">Haskell Wiki about Monads</a>
+
+
+Making an edit
