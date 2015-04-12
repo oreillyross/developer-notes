@@ -9,4 +9,4 @@ the programmer from having to code the combination manually each time it is requ
 <a href="https://wiki.haskell.org/All_About_Monads">Haskell Wiki about Monads</a>
 
 
-Making an edit
+This edit made on iPad
