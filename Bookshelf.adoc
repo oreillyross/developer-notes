@@ -1,6 +1,6 @@
 == Pragmatic programmers bookshelf
 
 . link:http://www.mindview.net/Books/TIJ[Thinking in Java by Bruce Eckel]
-. link: http://www.artima.com/pins1ed/ [Programming in Scala by Martin Odersky, Lex Spoon, and Bill Venners]
+. link:http://www.artima.com/pins1ed[Programming in Scala by Martin Odersky, Lex Spoon, and Bill Venners]
 . 
 
