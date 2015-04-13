@@ -1,5 +1,6 @@
 == Pragmatic programmers bookshelf
 
 . Thinking in Java by Bruce Eckel
-. [Programming in Scala](http://www.mindview.net/Books/TIJ")
+. [Programming in Scala](http://www.mindview.net/Books/TIJ)
+. 
 
