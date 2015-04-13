@@ -1,0 +1,15 @@
+= Technology stacks
+
+== Web frameworks 
+. Play framework
+. Spring tool suite (STS)
+
+  
+== Build tools
+. Gradle
+. Maven
+. Ant
+
+
+
+
