@@ -1,7 +1,16 @@
 
 
+== Principles
 
 Software entropy of the system increases over a period of time unless it is refactored
 
 
 http://www.laputan.org/mud/
+
+=== Microservices
+
+Microservices vs Monoliths
+http://blog.arungupta.me/microservices-monoliths-noops/
+
+Design patterns
+http://blog.arungupta.me/microservice-design-patterns/
