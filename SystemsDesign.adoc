@@ -1,0 +1,4 @@
+
+
+
+Software entropy of the system increases over a period of time unless it is refactored
