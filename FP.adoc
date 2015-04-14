@@ -14,3 +14,11 @@ Monads have to satisfy three laws, namely:
 1. Law of Associativity
 2. Left unit law
 3. Right unit law
+
+[source,scala]
+----
+  trait Monad[A] {
+    def map[B](f: A => B): Monad[B]
+    def flatmap[B](f: A => Monad[B]): Monad[B]
+  }z  
+----
