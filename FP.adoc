@@ -20,5 +20,5 @@ Monads have to satisfy three laws, namely:
   trait Monad[A] {
     def map[B](f: A => B): Monad[B]
     def flatmap[B](f: A => Monad[B]): Monad[B]
-  }z  
+  }  
 ----
