@@ -9,4 +9,8 @@ the programmer from having to code the combination manually each time it is requ
 <a href="https://wiki.haskell.org/All_About_Monads">Haskell Wiki about Monads</a>
 
 
-This edit made on iPad
+Monads have to satisfy three laws, namely:
+
+1. Law of Associativity
+2. Left unit law
+3. Right unit law
