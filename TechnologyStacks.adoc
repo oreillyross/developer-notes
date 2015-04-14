@@ -10,6 +10,10 @@
 . Maven
 . Ant
 
+== Testing Frameworks
+. Junit
+. Scalacheck
+
 
 
 
