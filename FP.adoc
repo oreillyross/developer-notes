@@ -24,3 +24,11 @@ Monad has this shape here
     def flatmap[B](f: A => Monad[B]): Monad[B]
   }  
 ----
+
+ === Monoids
+ 
+ === Functors
+ 
+ === Monad transformers 
+ 
+ === Applicative functors
