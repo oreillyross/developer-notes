@@ -25,10 +25,10 @@ Monad has this shape here
   }  
 ----
 
- === Monoids
+=== Monoids
  
- === Functors
+=== Functors
  
- === Monad transformers 
+=== Monad transformers 
  
- === Applicative functors
+=== Applicative functors
