@@ -1,0 +1,15 @@
+== Key players
+
+=== FP world
+
+. Martin Odersky
+. Roland Kuhn
+. Erik Meijer
+. Bill Venners
+. Dick Wall
+. Brian Beckman
+
+=== Java world
+
+. Bruce Eckel
+. Joshua Block
