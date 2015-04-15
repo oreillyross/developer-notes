@@ -13,6 +13,8 @@
 == Testing Frameworks
 . Junit
 . Scalacheck
+. Jasmine (check it out)
+. Karma (check it out)
 
 
 
