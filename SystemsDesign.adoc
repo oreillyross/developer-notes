@@ -7,6 +7,11 @@ Software entropy of the system increases over a period of time unless it is refa
 
 http://www.laputan.org/mud/
 
+=== Clean code
+
+keeping your code clean is not just cost effective; it’s a matter of
+*professional survival*.
+
 === Microservices
 
 Microservices vs Monoliths
