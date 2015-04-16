@@ -17,7 +17,12 @@ Reduced duplication, high expressiveness,
 and early building of simple abstractions.
 That’s what makes clean code for me.
 
-.Use Intention-Revealing Names
+== good practices
+=== Method, Variable, Function, Interface, trait naming 
+1. Use intention-revealing names
+2. Avoid disinformation
+3. Make meaningful distinctions
+4. Use pronounceable names
 
 
 === Microservices
