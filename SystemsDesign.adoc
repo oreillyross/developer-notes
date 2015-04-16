@@ -17,6 +17,8 @@ Reduced duplication, high expressiveness,
 and early building of simple abstractions.
 That’s what makes clean code for me.
 
+.Use Intention-Revealing Names
+
 
 === Microservices
 
