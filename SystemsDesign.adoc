@@ -23,6 +23,18 @@ That’s what makes clean code for me.
 2. Avoid disinformation
 3. Make meaningful distinctions
 4. Use pronounceable names
+5. Pick one word per concept
+6. Add meaningful context
+7. Classes and objects should have noun or noun phrase names
+8. Methods should have verb or verb phrase names
+
+
+=== Functions
+1. keep it small (2-3 lines)
+2. Do one thing
+3. One level of abstraction per function
+4. Apply the stepdown rule consistently
+
 
 
 === Microservices
