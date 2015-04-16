@@ -12,7 +12,7 @@ http://www.laputan.org/mud/
 keeping your code clean is not just cost effective; it’s a matter of
 *professional survival*.
 
-[quote, Ron Jeffries, on clean code] 
+[verse, Ron Jeffries, on clean code] 
 Reduced duplication, high expressiveness, 
 and early building of simple abstractions.
 That’s what makes clean code for me.
