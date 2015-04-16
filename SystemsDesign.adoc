@@ -36,6 +36,7 @@ That’s what makes clean code for me.
 4. Apply the stepdown rule consistently
 5. Avoid passing boolean arguments, rather seperate function into two
 6. Keep arguments to one, two at most for functions
+7. Prefer Exceptions to Returning Error Codes
 
 `In the case of a monadic function, the function and argument should form a very nice verb/noun pair.`
 
