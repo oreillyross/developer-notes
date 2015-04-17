@@ -1,5 +1,7 @@
 == Functional programming
 
+Functional programming is not only about composing functions and algebraic data structures — it makes concurrency composable 
+
 === Monads
 A monad is a way to structure computations (like a design pattern) in terms of values and sequences of computations using those values. 
 Monads allow the programmer to build up computations using sequential building blocks, which can themselves be
