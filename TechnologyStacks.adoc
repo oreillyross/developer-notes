@@ -17,12 +17,12 @@
 . Karma (check it out)
 
 == Web Front ends
-.Angular.js
-.Scala.js
+. Angular.js
+. Scala.js
 
 
 == Mobile SDKs
-.Android SDK
+. Android SDK
 
 
 
