@@ -34,3 +34,7 @@ Monad has this shape here
 === Monad transformers 
  
 === Applicative functors
+
+==== Referential transparency
+
+==== Substitution principle
