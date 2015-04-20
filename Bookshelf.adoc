@@ -1,7 +1,8 @@
 == Pragmatic programmers bookshelf
 
-. link:http://www.mindview.net/Books/TIJ[Thinking in Java by Bruce Eckel]
-. link:http://www.artima.com/pins1ed[Programming in Scala by Martin Odersky, Lex Spoon, and Bill Venners]
-. link:http://www.objectmentor.com/resources/books.html[Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)]
-. link:http://www.objectmentor.com/resources/books.html[Agile Software Development: Principles, Patterns, and Practices (Robert C. Martin)]
+. http:http://www.mindview.net/Books/TIJ[Thinking in Java by Bruce Eckel]
+. http:http://www.artima.com/pins1ed[Programming in Scala by Martin Odersky, Lex Spoon, and Bill Venners]
+. http:http://www.objectmentor.com/resources/books.html[Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)]
+. http:http://www.objectmentor.com/resources/books.html[Agile Software Development: Principles, Patterns, and Practices (Robert C. Martin)]
+. http:http://www.amazon.com/Introduction-Functional-Programming-International-Computing/dp/0134841891[Introduction to Functional Programming by Richard Bird and Philip Wadler]
 
