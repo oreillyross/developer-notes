@@ -39,7 +39,9 @@ Monad has this shape here
 
 ==== Substitution principle
 
-The precise meaning of "being the same" is defined by the property of "operational equivalence"
+****
+The precise meaning of "being the same" is defined by the property of *"operational equivalence"* 
+****
 
 .Parsers and combinators
 . A parser is a function that takes a stream of input tokens, and converts them into a format (typically a data structure, 
