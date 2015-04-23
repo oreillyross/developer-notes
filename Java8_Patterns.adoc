@@ -24,3 +24,8 @@ be assigned to a variable of the same type as the functional interface.
 The double colon operator is used to indicate a method reference. In this example, a reference to an instance
 method of a specific object is used
 
+= Special case pattern (Fowler)
+
+
+
+
