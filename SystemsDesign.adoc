@@ -49,3 +49,11 @@ http://blog.arungupta.me/microservices-monoliths-noops/
 
 Design patterns
 http://blog.arungupta.me/microservice-design-patterns/
+
+=== Guidelines on testing code 
+
+One particularly good method to start using thrid party APIs in your code base is to use them in *Learning Tests*. 
+These are normal tests which essentially start interacting with the api, but in ways you would expect. This allows you
+to quickly find out the lmitations in how it might solve some of your problems.
+
+
