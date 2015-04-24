@@ -26,6 +26,8 @@ method of a specific object is used
 
 = Special case pattern (Fowler)
 
+= Cake pattern
+
 
 
 
