@@ -56,4 +56,19 @@ One particularly good method to start using thrid party APIs in your code base i
 These are normal tests which essentially start interacting with the api, but in ways you would expect. This allows you
 to quickly find out the lmitations in how it might solve some of your problems.
 
+== the three laws of TDD
+---
+
+. * First law * You may not write production code until you have written a failing unit test.
+. * Second law * You may not write more of a unit test than is sufficient to fail, and not compiling
+is failing.
+. * Third law * You may not write more production code than is sufficient to pass the currently
+failing test.
+
+> These three laws lock you into a cycle that is perhaps thirty seconds long. The tests
+and the production code are written together, with the tests just a few seconds ahead of the
+production code.
+
+
+
 
