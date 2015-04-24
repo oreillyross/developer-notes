@@ -69,7 +69,7 @@ failing test.
 and the production code are written together, with the tests just a few seconds ahead of the
 production code.
 
-The usual approch to writing Unit tests is to *BUILD-OPERATE-TEST*
+The usual approch to writing Unit tests is to *BUILD-OPERATE-TEST* with `One assert per test`
 
 
 
