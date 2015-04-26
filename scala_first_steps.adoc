@@ -11,3 +11,6 @@ This document describes in fairly generic terms the steps required to get up and
 . Create a blank directory for your project files
 `vim build.sbt` in base directory follow http://www.scala-sbt.org/0.13/tutorial/Hello.html[sbt setup]
 . use https://gist.github.com/alvinj/3194379[Alvin Alexanders] shell script to make sbt project directory
+. Open two terminal sessions in tabs. (CTRL-PgUP to toggle). First terminal session run Vim with NerdTree and second 
+session run sbt with `~compile` command to constantly compile src files or alternatively `~test`
+
