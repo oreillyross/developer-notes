@@ -3,3 +3,10 @@
 
 This document describes in fairly generic terms the steps required to get up and running with a scala project in Vim.
 
+1. Install JDK 7+
+2. Install Scala compiler
+3. Install SBT (Scala build tool)
+4. Add ScalaTest and Scalactic support
+
+. Create a blank directory for your project files
+`vim build.sbt` in base directory follow http://www.scala-sbt.org/0.13/tutorial/Hello.html[sbt setup]
