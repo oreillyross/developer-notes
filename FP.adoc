@@ -53,3 +53,8 @@ such as a list or a tree) that is more easily consumed by your application.
 These allow functions to take functions as arguments and return them as functions.
 
 Essentially the higher order functions completely replace the ` command pattern ` used in OOP languages
+
+== Closures
+Close over variables and functions. Everything used within the curly braces is essentially 
+kept alive whilst the closed over function is passed around and used by the application.
+
