@@ -47,3 +47,9 @@ The precise meaning of "being the same" is defined by the property of *"operatio
 . A parser is a function that takes a stream of input tokens, and converts them into a format (typically a data structure, 
 such as a list or a tree) that is more easily consumed by your application.
 . A combinator is simply a higher order function which combines two functions into a new function.
+
+= Higher order functions
+**
+These allow functions to take functions as arguments and return them as functions.
+
+Essentially the higher order functions completely replace the ` command pattern ` used in OOP languages
