@@ -2,6 +2,15 @@
 
 Functional programming is not only about composing functions and algebraic data structures — it makes concurrency composable 
 
+===== Origins (why FP now?)
+
+It seemed like denotational semantics wasn’t the best fit for a considerable number of important tasks 
+that were essential for writing useful programs, and which could be easily tackled by operational semantics. 
+The breakthrough came from category theory. Eugenio Moggi discovered that computational effect can be mapped to monads. 
+This turned out to be an important observation that not only gave denotational semantics a new lease on life and 
+made pure functional programs more usable, but also shed new light on traditional programming. 
+http://bartoszmilewski.com/2014/11/24/types-and-functions/[1]
+
 === Category and composition
 
 . A category consists of objects and arrows (morphisms). Arrows can be composed, and the composition is associative.
