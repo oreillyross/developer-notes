@@ -3,7 +3,7 @@
 Functional programming is not only about composing functions and algebraic data structures — it makes concurrency composable 
 
 === Category and composition
----------
+
 . A category consists of objects and arrows (morphisms). Arrows can be composed, and the composition is associative.
 . Every object has an identity arrow that serves as a unit under composition.
 
