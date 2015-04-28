@@ -9,7 +9,7 @@ that were essential for writing useful programs, and which could be easily tackl
 The breakthrough came from category theory. Eugenio Moggi discovered that computational effect can be mapped to monads. 
 This turned out to be an important observation that not only gave denotational semantics a new lease on life and 
 made pure functional programs more usable, but also shed new light on traditional programming. 
-http://bartoszmilewski.com/2014/11/24/types-and-functions/[1]
+footnote: [http://bartoszmilewski.com/2014/11/24/types-and-functions]
 
 === Category and composition
 
