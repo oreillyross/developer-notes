@@ -8,6 +8,9 @@
 . Bill Venners
 . Dick Wall
 . Brian Beckman
+. Heather Miller
+. Roland Kuhn
+. Jonas Boner
 
 === Java world
 
