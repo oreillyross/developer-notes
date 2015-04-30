@@ -99,6 +99,9 @@ Callbacks always return the values,
 ==== Combinators to use on multiple futures
 Use map, flatmap for the success cases and use recover and recoverWith for the failure cases
 
+A Promise can be completed with either of the two methods:
+. success
+. failure
 
 
 
