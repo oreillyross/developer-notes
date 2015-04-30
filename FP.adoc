@@ -87,3 +87,20 @@ Essentially the higher order functions completely replace the ` command pattern 
 Close over variables and functions. Everything used within the curly braces is essentially 
 kept alive whilst the closed over function is passed around and used by the application.
 
+=== Futures and Promises
+
+Future[T] 
+
+Callbacks always return the values,
+. onComplete
+. onSuccess
+. onFailure
+
+==== Combinators to use on multiple futures
+Use map, flatmap for the success cases and use recover and recoverWith for the failure cases
+
+
+
+
+
+
