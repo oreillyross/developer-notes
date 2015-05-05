@@ -71,7 +71,7 @@ production code.
 
 The usual approach to writing Unit tests is to *BUILD-OPERATE-TEST* with `One assert per test`
 
-[quote, Kent Beck, a design is “simple” if it follows these rules]
+[verse, Kent Beck, a design is “simple” if it follows these rules]
 ----
 . Runs all the tests
 . Contains no duplication
