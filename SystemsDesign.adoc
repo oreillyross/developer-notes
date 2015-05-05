@@ -69,7 +69,19 @@ failing test.
 and the production code are written together, with the tests just a few seconds ahead of the
 production code.
 
-The usual approch to writing Unit tests is to *BUILD-OPERATE-TEST* with `One assert per test`
+The usual approach to writing Unit tests is to *BUILD-OPERATE-TEST* with `One assert per test`
+
+=== class organization
+. Classes should be small
+
+[Blockquote]
+.class should begin with a list of variables. Public static constants, if any, should come first. Then private static variables, followed by private
+instance variables. There is seldom a good reason to have a public variable.
+
+.Public functions should follow the list of variables. We like to put the private utilities
+called by a public function right after the public function itself. This follows the stepdown
+rule and helps the program read like a newspaper article.
+
 
 
 
