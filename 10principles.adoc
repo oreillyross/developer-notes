@@ -1,3 +1,14 @@
+Main Header
+===========
+Optional Author Name <optional@author.email>
+Optional version, optional date
+:Author:    Ross O'Reilly
+:Email:     oreillyross@gmail.com
+:Date:      05 May 2015
+:Revision:  1.0
+
+
+
 = Object oriented design principle 1 – DRY (Don’t repeat yourself)
 
 As name suggest DRY (don’t repeat yourself) means don’t write duplicate code, instead use abstraction to abstract common things in one place. if you use a hardcoded value more than one time consider making it public final constant, if you have block of code in more than two place consider making it a separate method. Benefit of this SOLID design principle is in maintenance. Its worth to note is don?€™t abuse it, duplicate is not for code but for functionality means if you used common code to validate OrderID and SSN it doesn?€™t mean they are same or they will remain same in future. By using common code for two different functionality or thing you closely couple them forever and when your OrderID changes its format , your SSN validation code will break. So beaware of such coupling and just don?€™t combine anything which uses similar code but are not related.
