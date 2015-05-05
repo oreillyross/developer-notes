@@ -1,4 +1,4 @@
-Ten OOD Principles
+Main Header
 ===========
 Optional Author Name <optional@author.email>
 Optional version, optional date
