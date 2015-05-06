@@ -11,5 +11,9 @@ Spring (current version 4x)
 
 Play
 
+### Asychnronous extensions
+
+. http://reactivex.io/intro.html[ReactiveX]
+
 
 
