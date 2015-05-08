@@ -57,8 +57,12 @@ Monoid is an embarrassingly simple but amazingly powerful concept. It’s the co
 arithmetics: Both addition and multiplication form a monoid. Monoids are ubiquitous in programming. 
 They show up as strings, lists, foldable data structures, futures in concurrent programming, events 
 in functional reactive programming, and so on.footnote:[http://bartoszmilewski.com/2014/12/05/categories-great-and-small/]
+
+Are a type with a flatmap and a function taht returns itself
  
 === Functors
+
+Are a type with a map
  
 === Monad transformers 
  
