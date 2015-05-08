@@ -87,6 +87,10 @@ These allow functions to take functions as arguments and return them as function
 
 Essentially the higher order functions completely replace the ` command pattern ` used in OOP languages
 
+[blockquote]
+Because Scala is an object oriented language, all first class values are objects. This means func􀦞ons are objects, not
+methods! In fact, func􀦞ons themselves have useful methods for composi􀦞on:
+
 == Closures
 Close over variables and functions. Everything used within the curly braces is essentially 
 kept alive whilst the closed over function is passed around and used by the application.
