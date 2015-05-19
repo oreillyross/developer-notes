@@ -1,0 +1,4 @@
+== Functional reactive programming
+
+=== Èffectively using actors
+Configuring thread pools is a task best delegated to Akka, simply configure in the application.conf file.
