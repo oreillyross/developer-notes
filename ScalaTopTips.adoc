@@ -1,4 +1,15 @@
 == Top tips for using Scala effectively.
 
-# `HASHCODE AND EQUALS SHOULD ALWAYS BE PAIRED` The equals and hashCode
-methods should always be implemented such that if x == y then x.## == y.##.
+=== HASHCODE AND EQUALS SHOULD ALWAYS BE PAIRED 
+The equals and hashCode methods should always be implemented such that if x == y then x.## == y.##.
+
+Stick to the following constraints when implementing equality:
+
+.If two objects are equal, they should have the same hashCode.
+.A hashCode computed for an object won’t change for the life of the object.
+.When sending an object to another JVM, equality should be determined using
+attributes available in both JVMs.
+.Utilize only immutable object internal state in hashCode computation
+.Use default concepts for equals and hashCode
+
+As you can see, this means that something in the object must be immutable. Making the entire object immutable simplifies this whole process greatly.
