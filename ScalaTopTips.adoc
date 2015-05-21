@@ -36,3 +36,13 @@ def check(x: Int) =
 1. The method must be final or private: It can’t be polymorphic.
 2. The method must have its return type annotated.
 3.  The method must call itself as the “end” of one of its branches.
+
+====== Compiler Magic
+
+Use the following command when compiling to get a print out of how the compiler works
+
+```scala 
+-Xprint:parse
+```
+
+
