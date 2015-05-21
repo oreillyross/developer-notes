@@ -15,8 +15,8 @@ Stick to the following constraints when implementing equality:
 As you can see, this means that something in the object must be immutable. Making the entire object immutable simplifies this whole process greatly.
 
 Use annotations to help with Scala optimizations
-. @tailrec
-. @switch
+.@tailrec
+.@switch
 
 ```scala
 import annotation.switch
