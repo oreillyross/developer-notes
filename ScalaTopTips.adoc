@@ -13,3 +13,19 @@ Stick to the following constraints when implementing equality:
 . Use default concepts for equals and hashCode
 
 As you can see, this means that something in the object must be immutable. Making the entire object immutable simplifies this whole process greatly.
+
+Use annotations to help with Scala optimizations
+. @tailrec
+. @switch
+
+```scala
+import annotation.switch
+
+def check(x: Int) = 
+  (x: @switch) match {
+    case 1 => "One"
+    case 2 => "Two"
+    case x: Int => "Other"
+  }
+
+```
