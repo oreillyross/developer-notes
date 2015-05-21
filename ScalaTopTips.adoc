@@ -18,6 +18,8 @@ As you can see, this means that something in the object must be immutable. Makin
 1. @tailrec
 2. @switch
 
+Usage: 
+
 ```scala
 import annotation.switch
 
