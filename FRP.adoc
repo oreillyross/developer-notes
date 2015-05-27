@@ -6,7 +6,8 @@ Configuring thread pools is a task best delegated to Akka, simply configure in t
 ===== Summary: actorOf vs. actorSelection vs. actorFor
 
 Note: What the above sections described in some detail can be summarized and memorized easily as follows:
----
+
+===
 
 1. *actorOf* only ever creates a new actor, and it creates it as a direct child of the context on which this method
 is invoked (which may be any actor or actor system).
