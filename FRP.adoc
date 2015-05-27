@@ -1,4 +1,14 @@
 == Functional reactive programming
 
-=== Èffectively using actors
+=== Effectively using actors
 Configuring thread pools is a task best delegated to Akka, simply configure in the application.conf file.
+
+===== Summary: actorOf vs. actorSelection vs. actorFor
+
+Note: What the above sections described in some detail can be summarized and memorized easily as follows:
+1. *actorOf* only ever creates a new actor, and it creates it as a direct child of the context on which this method
+is invoked (which may be any actor or actor system).
+2. *actorSelection* only ever looks up existing actors when messages are delivered, i.e. does not create
+actors, or verify existence of actors when the selection is created.
+3. *actorFor* (deprecated in favor of *actorSelection*) only ever looks up an existing actor, i.e. does not create
+one.
