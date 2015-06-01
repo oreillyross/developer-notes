@@ -6,3 +6,8 @@
 . http://www.objectmentor.com/resources/books.html[Agile Software Development: Principles, Patterns, and Practices (Robert C. Martin)]
 . http://www.amazon.com/Introduction-Functional-Programming-International-Computing/dp/0134841891[Introduction to Functional Programming by Richard Bird and Philip Wadler]
 
+
+=== Articles, thesis and papers
+
+==== RESTful services
+. http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm[Architectural Styles and the Design of Network-based Software Architectures by Roy Thomas Fielding]
