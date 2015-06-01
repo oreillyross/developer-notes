@@ -28,6 +28,8 @@ method of a specific object is used
 
 = Cake pattern
 
+==== [Stackable trait pattern](http://www.artima.com/scalazine/articles/stackable_trait_pattern.html) - This pattern is similar in structure to the decorator pattern, except it involves decoration for the purpose of class composition instead of object composition. Stackable traits decorate the core traits at compile time, similar to the way decorator objects modify core objects at run time in the decorator pattern.  
+
 
 
 
