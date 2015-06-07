@@ -16,11 +16,15 @@ Play
 . http://reactivex.io/intro.html[ReactiveX]
 . http://akka.io[Akka]
 
-### Build tools anf task runners
+### Build tools and task runners
 
 . SBT
 . Gradle
 
+### Testing tools
+
+. BatarangJS (chrome extension) testing Angular apps
+. Karma for testing Javascript apps
 
 
 
