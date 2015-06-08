@@ -1,0 +1,5 @@
+
+
+In Angular apps use {{ }} in the majority of your templates. For the data binding you do in your index.html page, however, 
+use ng-bind instead. That way, your users will see nothing until the data has loaded.
+
