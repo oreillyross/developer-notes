@@ -20,6 +20,7 @@ Play
 
 . SBT
 . Gradle
+. Yeoman - Yeoman is a robust tool comprised of multiple frameworks and client-side libraries. It provides a rapid development environment by automating some routine tasks needed to bootstrap and develop your application.
 
 ### Testing tools
 
