@@ -3,3 +3,14 @@
 Unit testing and BDD testing
 
 ` karma.conf.js ` 
+
+#### AngularJS Getting started stub
+` var myapp = angular.module('myapp', []);
+myapp.controller('maincontroller', ['$scope', function($scope) {
+
+}]);`
+
+
+
+
+
