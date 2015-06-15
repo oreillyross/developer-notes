@@ -2,7 +2,8 @@
 
 Unit testing and BDD testing
 
-```karma.conf.js  
+```
+karma.conf.js  
 ```
 #### AngularJS Getting started stub
 ```
@@ -11,6 +12,14 @@ myapp.controller('maincontroller', ['$scope', function($scope) {
 
 }]);
 ```
+
+A great javascript trick to pass default values is to use the || (or) operator
+
+```
+var val = getSomeNumber() || 1 
+// returns a value or 1 if undefined
+```
+
 
 
 
