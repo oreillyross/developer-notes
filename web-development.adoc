@@ -19,7 +19,22 @@ A great javascript trick to pass default values is to use the || (or) operator
 var val = getSomeNumber() || 1 
 // returns a value or 1 if undefined
 ```
+A common javascript pattern to be able to reference this inside an anonymous function 
 
+```
+myapp.service('myservice', function() {
+
+  this.name = "a persons name";
+  var self = this
+  
+  this.getSomething = function() {
+    // cant use this as it will refer to this annonymous function instead use
+    self.name.length
+  };
+
+});
+
+```
 
 
 
