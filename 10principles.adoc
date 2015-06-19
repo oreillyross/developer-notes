@@ -5,7 +5,7 @@ Main Header
 :Date:      05 May 2015
 :Revision:  1.0
 
-= [blue]10 Common Principles of OOD
+[blue] # 10 Common Principles of OOD
 
 = Object oriented design principle 1 – DRY (Don’t repeat yourself)
 
