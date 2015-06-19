@@ -1,13 +1,11 @@
 Main Header
 ===========
-Optional Author Name <optional@author.email>
-Optional version, optional date
 :Author:    Ross O'Reilly
 :Email:     oreillyross@gmail.com
 :Date:      05 May 2015
 :Revision:  1.0
 
-
+[light-blue] = 10 Common Principles of OOD
 
 = Object oriented design principle 1 – DRY (Don’t repeat yourself)
 
