@@ -1,0 +1,8 @@
+# Living on the edge of Technology
+
+The following is by no means an exhaustive list of technologies claimed to be the next big thing.
+
+. Bitcoin (or more importantly Blockchain)
+. Big data
+. WebAssembly 
+. IoT
