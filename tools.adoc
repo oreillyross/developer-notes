@@ -11,3 +11,9 @@
 . JSON Formatter
 . Firebug Lite
 
+# Favourite editors
+
+. Atom
+. Vim
+. Brackets
+. Sublime
