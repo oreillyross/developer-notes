@@ -27,6 +27,6 @@
 . Android SDK
 
 == Deploying code
-Heroku. Heroku lets you deploy, run and manage applications written in Ruby, Node.js, Java, Python, Clojure, Scala and PHP.
+. Heroku. Heroku lets you deploy, run and manage applications written in Ruby, Node.js, Java, Python, Clojure, Scala and PHP.
 
 
