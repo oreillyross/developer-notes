@@ -6,6 +6,7 @@
 == Useful Scala libraries
 
 . scala.io.Source - including its companion object has many useful file manipulation / access methods
+. sys.process - library has many useful methods, including ! for running commands in shell or external
 
 == Web Frameworks
 
