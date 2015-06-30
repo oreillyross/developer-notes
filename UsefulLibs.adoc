@@ -29,6 +29,7 @@ Play
 
 . BatarangJS (chrome extension) testing Angular apps
 . Karma for testing Javascript apps
+. http://httptea.sourceforge.net/[HttpTea]
 
 
 
