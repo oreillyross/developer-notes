@@ -16,3 +16,7 @@
 
 . Bruce Eckel
 . Joshua Block
+
+=== Scala Compiler
+
+. Paul Philips (left Typesafe around 2013)
