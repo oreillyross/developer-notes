@@ -1,0 +1,5 @@
+# Atom packages to install
+
+. language-scala
+. scala-format
+. vim-mode
