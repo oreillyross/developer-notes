@@ -29,4 +29,8 @@
 == Deploying code
 . Heroku. Heroku lets you deploy, run and manage applications written in Ruby, Node.js, Java, Python, Clojure, Scala and PHP.
 
+=== Oracle Java hosting
 
+. https://apexapps.oracle.com/i/index.html Release 4.2[provides declarative support for building mobile Web 
+applications. Mobile pages use jQuery Mobile to render content on the vast majority 
+of mobile devices. Each application can include both desktop and mobile user interfaces.

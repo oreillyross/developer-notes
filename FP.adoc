@@ -42,7 +42,9 @@ Monad has this shape here
 ----
 
 == http://underscore.io/blog/posts/2015/04/23/deriving-the-free-monad.html[Free Monads]
-The free monad is just an abstract syntax tree representation of a monad. It has the advantage that we can 
+
+
+TIP: The free monad is just an abstract syntax tree representation of a monad. It has the advantage that we can 
 define custom interpreters for the computations represented in the free monad, and with some further tricks compose monads and interpreters
 
 Free Monad has this shape here

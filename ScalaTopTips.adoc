@@ -46,3 +46,7 @@ Use the following command when compiling to get a print out of how the compiler 
 ```
 
 
+=== SBT
+
+Use the SBT `reload` command within the SBT console when you make any dependency changes
+to your `build.sbt` file
