@@ -50,3 +50,10 @@ Use the following command when compiling to get a print out of how the compiler 
 
 Use the SBT `reload` command within the SBT console when you make any dependency changes
 to your `build.sbt` file
+
+# Scala best practices
+
+*80/20 rule * : 
+write 80% of your program using pure functions (the “cake”), then create a 20% layer of other code on top of the functional base (the “icing”) to
+handle the user interface, printing, database interactions, and other methods that have “side effects”.
+
