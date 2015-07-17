@@ -1,0 +1,4 @@
+# First steps to create a MEAN app
+
+express 
+npm install 

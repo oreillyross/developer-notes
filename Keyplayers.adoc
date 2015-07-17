@@ -24,5 +24,6 @@
 === Javascript
 
 . Brendan Eich
+. Ryan Dahl
 
 
