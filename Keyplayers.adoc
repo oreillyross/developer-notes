@@ -20,3 +20,9 @@
 === Scala Compiler
 
 . Paul Philips (left Typesafe around 2013)
+
+=== Javascript
+
+. Brendan Eich
+
+
