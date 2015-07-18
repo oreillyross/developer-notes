@@ -1,4 +1,9 @@
 # First steps to create a MEAN app
 
 express 
-npm install 
+npm install
+
+Use Gulp and gulp-typscript task to automate transpiling .ts to .js
+
+There is also a feature to watch file changes and automatically re-transpile
+
