@@ -1,0 +1,5 @@
+# install the following packages (in this order
+
+.linter
+.acp
+.typescript
