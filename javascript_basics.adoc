@@ -1,0 +1,66 @@
+All numbers in javascript are treated as 64bit floating point numbers.
+
+There are useful built in functions such as on the following objects.
+
+Math
+String
+Number
+
+isNAN() 
+
+String
+  substr
+  substring
+  indexOf
+  split
+  toUppercase
+  toLowercase
+  
+  A key resource is to use https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
+  
+  In a date object the month is always zero based
+  
+  Use getFullYear instead of getYear
+  
+  If you need to compare two dates use the Date.getTime() function to ensure you compare
+  the millisecond values, as oppose to comparing the Date objects which would be different references.
+  
+  The innerHtml method on the document object can be useful to get the text content
+  from simple DOM elements (h1, p tags). For Div tags you can get more than just text.
+  
+  var myElem = document.createElement("li") // or p or div tags or whatever 
+  
+  Creates the element in space 
+  
+  then you need to add it to the DOM, or insert it.
+  
+  myUl.appendChild(myElem);
+  
+  then createTextNode and appendChild to myElem.
+  
+  Event handler and event listener is the same
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
