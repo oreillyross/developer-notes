@@ -5,6 +5,7 @@
 . http://www.objectmentor.com/resources/books.html[Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)]
 . http://www.objectmentor.com/resources/books.html[Agile Software Development: Principles, Patterns, and Practices (Robert C. Martin)]
 . http://www.amazon.com/Introduction-Functional-Programming-International-Computing/dp/0134841891[Introduction to Functional Programming by Richard Bird and Philip Wadler]
+. http://shop.oreilly.com/product/0636920026914.do[Scala Cookbook by Alvin Alexander]
 
 
 === Articles, thesis and papers
