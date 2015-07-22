@@ -1,3 +1,8 @@
+=== JavaScript reference
+
+The purpose of this file is to highlight some of the most used features of Javascript
+
+
 All numbers in javascript are treated as 64bit floating point numbers.
 
 There are useful built in functions such as on the following objects.
@@ -16,97 +21,97 @@ String
   .toUppercase
   .toLowercase
   
-  A key resource is to use 
+A key resource is to use 
   
-  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
+.https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference[Mozilla Developer reference]
   
-  In a date object the month is always zero based
+In a date object the month is always zero based
   
-  Use getFullYear instead of getYear
+Use getFullYear instead of getYear
   
-  If you need to compare two dates use the Date.getTime() function to ensure you compare
-  the millisecond values, as oppose to comparing the Date objects which would be different references.
+If you need to compare two dates use the Date.getTime() function to ensure you compare
+the millisecond values, as oppose to comparing the Date objects which would be different references.
+
+The innerHtml method on the document object can be useful to get the text content
+from simple DOM elements (h1, p tags). For Div tags you can get more than just text.
   
-  The innerHtml method on the document object can be useful to get the text content
-  from simple DOM elements (h1, p tags). For Div tags you can get more than just text.
+var myElem = document.createElement("li") // or p or div tags or whatever 
   
-  var myElem = document.createElement("li") // or p or div tags or whatever 
+Creates the element in space 
   
-  Creates the element in space 
+then you need to add it to the DOM, or insert it.
   
-  then you need to add it to the DOM, or insert it.
+myUl.appendChild(myElem);
   
-  myUl.appendChild(myElem);
+then createTextNode and appendChild to myElem.
   
-  then createTextNode and appendChild to myElem.
+Event handler and event listener is the same
   
-  Event handler and event listener is the same
+=== Timer functions
   
-  ===Timer functions
+setTimeOut(message: String, time: millisecond) // only happens once
+setInterval(message: String, time: millisecond) // happens every time
   
-  setTimeOut(message: String, time: millisecond) // only happens once
-  setInterval(message: String, time: millisecond) // happens every time
+to stop a interval use the clearInterval method passing in a reference (handle) to the 
+original setInterval method (its return value)
   
-  to stop a interval use the clearInterval method passing in a reference (handle) to the 
-  original setInterval method (its return value)
-  
-  # Common Errors
-  
-  Have firebug open 
-  
-  To quickly control flow in a onSubmit event handler, run an if else and 
-  if false then return false // prevents form from submitting data
-  
-  else return true and passes data to server.
-  
-  Consider using progressive enhancement by building your CSS styling into your
-  javascript file.
-  
-  i.e. use document.getElementById("somediv").style.display = "block" || "none"
-  
-  or use myElement.className = "someclass in CSS file" or set it to "" to clear
-  
-  ALTERNATIVELY
-  
-  Use jQuery addClass or removeClass which stacks classes.
-  
-  
-  
-  Use the google closure compiler for minification
-  
-  Use JSLint for code quality control
-  
-  === Javascript libraries
-  
-  Google closure 
-  Moo tools
-  Yahoo YUI
-  Dojo Toolkit
-  jQuery
-  Lightbox
-  Curvy corners
-  
-  alternatively go to code.google.com/apis/libraries
-  
-  Top tip: When using the CDN links start it with // as oppose to the protocol http or https
-  this way the browser uses whatever protocol it is already using.
-  
-  Use feature detection
-  Modernizer is a great library for this
-  
-  Use "use strict"; at top of all js files
-  
-  var myRe = /hello/ is the same as new RegExp("hello") for regular expressions.
-  var mystring = "hello is in here"
-  if (myRe.test(myString)) { return true}
-  
-  
-  Resizing screen size
-  
-  use window.onResize and check if it is small then change the link href 
-  to a different CSS
-  
-  Progressive enhancement allows you to create usable sites
+# Common Errors
+
+Have firebug open 
+
+To quickly control flow in a onSubmit event handler, run an if else and 
+if false then return false // prevents form from submitting data
+
+else return true and passes data to server.
+
+Consider using progressive enhancement by building your CSS styling into your
+javascript file.
+
+i.e. use document.getElementById("somediv").style.display = "block" || "none"
+
+or use myElement.className = "someclass in CSS file" or set it to "" to clear
+
+ALTERNATIVELY
+
+Use jQuery addClass or removeClass which stacks classes.
+
+
+
+Use the google closure compiler for minification
+
+Use JSLint for code quality control
+
+=== Javascript libraries
+
+Google closure 
+Moo tools
+Yahoo YUI
+Dojo Toolkit
+jQuery
+Lightbox
+Curvy corners
+
+alternatively go to code.google.com/apis/libraries
+
+Top tip: When using the CDN links start it with // as oppose to the protocol http or https
+this way the browser uses whatever protocol it is already using.
+
+Use feature detection
+Modernizer is a great library for this
+
+Use "use strict"; at top of all js files
+
+var myRe = /hello/ is the same as new RegExp("hello") for regular expressions.
+var mystring = "hello is in here"
+if (myRe.test(myString)) { return true}
+
+
+Resizing screen size
+
+use window.onResize and check if it is small then change the link href 
+to a different CSS
+
+Progressive enhancement allows you to create usable sites
   
   
   
