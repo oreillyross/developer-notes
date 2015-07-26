@@ -11,9 +11,13 @@
 . JSON Formatter
 . Firebug Lite
 
-# Favourite editors
+# IDE's
 
-. Atom
-. Vim
-. Brackets
-. Sublime
+. https://atom.io/[Atom]
+. http://www.vim.org/[Vim]
+. http://brackets.io/[Brackets]
+. http://www.sublimetext.com/[Sublime]
+. http://www.uvviewsoft.com/synwrite/[Synwrite]
+. http://www.pnotepad.org/[Pnotepad]
+. http://www.aptana.com/[Aptana]
+
