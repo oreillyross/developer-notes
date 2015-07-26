@@ -3,3 +3,10 @@
 .linter
 .acp
 .typescript
+
+# IDE's
+
+. http://www.uvviewsoft.com/synwrite/[Synwrite]
+.Pnotepad
+.Brackets
+.Aptana
