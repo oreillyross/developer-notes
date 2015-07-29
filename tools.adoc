@@ -20,4 +20,5 @@
 . http://www.uvviewsoft.com/synwrite/[Synwrite]
 . http://www.pnotepad.org/[Pnotepad]
 . http://www.aptana.com/[Aptana]
+. https://code.visualstudio.com/[Visual Studio Code]
 
