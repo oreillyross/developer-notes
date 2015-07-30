@@ -1,2 +1,6 @@
 # Angular 2 - Tutorial
 
+=== A component consists of two parts: 
+. the component controller which is an ES6 class
+. and the decorators which tell Angular how to place the component into the page.
+
