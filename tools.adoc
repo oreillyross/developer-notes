@@ -10,6 +10,7 @@
 . AngularJS Batarang
 . JSON Formatter
 . Firebug Lite
+. Advanced REST client
 
 # IDE's
 
