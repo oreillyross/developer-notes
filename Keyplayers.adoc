@@ -25,5 +25,6 @@
 
 . Brendan Eich
 . Ryan Dahl
+. Addy Osmani (Google developer, London)
 
 
