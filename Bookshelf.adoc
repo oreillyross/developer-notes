@@ -16,3 +16,7 @@
 
 ==== RESTful services
 . http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm[Architectural Styles and the Design of Network-based Software Architectures by Roy Thomas Fielding]
+
+=== Javascript
+. http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailcommonjs[Learning JavaScript Design Patterns A book by Addy Osmani]
+
