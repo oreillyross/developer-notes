@@ -31,3 +31,6 @@
 
 . http://www.jsdelivr.com/[jsDelivr - A free super-fast CDN for developers and webmasters]
 
+### Testing
+
+. https://github.com/jkbrzt/httpie[httpie - CLI HTTP client; user-friendly cURL replacement featuring intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions] 
