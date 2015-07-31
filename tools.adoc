@@ -23,3 +23,6 @@
 . http://www.aptana.com/[Aptana]
 . https://code.visualstudio.com/[Visual Studio Code]
 
+### Javascript development
+
+. http://webpack.github.io/docs/[Webpack - webpack takes modules with dependencies and generates static assets representing those modules.]
