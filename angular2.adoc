@@ -4,3 +4,7 @@
 . the component controller which is an ES6 class
 . and the decorators which tell Angular how to place the component into the page.
 
+Use the following seed project to setup up a basic  minimal ES6 project using Angular2.0
+
+ . https://github.com/pkozlowski-opensource/ng2-play[ng2-play]
+
