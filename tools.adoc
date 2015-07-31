@@ -1,10 +1,10 @@
-### Tools used
+# Tools used
 
-#### NO SQL development tools and admin
+### NO SQL development tools and admin
 
 . Robomongo http://robomongo.org/
 
-#### Chrome extensions
+### Chrome extensions
 
 . Asciidoctor.js
 . AngularJS Batarang
@@ -12,7 +12,7 @@
 . Firebug Lite
 . Advanced REST client
 
-# IDE's
+### IDE's
 
 . https://atom.io/[Atom]
 . http://www.vim.org/[Vim]
@@ -26,3 +26,8 @@
 ### Javascript development
 
 . http://webpack.github.io/docs/[Webpack - webpack takes modules with dependencies and generates static assets representing those modules.]
+
+### CDNs
+
+. http://www.jsdelivr.com/[jsDelivr - A free super-fast CDN for developers and webmasters]
+
