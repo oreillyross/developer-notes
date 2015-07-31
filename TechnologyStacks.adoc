@@ -28,6 +28,8 @@
 
 == Deploying code
 . Heroku. Heroku lets you deploy, run and manage applications written in Ruby, Node.js, Java, Python, Clojure, Scala and PHP.
+. https://mesosphere.com/[DCOS makes it easy to build service-oriented applications. 
+It supports Docker containers, avoids overprovisioning for small services and manages them all on a single platform.]
 
 === Oracle Java hosting
 
