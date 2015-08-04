@@ -1,2 +1,7 @@
 # Designing a web app
 
+=== Useful NPM packages to install
+
+. npm install -g live-server (a NodeJS static http server called live-server. This server is nice because
+it automatically reloads the page when you make changes to your code.)
+
