@@ -95,3 +95,7 @@ rule and helps the program read like a newspaper article.
 . Dependency Injection (inversion of control)
 
 
+=== Programming laws
+
+. Law of demeter
+. Liskov substitution principle
