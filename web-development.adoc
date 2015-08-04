@@ -36,7 +36,12 @@ myapp.service('myservice', function() {
 
 ```
 
+# Gulp build tool for the web
 
+Create an empty tasks to assign a common name to a set of dependencies:
+```
+gulp.task('compile', ['jade2html', 'coffee2js', 'less2css']);
+```
 
 
 
