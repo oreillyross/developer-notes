@@ -12,5 +12,14 @@ Get started.
 
 ``` javascript
 npm install angular2
+
 ```
+
+=== NG-2 structure
+.Application
+.Components
+.Component Decorator
+.Controller
+.Views
+.Properties and Events
 
