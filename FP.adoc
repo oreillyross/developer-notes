@@ -113,6 +113,8 @@ A Promise can be completed with either of the two methods:
 . success
 . failure
 
+Check out the cheat sheet https://gist.github.com/cb372/b1bad150e0c412fb7364[Category Theory Jargon]
+
 
 
 
