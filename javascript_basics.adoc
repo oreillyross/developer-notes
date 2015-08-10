@@ -15,6 +15,8 @@ Always use the tripl equals operator to remove a lot of confusion from your code
 
 Let statement respects block scope wheras the var statement respects function scope, for all var declarations declare your variables at the top of the function scope to reduce confusion.
 
+Watch out for implicit global variables.
+
 isNAN() 
 
 String
