@@ -99,3 +99,9 @@ rule and helps the program read like a newspaper article.
 
 . Law of demeter
 . Liskov substitution principle
+
+=== General tips
+
+.write in the language you are writing in
+
+
