@@ -11,6 +11,8 @@ There are useful built in functions such as on the following objects.
 .String
 .Number
 
+Always use the tripl equals operator to remove a lot of confucion from your code
+
 isNAN() 
 
 String
