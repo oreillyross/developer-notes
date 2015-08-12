@@ -1,0 +1,3 @@
+=== Ten tips to avoid problems
+
+https://jaxenter.com/top-10-useful-yet-paranoid-java-programming-techniques-119498.html
