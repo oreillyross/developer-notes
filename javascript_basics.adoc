@@ -23,6 +23,21 @@ NOTE: for all var declarations declare your variables at the top of the function
 
 Watch out for implicit global variables.
 
+=== Two ways to delcare functions
+
+1. Function declaration - compiled before all other code runs
+2. Function expression - The => symbol represents an arrow pointing to the right, It’s visually saying “use the value
+in the parenthesis to do some work in the next block of code that I’m pointing to.”
+
+```
+let saySomething = (value) => {
+console.log(value)
+};
+```
+
+
+
+
 isNAN() 
 
 String
