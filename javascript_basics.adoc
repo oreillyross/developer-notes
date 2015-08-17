@@ -11,7 +11,7 @@ There are useful built in functions such as on the following objects.
 .String
 .Number
 
-Always use the tripl equals operator to remove a lot of confusion from your code.
+Always use the triple equals operator to remove a lot of confusion from your code.
 
 === declaring variables
 
@@ -34,6 +34,22 @@ let saySomething = (value) => {
 console.log(value)
 };
 ```
+
+=== Looping the ES6 way
+
+ES6 introduces some really functional means to loop through Arrays which allows you to 
+move away from imperative if blocks and break statements.
+
+Array now has the 
+*some* 
+*forEach*
+
+
+methods which takes an array function.
+
+Function array takes three parameters, the first is mandatory the other two are optional:
+
+function (element, index, array)
 
 
 
