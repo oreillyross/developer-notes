@@ -41,8 +41,16 @@ ES6 introduces some really functional means to loop through Arrays which allows 
 move away from imperative if blocks and break statements.
 
 Array now has the 
-*some* 
+*some* // since ES5 
+*every* The exact opposite of some 
 *forEach*
+*findIndex* // returns the index
+*find*      // returns true
+
+
+
+
+
 
 
 methods which takes an array function.
