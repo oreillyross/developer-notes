@@ -19,4 +19,4 @@
 
 === Javascript
 . http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailcommonjs[Learning JavaScript Design Patterns A book by Addy Osmani]
-
+. http://www.springer.com/us/book/9781430258001[Advanced Game Design with HTML5 and JavaScript by Rex van der Spuy]
