@@ -12,6 +12,8 @@ There are useful built in functions such as on the following objects.
 .Number
 
 Always use the triple equals operator to remove a lot of confusion from your code.
+. ===
+. and !==
 
 === declaring variables
 
@@ -43,9 +45,22 @@ move away from imperative if blocks and break statements.
 Array now has the 
 *some* // since ES5 
 *every* The exact opposite of some 
-*forEach*
+*forEach* // ES5
 *findIndex* // returns the index
 *find*      // returns true
+*map* // ES5
+
+=== Truthy - Falsy values
+
+Falsy values:
+
+. false
+. null
+. "" (empty string)
+. 0
+. NaN
+
+All other values (including objects) are truthy
 
 
 
