@@ -11,6 +11,7 @@
 . JSON Formatter
 . Firebug Lite
 . Advanced REST client
+. https://github.com/richgilbank/Scratch-JS[ScratchJS repl]
 
 ### IDE's
 
