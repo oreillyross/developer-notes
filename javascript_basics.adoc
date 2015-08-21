@@ -31,6 +31,9 @@ Watch out for implicit global variables.
 2. Function expression - The => symbol represents an arrow pointing to the right, It’s visually saying “use the value
 in the parenthesis to do some work in the next block of code that I’m pointing to.”
 
+NOTE: It is important to understand the difference between a function expression, which can be invoked by an IIFE and 
+a function declaration.
+
 ```
 let saySomething = (value) => {
 console.log(value)
