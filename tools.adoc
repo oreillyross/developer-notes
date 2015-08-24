@@ -35,3 +35,7 @@
 ### Testing
 
 . https://github.com/jkbrzt/httpie[httpie - CLI HTTP client; user-friendly cURL replacement featuring intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions] 
+
+### API's
+
+. https://console.developers.google.com/project[Google API console]
