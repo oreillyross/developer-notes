@@ -55,6 +55,9 @@ Array now has the
 
 === Truthy - Falsy values
 
+Every value in JavaScript is “truthy” except false, null, and undefined. The opposite of “truthy” is “falsy,” 
+and the aforementioned false, null, and undefined are considered “falsy.”
+
 Falsy values:
 
 . false
