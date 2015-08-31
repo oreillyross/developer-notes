@@ -68,6 +68,8 @@ Falsy values:
 
 All other values (including objects) are truthy
 
+*!!* is the way we write “is truthy” in JavaScript. 
+
 
 
 
