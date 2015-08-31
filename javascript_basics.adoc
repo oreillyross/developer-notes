@@ -70,6 +70,17 @@ All other values (including objects) are truthy
 
 *!!* is the way we write “is truthy” in JavaScript. 
 
+``` js code
+const even = (n) =>
+  n === 0 || (n !== 1 && even(n - 2))
+
+even(42)
+  //=> true
+```
+
+The above code snippet is proof that the && and || are really control flow operators and
+not logical operators. The above code would result in a stack overflow exception if both left and
+right side expressions were evaluated. Instead it checks the left hand side and if true ends.
 
 
 
