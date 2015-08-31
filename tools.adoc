@@ -27,6 +27,7 @@
 ### Javascript development
 
 . http://webpack.github.io/docs/[Webpack - webpack takes modules with dependencies and generates static assets representing those modules.]
+. http://www.jsoneditoronline.org/[JSON online editor]
 
 ### CDNs
 
