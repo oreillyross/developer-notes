@@ -26,5 +26,6 @@
 . Brendan Eich
 . Ryan Dahl
 . Addy Osmani (Google developer, London)
+. Douglas Crockford (JSON creator and author of Javascript, the good parts book)
 
 
