@@ -1,4 +1,11 @@
-== Pragmatic programmers bookshelf
+=== Pragmatic programmers bookshelf
+
+
+== Systems design / programming general
+
+. http://www.amazon.com/Concepts-Techniques-Models-Computer-Programming-ebook/dp/B008H5Q8KQ/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=[Concepts, Techniques, and Models of Computer Programming]
+
+
 
 . http://www.mindview.net/Books/TIJ[Thinking in Java by Bruce Eckel]
 . http://www.artima.com/pins1ed[Programming in Scala by Martin Odersky, Lex Spoon, and Bill Venners]
