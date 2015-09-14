@@ -4,7 +4,7 @@
 == Systems design / programming general
 
 . http://www.amazon.com/Concepts-Techniques-Models-Computer-Programming-ebook/dp/B008H5Q8KQ/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=[Concepts, Techniques, and Models of Computer Programming]
-
+. https://mitpress.mit.edu/sicp/[Structure and Interpretation of Computer Programs by Hal Abelson's, Jerry Sussman's and Julie Sussman]
 
 
 . http://www.mindview.net/Books/TIJ[Thinking in Java by Bruce Eckel]
