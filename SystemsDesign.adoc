@@ -108,3 +108,16 @@ rule and helps the program read like a newspaper article.
 .write in the language you are writing in
 
 
+
+
+==== Abstraction
+
+Properties that a system should have to best support the principle of abstraction?
+
+. Encapsulation. It should be possible to hide the internals of a part.
+. Compositionality. It should be possible to combine parts to make a new
+part.
+. Instantiation/invocation. It should be possible to create many instances
+of a part based on a single definition. These instances “plug” themselves
+into their environment (the rest of the system in which they will live) when
+they are created.
