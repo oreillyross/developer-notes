@@ -121,3 +121,26 @@ part.
 of a part based on a single definition. These instances “plug” themselves
 into their environment (the rest of the system in which they will live) when
 they are created.
+
+==== Concurrency
+
+For the programmer, there are four main practical approaches to writing concurrent
+programs.
+
+Taken from the CTMCP book by Peter van Roy
+
+. *Sequential programming* (Chapters 3, 6, and 7). This is the baseline
+approach that has no concurrency. It can be either eager or lazy.
+. *Declarative concurrency* (Chapter 4). This is concurrency in the declarative
+model, which gives the same results as a sequential program but can
+give them incrementally. This model is usable when there is no observable
+nondeterminism. It can be either eager (data-driven concurrency) or lazy
+(demand-driven concurrency).
+. *Message-passing concurrency* (Chapter 5 and Section 7.8). This is message
+passing between port objects, which are internally sequential. This
+limits the number of interleavings. Active objects (Section 7.8) are a variant
+of port objects where the object’s behavior is defined by a class.
+. *Shared-state concurrency* (this chapter). This is threads updating shared
+passive objects using coarse-grained atomic actions. This is another approach
+to limit the number of interleavings.
+
