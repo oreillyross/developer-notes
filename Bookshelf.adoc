@@ -2,26 +2,32 @@
 
 
 == Systems design / programming general
+[%hardbreaks]
+
 
 . http://www.amazon.com/Concepts-Techniques-Models-Computer-Programming-ebook/dp/B008H5Q8KQ/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=[Concepts, Techniques, and Models of Computer Programming]
 . https://mitpress.mit.edu/sicp/[Structure and Interpretation of Computer Programs by Hal Abelson's, Jerry Sussman's and Julie Sussman]
-
-
-. http://www.mindview.net/Books/TIJ[Thinking in Java by Bruce Eckel]
-. http://www.artima.com/pins1ed[Programming in Scala by Martin Odersky, Lex Spoon, and Bill Venners]
 . http://www.objectmentor.com/resources/books.html[Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)]
 . http://www.objectmentor.com/resources/books.html[Agile Software Development: Principles, Patterns, and Practices (Robert C. Martin)]
-. http://www.amazon.com/Introduction-Functional-Programming-International-Computing/dp/0134841891[Introduction to Functional Programming by Richard Bird and Philip Wadler]
-. http://www.eliza.ch/doc/wadler92essence_of_FP.pdf[The essence of functional programming by Philip Wadler]
 
+=== Java 
+. http://www.mindview.net/Books/TIJ[Thinking in Java by Bruce Eckel]
+
+=== Scala
+. http://www.artima.com/pins1ed[Programming in Scala by Martin Odersky, Lex Spoon, and Bill Venners]
 . http://shop.oreilly.com/product/0636920026914.do[Scala Cookbook by Alvin Alexander]
 
 
+
+=== Functional programming
+. http://www.amazon.com/Introduction-Functional-Programming-International-Computing/dp/0134841891[Introduction to Functional Programming by Richard Bird and Philip Wadler]
+. http://www.eliza.ch/doc/wadler92essence_of_FP.pdf[The essence of functional programming by Philip Wadler]
 
 
 === Articles, thesis and papers
 
 ==== RESTful services
+
 . http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm[Architectural Styles and the Design of Network-based Software Architectures by Roy Thomas Fielding]
 
 === Javascript
