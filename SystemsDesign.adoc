@@ -144,3 +144,10 @@ of port objects where the object’s behavior is defined by a class.
 passive objects using coarse-grained atomic actions. This is another approach
 to limit the number of interleavings.
 
+
+=== Turing Complete
+
+The ability to define functions, to use function composition and recursion, and that 
+has a conditional statement, is a complete programming language.  
+We say it is *Turing complete*, which means that it can compute all the functions that a 
+Turing machine can compute.
