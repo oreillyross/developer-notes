@@ -2,6 +2,12 @@
 
 Functional programming is not only about composing functions and algebraic data structures — it makes concurrency composable 
 
+Functional programming or (Declarative programming) in the long term is a vision for computer 
+programming: the programmer should say only what he or she wants, and the computer 
+should figure out how to calculate it.
+
+
+
 ===== Origins (why FP now?)
 
 It seemed like denotational semantics wasn’t the best fit for a considerable number of important tasks 
