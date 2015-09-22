@@ -2,7 +2,7 @@
 
 == Principles
 
-Software entropy of the system increases over a period of time unless it is refactored
+``Software entropy of the system increases over a period of time unless it is refactored``
 
 
 http://www.laputan.org/mud/
