@@ -30,7 +30,12 @@ Play
 
 . SBT
 . Gradle
-. Yeoman - Yeoman is a robust tool comprised of multiple frameworks and client-side libraries. It provides a rapid development environment by automating some routine tasks needed to bootstrap and develop your application.
+. Yeoman - Yeoman is a robust tool comprised of multiple frameworks and client-side libraries. It provides a rapid development 
+  environment by automating some routine tasks needed to bootstrap and develop your application.
+. https://webpack.github.io/[Webpack, the amazing module bundling Swiss army knife that you should probably start using, is all about 
+  letting you write modular UI code with explicitly declared dependencies.]  
+  
+
 
 ### Testing tools
 
