@@ -151,3 +151,12 @@ The ability to define functions, to use function composition and recursion, and 
 has a conditional statement, is a complete programming language.  
 We say it is *Turing complete*, which means that it can compute all the functions that a 
 Turing machine can compute.
+
+=== Invariant programming
+
+This allows one to write efficient and to easily reason about the behaviour of your loops.
+The technique involves understanding a few concepts, 
+.the first is being able to describe your problem in mathematical terms, as a specification
+.the second is understaing The principle of communicating vases
+.and third is tail recursion
+
