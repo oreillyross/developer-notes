@@ -17,7 +17,7 @@ Always use the triple equals operator to remove a lot of confusion from your cod
 
 === declaring variables
 
-*Let* statement respects block scope 
+*Let* statement respects block scope
 *var* statement respects function scope
 *const* varilables have block scope and cannot be changed
 
@@ -31,7 +31,7 @@ Watch out for implicit global variables.
 2. Function expression - The => symbol represents an arrow pointing to the right, It’s visually saying “use the value
 in the parenthesis to do some work in the next block of code that I’m pointing to.”
 
-NOTE: It is important to understand the difference between a function expression, which can be invoked by an IIFE and 
+NOTE: It is important to understand the difference between a function expression, which can be invoked by an IIFE and
 a function declaration.
 
 ```
@@ -42,12 +42,12 @@ console.log(value)
 
 === Looping the ES6 way
 
-ES6 introduces some really functional means to loop through Arrays which allows you to 
+ES6 introduces some really functional means to loop through Arrays which allows you to
 move away from imperative if blocks and break statements.
 
-Array now has the 
-*some* // since ES5 
-*every* The exact opposite of some 
+Array now has the
+*some* // since ES5
+*every* The exact opposite of some
 *forEach* // ES5
 *findIndex* // returns the index
 *find*      // returns true
@@ -55,7 +55,7 @@ Array now has the
 
 === Truthy - Falsy values
 
-Every value in JavaScript is “truthy” except false, null, and undefined. The opposite of “truthy” is “falsy,” 
+Every value in JavaScript is “truthy” except false, null, and undefined. The opposite of “truthy” is “falsy,”
 and the aforementioned false, null, and undefined are considered “falsy.”
 
 Falsy values:
@@ -68,7 +68,7 @@ Falsy values:
 
 All other values (including objects) are truthy
 
-*!!* is the way we write “is truthy” in JavaScript. 
+*!!* is the way we write “is truthy” in JavaScript.
 
 [source, javascript]
 ----
@@ -95,7 +95,7 @@ function (element, index, array)
 
 
 
-isNAN() 
+isNAN()
 
 String
   .substr
@@ -104,46 +104,46 @@ String
   .split
   .toUppercase
   .toLowercase
-  
-A key resource is to use 
-  
+
+A key resource is to use
+
 .https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference[Mozilla Developer reference]
-  
+
 In a date object the month is always zero based
-  
+
 Use getFullYear instead of getYear
-  
+
 If you need to compare two dates use the Date.getTime() function to ensure you compare
 the millisecond values, as oppose to comparing the Date objects which would be different references.
 
 The innerHtml method on the document object can be useful to get the text content
 from simple DOM elements (h1, p tags). For Div tags you can get more than just text.
-  
-var myElem = document.createElement("li") // or p or div tags or whatever 
-  
-Creates the element in space 
-  
+
+var myElem = document.createElement("li") // or p or div tags or whatever
+
+Creates the element in space
+
 then you need to add it to the DOM, or insert it.
-  
+
 myUl.appendChild(myElem);
-  
+
 then createTextNode and appendChild to myElem.
-  
+
 Event handler and event listener is the same
-  
+
 === Timer functions
-  
+
 setTimeOut(message: String, time: millisecond) // only happens once
 setInterval(message: String, time: millisecond) // happens every time
-  
-to stop a interval use the clearInterval method passing in a reference (handle) to the 
+
+to stop a interval use the clearInterval method passing in a reference (handle) to the
 original setInterval method (its return value)
-  
+
 # Common Errors
 
-Have firebug open 
+Have firebug open
 
-To quickly control flow in a onSubmit event handler, run an if else and 
+To quickly control flow in a onSubmit event handler, run an if else and
 if false then return false // prevents form from submitting data
 
 else return true and passes data to server.
@@ -167,7 +167,7 @@ Use JSLint for code quality control
 
 === Javascript libraries
 
-Google closure 
+Google closure
 Moo tools
 Yahoo YUI
 Dojo Toolkit
@@ -177,13 +177,17 @@ Curvy corners
 
 alternatively go to code.google.com/apis/libraries
 
-Top tip: When using the CDN links start it with // as oppose to the protocol http or https
+TIP: Top tip: When using the CDN links start it with // as oppose to the protocol http or https
 this way the browser uses whatever protocol it is already using.
 
 Use feature detection
 Modernizer is a great library for this
 
-Use "use strict"; at top of all js files
+Use 
+```
+"use strict";
+```
+at top of all js files
 
 var myRe = /hello/ is the same as new RegExp("hello") for regular expressions.
 var mystring = "hello is in here"
@@ -192,34 +196,7 @@ if (myRe.test(myString)) { return true}
 
 Resizing screen size
 
-use window.onResize and check if it is small then change the link href 
+use window.onResize and check if it is small then change the link href
 to a different CSS
 
 Progressive enhancement allows you to create usable sites
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
