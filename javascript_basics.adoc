@@ -119,7 +119,12 @@ the millisecond values, as oppose to comparing the Date objects which would be d
 The innerHtml method on the document object can be useful to get the text content
 from simple DOM elements (h1, p tags). For Div tags you can get more than just text.
 
+[[direct access to DOM]]
+[source, javascript]
+.app.js
+----
 var myElem = document.createElement("li") // or p or div tags or whatever
+----
 
 Creates the element in space
 
