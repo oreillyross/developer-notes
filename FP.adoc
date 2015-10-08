@@ -126,6 +126,6 @@ A Promise can be completed with either of the two methods:
 Check out the cheat sheet https://gist.github.com/cb372/b1bad150e0c412fb7364[Category Theory Jargon]
 
 
-
+Everything you wanted to know about http://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/[Category theory]
 
 
