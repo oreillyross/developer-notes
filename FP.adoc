@@ -6,7 +6,7 @@ Functional programming or (Declarative programming) in the long term is a vision
 programming: the programmer should say only what he or she wants, and the computer 
 should figure out how to calculate it.
 
-
+Everything you wanted to know about http://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/[Category theory]
 
 ===== Origins (why FP now?)
 
