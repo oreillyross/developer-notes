@@ -128,4 +128,10 @@ Check out the cheat sheet https://gist.github.com/cb372/b1bad150e0c412fb7364[Cat
 
 Everything you wanted to know about http://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/[Category theory]
 
+=== Procedural concept
+Procedures have two important properties: they are values and they have a contextual environment.  
+The combination of these two properties leads to very powerful programming techniques.  
+In fact, we can say that the whole layered construction of data abstractions that gives today's 
+programming systems so much power is based on procedures with these two properties!  
+So the procedure concept, as defined here, is one of the most important concepts in all of computer programming. 
 
