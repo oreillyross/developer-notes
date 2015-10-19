@@ -22,6 +22,7 @@
 === Functional programming
 . http://www.amazon.com/Introduction-Functional-Programming-International-Computing/dp/0134841891[Introduction to Functional Programming by Richard Bird and Philip Wadler]
 . http://www.eliza.ch/doc/wadler92essence_of_FP.pdf[The essence of functional programming by Philip Wadler]
+. http://www.cs.nott.ac.uk/~pszgmh/book.html[Programming in Haskell by Graham Hutton]
 
 
 === Articles, thesis and papers
