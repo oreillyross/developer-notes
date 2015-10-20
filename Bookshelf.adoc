@@ -35,3 +35,4 @@
 . http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailcommonjs[Learning JavaScript Design Patterns A book by Addy Osmani]
 . http://www.springer.com/us/book/9781430258001[Advanced Game Design with HTML5 and JavaScript by Rex van der Spuy]
 . https://leanpub.com/javascriptallongesix/read#leanpub-auto-about-javascript-allong[JavaScript Allongé, the "Six" Edition by Reginald Braithwaite]
+. https://www.ng-book.com/2/[The complete book on AngularJS 2]
