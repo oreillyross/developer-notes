@@ -160,3 +160,5 @@ The technique involves understanding a few concepts,
 .the second is understaing The principle of communicating vases
 .and third is tail recursion
 
+=== Complexity 
+Big-O notation is about the Worst-case scenario of an algorithm
