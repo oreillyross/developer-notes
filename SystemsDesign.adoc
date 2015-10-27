@@ -161,4 +161,11 @@ The technique involves understanding a few concepts,
 .and third is tail recursion
 
 === Complexity 
+
 Big-O notation is about the Worst-case scenario of an algorithm
+
+O(1) = constant complexity
+O(n) = linear complexity
+O(log n) = logarithmic complexity
+O(n^2) = Polynomial complexity
+O(n!) = Factorial complexity 
