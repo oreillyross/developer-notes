@@ -175,3 +175,5 @@ O(n!) = Factorial complexity
 . Data Abstraction - provide guarantees and reduce complexity
 . Polymorphism - compartmentalize responsibility
 . Inheritance - avoid redundancy and encourage incremental development
+
+NOTE: Object Oriented programming languages can also be called data abstraction languages as they mix Objects with ADTs much like Java.
