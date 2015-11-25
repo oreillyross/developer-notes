@@ -12,13 +12,13 @@ http://www.laputan.org/mud/
 keeping your code clean is not just cost effective; it’s a matter of
 *professional survival*.
 
-[verse, Ron Jeffries, on clean code] 
-Reduced duplication, high expressiveness, 
+[verse, Ron Jeffries, on clean code]
+Reduced duplication, high expressiveness,
 and early building of simple abstractions.
 That’s what makes clean code for me.
 
 == good practices
-=== Method, Variable, Function, Interface, trait naming 
+=== Method, Variable, Function, Interface, trait naming
 1. Use intention-revealing names
 2. Avoid disinformation
 3. Make meaningful distinctions
@@ -50,9 +50,9 @@ http://blog.arungupta.me/microservices-monoliths-noops/
 Design patterns
 http://blog.arungupta.me/microservice-design-patterns/
 
-=== Guidelines on testing code 
+=== Guidelines on testing code
 
-One particularly good method to start using thrid party APIs in your code base is to use them in *Learning Tests*. 
+One particularly good method to start using thrid party APIs in your code base is to use them in *Learning Tests*.
 These are normal tests which essentially start interacting with the api, but in ways you would expect. This allows you
 to quickly find out the lmitations in how it might solve some of your problems.
 
@@ -76,7 +76,7 @@ The usual approach to writing Unit tests is to *BUILD-OPERATE-TEST* with `One as
 . Contains no duplication
 . Expresses the intent of the programmer
 . Minimizes the number of classes and methods
- 
+
 
 === class organization
 . Classes should be small
@@ -89,7 +89,7 @@ instance variables. There is seldom a good reason to have a public variable.
 called by a public function right after the public function itself. This follows the stepdown
 rule and helps the program read like a newspaper article.
 
-== Systems design 
+== Systems design
 
 . Separation of concerns (AOP concept)
 . Dependency Injection (inversion of control)
@@ -147,20 +147,20 @@ to limit the number of interleavings.
 
 === Turing Complete
 
-The ability to define functions, to use function composition and recursion, and that 
-has a conditional statement, is a complete programming language.  
-We say it is *Turing complete*, which means that it can compute all the functions that a 
+The ability to define functions, to use function composition and recursion, and that
+has a conditional statement, is a complete programming language.
+We say it is *Turing complete*, which means that it can compute all the functions that a
 Turing machine can compute.
 
 === Invariant programming
 
 This allows one to write efficient and to easily reason about the behaviour of your loops.
-The technique involves understanding a few concepts, 
+The technique involves understanding a few concepts,
 .the first is being able to describe your problem in mathematical terms, as a specification
 .the second is understaing The principle of communicating vases
 .and third is tail recursion
 
-=== Complexity 
+=== Complexity
 
 Big-O notation is about the Worst-case scenario of an algorithm
 
@@ -168,4 +168,10 @@ O(1) = constant complexity
 O(n) = linear complexity
 O(log n) = logarithmic complexity
 O(n^2) = Polynomial complexity
-O(n!) = Factorial complexity 
+O(n!) = Factorial complexity
+
+=== Object Oriented Programming (OOP) three main principles for structuring programs
+==
+. Data Abstraction - provide guarantees and reduce complexity
+. Polymorphism - compartmentalize responsibility
+. Inheritance - avoid redundancy and encourage incremental development
