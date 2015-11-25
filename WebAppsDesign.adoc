@@ -5,15 +5,16 @@
 . npm install -g live-server (a NodeJS static http server called live-server. This server is nice because
 it automatically reloads the page when you make changes to your code.)
 
-The awesome way to test javascript, using node-tap and Tape, 
+The awesome way to test javascript, using node-tap and Tape,
 http://www.macwright.org/2014/03/11/tape-is-cool.html[tape is cool
 
-=== Designing Components
+=== . http://addyosmani.com/first/[Designing Components]
 
-Keep it (F)ocused.
-Keep it (I)ndependent.
-Keep it (R)eusable.
-Keep it (S)mall.
-Keep it (T)estable.
+. Keep it (F)ocused.
+. Keep it (I)ndependent.
+. Keep it (R)eusable.
+. Keep it (S)mall.
+. Keep it (T)estable.
+
 or in short, FIRST.
 ~ Addy Osmani

@@ -171,7 +171,7 @@ O(n^2) = Polynomial complexity
 O(n!) = Factorial complexity
 
 === Object Oriented Programming (OOP) three main principles for structuring programs
-==
+
 . Data Abstraction - provide guarantees and reduce complexity
 . Polymorphism - compartmentalize responsibility
 . Inheritance - avoid redundancy and encourage incremental development
