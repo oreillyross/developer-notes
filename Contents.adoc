@@ -1,1 +1,9 @@
+=== My Software mind
+
+[quote, Erik Meijer, FP101]
+--
+Think like a fundamentalist, code like a hacker!
+
+--
+
 
