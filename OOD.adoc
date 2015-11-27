@@ -23,6 +23,9 @@ approach. With composition, it's easy to change behavior on the fly with Depende
 is more rigid as most languages do not allow you to derive from more than one type.. So the goose is more or less cooked
 once you derive from Class A.
 
+If you do decide to use inheritance always follow the subsitution principle. If this principle is followed, then
+inheritance does not break anything! We say that A is a conservative extension of B.
+
 My acid test for the above is:
 
 Does TypeB want to expose the complete interface (all public methods no less) of TypeA such that TypeB can be used
