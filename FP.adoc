@@ -1,20 +1,26 @@
 == Functional programming
 
-Functional programming is not only about composing functions and algebraic data structures — it makes concurrency composable 
+Functional programming is not only about composing functions and algebraic data structures — it makes concurrency composable
 
-Functional programming or (Declarative programming) in the long term is a vision for computer 
-programming: the programmer should say only what he or she wants, and the computer 
+Functional programming or (Declarative programming) in the long term is a vision for computer
+programming: the programmer should say only what he or she wants, and the computer
 should figure out how to calculate it.
+
+==== Why Higher order functions are useful:
+
+. Common programming idioms can be encoded as functions within the language itself
+. Domain specific functions can be defined as collections of higher-order functions
+. Algebraic properties of higher-order functions can be used to reason about programs.
 
 Everything you wanted to know about http://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/[Category theory]
 
 ===== Origins (why FP now?)
 
-It seemed like denotational semantics wasn’t the best fit for a considerable number of important tasks 
-that were essential for writing useful programs, and which could be easily tackled by operational semantics. 
-The breakthrough came from category theory. Eugenio Moggi discovered that computational effect can be mapped to monads. 
-This turned out to be an important observation that not only gave denotational semantics a new lease on life and 
-made pure functional programs more usable, but also shed new light on traditional programming. 
+It seemed like denotational semantics wasn’t the best fit for a considerable number of important tasks
+that were essential for writing useful programs, and which could be easily tackled by operational semantics.
+The breakthrough came from category theory. Eugenio Moggi discovered that computational effect can be mapped to monads.
+This turned out to be an important observation that not only gave denotational semantics a new lease on life and
+made pure functional programs more usable, but also shed new light on traditional programming.
 footnote:[http://bartoszmilewski.com/2014/11/24/types-and-functions]
 
 === Category and composition
@@ -23,9 +29,9 @@ footnote:[http://bartoszmilewski.com/2014/11/24/types-and-functions]
 . Every object has an identity arrow that serves as a unit under composition.
 
 === Monads
-A monad is a way to structure computations (like a design pattern) in terms of values and sequences of computations using those values. 
+A monad is a way to structure computations (like a design pattern) in terms of values and sequences of computations using those values.
 Monads allow the programmer to build up computations using sequential building blocks, which can themselves be
-sequences of computations. The monad determines how combined computations form a new computation and frees 
+sequences of computations. The monad determines how combined computations form a new computation and frees
 the programmer from having to code the combination manually each time it is required.
 .d
 <a href="https://wiki.haskell.org/All_About_Monads">Haskell Wiki about Monads</a>
@@ -44,13 +50,13 @@ Monad has this shape here
   trait Monad[A] {
     def map[B](f: A => B): Monad[B]
     def flatmap[B](f: A => Monad[B]): Monad[B]
-  }  
+  }
 ----
 
 == http://underscore.io/blog/posts/2015/04/23/deriving-the-free-monad.html[Free Monads]
 
 
-TIP: The free monad is just an abstract syntax tree representation of a monad. It has the advantage that we can 
+TIP: The free monad is just an abstract syntax tree representation of a monad. It has the advantage that we can
 define custom interpreters for the computations represented in the free monad, and with some further tricks compose monads and interpreters
 
 Free Monad has this shape here
@@ -61,19 +67,19 @@ final case class Return[F[_], A](a: A) extends Free[F, A]
 final case class Suspend[F[_], A](s: F[Free[F, A]]) extends Free[F, A]
 ----
 === Monoids
-Monoid is an embarrassingly simple but amazingly powerful concept. It’s the concept behind basic 
-arithmetics: Both addition and multiplication form a monoid. Monoids are ubiquitous in programming. 
-They show up as strings, lists, foldable data structures, futures in concurrent programming, events 
+Monoid is an embarrassingly simple but amazingly powerful concept. It’s the concept behind basic
+arithmetics: Both addition and multiplication form a monoid. Monoids are ubiquitous in programming.
+They show up as strings, lists, foldable data structures, futures in concurrent programming, events
 in functional reactive programming, and so on.footnote:[http://bartoszmilewski.com/2014/12/05/categories-great-and-small/]
 
 Are a type with a flatmap and a function taht returns itself
- 
+
 === Functors
 
 Are a type with a map
- 
-=== Monad transformers 
- 
+
+=== Monad transformers
+
 === Applicative functors
 
 ==== Referential transparency
@@ -85,11 +91,11 @@ Are a type with a map
 Procedures are, in effect, abstractions that describe compound operations on numbers independent of the particular numbers.
 
 ****
-The precise meaning of "being the same" is defined by the property of *"operational equivalence"* 
+The precise meaning of "being the same" is defined by the property of *"operational equivalence"*
 ****
 
 .Parsers and combinators
-* A parser is a function that takes a stream of input tokens, and converts them into a format (typically a data structure, 
+* A parser is a function that takes a stream of input tokens, and converts them into a format (typically a data structure,
 such as a list or a tree) that is more easily consumed by your application.
 * A combinator is simply a higher order function which combines two functions into a new function.
 
@@ -104,12 +110,12 @@ Because Scala is an object oriented language, all first class values are objects
 methods! In fact, func􀦞ons themselves have useful methods for composi􀦞on:
 
 == Closures
-Close over variables and functions. Everything used within the curly braces is essentially 
+Close over variables and functions. Everything used within the curly braces is essentially
 kept alive whilst the closed over function is passed around and used by the application.
 
 === Futures and Promises
 
-Future[T] 
+Future[T]
 
 Callbacks always return the values
 . onComplete.
@@ -129,9 +135,8 @@ Check out the cheat sheet https://gist.github.com/cb372/b1bad150e0c412fb7364[Cat
 Everything you wanted to know about http://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/[Category theory]
 
 === Procedural concept
-Procedures have two important properties: they are values and they have a contextual environment.  
-The combination of these two properties leads to very powerful programming techniques.  
-In fact, we can say that the whole layered construction of data abstractions that gives today's 
-programming systems so much power is based on procedures with these two properties!  
-So the procedure concept, as defined here, is one of the most important concepts in all of computer programming. 
-
+Procedures have two important properties: they are values and they have a contextual environment.
+The combination of these two properties leads to very powerful programming techniques.
+In fact, we can say that the whole layered construction of data abstractions that gives today's
+programming systems so much power is based on procedures with these two properties!
+So the procedure concept, as defined here, is one of the most important concepts in all of computer programming.

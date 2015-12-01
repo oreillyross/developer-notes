@@ -6,4 +6,8 @@ Think like a fundamentalist, code like a hacker!
 
 --
 
-insert TOC here
+Paradigms of programming
+
+Principles
+Functional Programming (higher order programming)
+Object oriented programming
