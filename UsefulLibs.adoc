@@ -35,8 +35,6 @@ Play
 . https://webpack.github.io/[Webpack, the amazing module bundling Swiss army knife that you should probably start using, is all about 
   letting you write modular UI code with explicitly declared dependencies.]  
   
-
-
 ### Testing tools
 
 . BatarangJS (chrome extension) testing Angular apps
@@ -52,3 +50,6 @@ Play
 ### Logging
 . http://software.clapper.org/grizzled-slf4j/[ Grizzled SLF4J] package provides a very thin Scala-friendly layer on top of the SLF4J (Simple Logging Façade for Java) API. It is released under a BSD license.
 
+### File manipulation
+. https://github.com/isaacs/minimatch[minimatch] converts glob expressions into JavaScript RegExp objects. This is 
+used by npm and Karma
