@@ -35,12 +35,15 @@ Play
 . https://webpack.github.io/[Webpack, the amazing module bundling Swiss army knife that you should probably start using, is all about 
   letting you write modular UI code with explicitly declared dependencies.]  
   
-
-
 ### Testing tools
 
 . BatarangJS (chrome extension) testing Angular apps
-. Karma for testing Javascript apps
+. http://karma-runner.github.io/0.12/index.html[Karma for testing Javascript apps] - Karma is a JavaScript command line tool 
+  that can be used to spawn a web server which loads your application's source code 
+  and executes your tests. You can configure Karma to run against a number of browsers, 
+  which is useful for being confident that your application works on all browsers you need to support. 
+  Karma is executed on the command line and will display the results of your 
+  tests on the command line once they have run in the browser.
 . http://httptea.sourceforge.net/[HttpTea]
 . https://github.com/isaacs/node-tap[node-tap for javascript testing]
 . https://github.com/substack/tape[Tape for javascript testing 
@@ -52,3 +55,6 @@ Play
 ### Logging
 . http://software.clapper.org/grizzled-slf4j/[ Grizzled SLF4J] package provides a very thin Scala-friendly layer on top of the SLF4J (Simple Logging Façade for Java) API. It is released under a BSD license.
 
+### File manipulation
+. https://github.com/isaacs/minimatch[minimatch] converts glob expressions into JavaScript RegExp objects. This is 
+used by npm and Karma
