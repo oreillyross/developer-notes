@@ -10,7 +10,7 @@
 . http://www.objectmentor.com/resources/books.html[Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)]
 . http://www.objectmentor.com/resources/books.html[Agile Software Development: Principles, Patterns, and Practices (Robert C. Martin)]
 
-=== Java 
+=== Java
 . http://www.mindview.net/Books/TIJ[Thinking in Java by Bruce Eckel]
 
 === Scala
@@ -26,6 +26,8 @@
 
 
 === Articles, thesis and papers
+
+. http://www.cs.nott.ac.uk/~pszgmh/monads[Programming with Effects (Monads) by Graham Hutton]
 
 ==== RESTful services
 
