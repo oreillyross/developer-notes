@@ -18,7 +18,6 @@
 . http://shop.oreilly.com/product/0636920026914.do[Scala Cookbook by Alvin Alexander]
 
 
-
 === Functional programming
 . http://www.amazon.com/Introduction-Functional-Programming-International-Computing/dp/0134841891[Introduction to Functional Programming by Richard Bird and Philip Wadler]
 . http://www.eliza.ch/doc/wadler92essence_of_FP.pdf[The essence of functional programming by Philip Wadler]
