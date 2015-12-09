@@ -10,13 +10,12 @@
 . http://www.objectmentor.com/resources/books.html[Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)]
 . http://www.objectmentor.com/resources/books.html[Agile Software Development: Principles, Patterns, and Practices (Robert C. Martin)]
 
-=== Java 
+=== Java
 . http://www.mindview.net/Books/TIJ[Thinking in Java by Bruce Eckel]
 
 === Scala
 . http://www.artima.com/pins1ed[Programming in Scala by Martin Odersky, Lex Spoon, and Bill Venners]
 . http://shop.oreilly.com/product/0636920026914.do[Scala Cookbook by Alvin Alexander]
-
 
 
 === Functional programming
@@ -26,6 +25,8 @@
 
 
 === Articles, thesis and papers
+
+. http://www.cs.nott.ac.uk/~pszgmh/monads[Programming with Effects (Monads) by Graham Hutton]
 
 ==== RESTful services
 
