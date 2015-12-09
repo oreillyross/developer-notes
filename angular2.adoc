@@ -31,3 +31,10 @@ a browser event execute some function on a component. So they trigger the first 
 *Property bindings*, which can be added using the *[] syntax*, should be used only 
 for reflecting the state of the model in the view.
 
+
+--- Key libraries for an Angular 2 app
+.angular2.dev.js - the Angular2 ES5 library, running with the System.JS module loader
+.http.dev.js - the Angular2 network library
+.router.dev.js - the new Angular2 router for routing across views
+.system.js - the System.JS ES5 Module runtime library
+.es6-shim.js - a shim file to support ES6 API features in ES5 browsers
