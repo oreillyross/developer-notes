@@ -179,6 +179,9 @@ O(n!) = Factorial complexity
 NOTE: Object Oriented programming languages can also be called data abstraction languages as they mix Objects with ADTs much like Java.
 
 
+Recursive algorithms take at least 0(n) space, where n is the depth of the recursive call.
+
+
 [verse, Erik Meijer, on pure vs. imperative code (sic.)]
 Think of your programs as a sea of imperative code inside of which sits
 islands of pure functional code. Side effects interact on the periphery whilst
