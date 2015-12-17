@@ -3,6 +3,12 @@
 The purpose of this file is to highlight some of the most used features of Javascript
 
 
+==== Javascript as a language offers two main paradigm which other languages don't always have:
+
+.Prototypal Inheritance (objects without classes, and prototype delegation, aka OLOO Objects Linking to Other Objects), and
+.Functional Programming (enabled by lambdas with closure)
+
+
 All numbers in javascript are treated as 64bit floating point numbers.
 
 There are useful built in functions such as on the following objects.
