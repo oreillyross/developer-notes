@@ -186,3 +186,40 @@ Recursive algorithms take at least 0(n) space, where n is the depth of the recur
 Think of your programs as a sea of imperative code inside of which sits
 islands of pure functional code. Side effects interact on the periphery whilst
 pure functions act centrally.
+
+
+=== Passing arguments, or more accurately applying functions to arguments (Call by value versus call by name)
+
+Call by value is typically associated with an innermost evaluation of an expression. 
+Whereas a call by name would occur when conducting an outermost evaluation of an expression.
+
+. Innermost evaluation (call by value)
+[source,Haskell]
+
+----
+mult (1 + 2, 2 + 3)
+= {applying the first + }
+mult (3, 2 + 3)
+= {applying + }
+mult (3, 5)
+= {applying mult }
+3 ∗ 5
+= {applying ∗ }
+15
+----
+
+. Outermost evaluation (call by name)
+[source,Haskell]
+
+----
+mult (1 + 2, 2 + 3)
+= {applying mult }
+(1 + 2) ∗ (2 + 3)
+= {applying the first + }
+12.2 EVALUATION STRATEGIES 127
+3 ∗ (2 + 3)
+= {applying + }
+3 ∗ 5
+= {applying ∗ }
+15
+----
