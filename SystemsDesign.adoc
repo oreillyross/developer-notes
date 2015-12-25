@@ -216,7 +216,6 @@ mult (1 + 2, 2 + 3)
 = {applying mult }
 (1 + 2) ∗ (2 + 3)
 = {applying the first + }
-12.2 EVALUATION STRATEGIES 127
 3 ∗ (2 + 3)
 = {applying + }
 3 ∗ 5
