@@ -1,1 +1,33 @@
-Alex Russell (Google developer does progressive web apps stuff)
+
+-== Key players		
+ -		
+ -=== FP world		
+ -		
+ -. Martin Odersky		
+ -. Roland Kuhn		
+ -. Erik Meijer		
+ -. Bill Venners		
+ -. Dick Wall		
+ -. Brian Beckman		
+ -. Heather Miller		
+ -. Roland Kuhn		
+ -. Jonas Boner		
+ -		
+ -=== Java world		
+ -		
+ -. Bruce Eckel		
+ -. Joshua Block		
+ -		
+ -=== Scala Compiler		
+ -		
+ -. Paul Philips (left Typesafe around 2013)		
+ -		
+ -=== Javascript		
+ -		
+ -. Brendan Eich		
+ -. Ryan Dahl		
+ -. Addy Osmani (Google developer, London)		
+ -. Douglas Crockford (JSON creator and author of Javascript, the good parts book)		
+ -. http://ericleads.com/[Erik Elliot]		
+ -. http://www.2ality.com/[Axel Rauschmayer]
+ -. Alex Russell (Google developer does progressive web apps stuff)
