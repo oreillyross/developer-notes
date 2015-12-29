@@ -9,6 +9,8 @@
 . https://mitpress.mit.edu/sicp/[Structure and Interpretation of Computer Programs by Hal Abelson's, Jerry Sussman's and Julie Sussman]
 . http://www.objectmentor.com/resources/books.html[Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)]
 . http://www.objectmentor.com/resources/books.html[Agile Software Development: Principles, Patterns, and Practices (Robert C. Martin)]
+. https://www.info.ucl.ac.be/~pvr/VanRoyChapter.pdf[Programming Paradigms for Dummies: What Every Programmer Should Know (Peter van Roy)]
+
 
 === Java
 . http://www.mindview.net/Books/TIJ[Thinking in Java by Bruce Eckel]
