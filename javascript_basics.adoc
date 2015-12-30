@@ -46,6 +46,12 @@ console.log(value)
 };
 ```
 
+TIP: A good style convention is to stick with one way of declaring functions and stick with it throughout. 
+As function declarations are always 'hoisted' it may be better to use function expressions because you get more
+predictable results. Function expressions are never hoisted, additionally they 
+play must better with the functional programming paradigm, as they are then just values
+which can be passed around (higher order programming).
+
 === Looping the ES6 way
 
 ES6 introduces some really functional means to loop through Arrays which allows you to
