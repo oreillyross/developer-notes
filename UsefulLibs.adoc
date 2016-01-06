@@ -58,3 +58,9 @@ Play
 ### File manipulation
 . https://github.com/isaacs/minimatch[minimatch] converts glob expressions into JavaScript RegExp objects. This is 
 used by npm and Karma
+
+### Javascript utility libraries
+
+. https://lodash.com/[lodash - A JavaScript utility library delivering consistency, modularity, performance, & extras.]
+. http://ramdajs.com/0.19.0/index.html[Ramda.js - A practical functional library for Javascript programmers.]
+
