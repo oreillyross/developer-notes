@@ -34,6 +34,7 @@ Play
   environment by automating some routine tasks needed to bootstrap and develop your application.
 . https://webpack.github.io/[Webpack, the amazing module bundling Swiss army knife that you should probably start using, is all about 
   letting you write modular UI code with explicitly declared dependencies.]  
+. http://browserify.org/#install[Browsers don't have the require method defined, but Node.js does. With Browserify you can write code that uses require in the same way that you would use it in Node.]  
   
 ### Testing tools
 
