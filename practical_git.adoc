@@ -1,0 +1,4 @@
+
+### command will render a listing with the latest commits first and original commit last:
+
+git log --oneline | nl -v0 | sed 's/^ \+/&HEAD~/'
