@@ -30,6 +30,9 @@ Play
 . http://reactivex.io/intro.html[ReactiveX]
 . http://akka.io[Akka]
 
+# front end libraries and frameworks
+. http://vuejs.org/[Vue.js - Reactive Components for Modern Web Interfaces]
+
 ### Build tools and task runners
 
 . SBT
