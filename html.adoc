@@ -8,3 +8,9 @@ Three important properties control the space that surrounds each HTML element:
 The four values available for padding and margin: -top, -right, -left and -bottom
 These four values work like a clock: top, right, bottom, left, and will produce 
 the exact same result as using the side-specific padding instructions.
+
+CSS Styling.
+
+Browsers read CSS from top to bottom. That means that, in the event of a conflict, 
+the browser will use whichever CSS declaration came last. Except an Id tag which takes precedence
+over classes
