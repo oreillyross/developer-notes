@@ -37,24 +37,24 @@ Play
 
 . SBT
 . Gradle
-. Yeoman - Yeoman is a robust tool comprised of multiple frameworks and client-side libraries. It provides a rapid development 
+. Yeoman - Yeoman is a robust tool comprised of multiple frameworks and client-side libraries. It provides a rapid development
   environment by automating some routine tasks needed to bootstrap and develop your application.
-. https://webpack.github.io/[Webpack, the amazing module bundling Swiss army knife that you should probably start using, is all about 
-  letting you write modular UI code with explicitly declared dependencies.]  
-. http://browserify.org/#install[Browsers don't have the require method defined, but Node.js does. With Browserify you can write code that uses require in the same way that you would use it in Node.]  
-  
+. https://webpack.github.io/[Webpack, the amazing module bundling Swiss army knife that you should probably start using, is all about
+  letting you write modular UI code with explicitly declared dependencies.]
+. http://browserify.org/#install[Browsers don't have the require method defined, but Node.js does. With Browserify you can write code that uses require in the same way that you would use it in Node.]
+
 ### Testing tools
 
 . BatarangJS (chrome extension) testing Angular apps
-. http://karma-runner.github.io/0.12/index.html[Karma for testing Javascript apps] - Karma is a JavaScript command line tool 
-  that can be used to spawn a web server which loads your application's source code 
-  and executes your tests. You can configure Karma to run against a number of browsers, 
-  which is useful for being confident that your application works on all browsers you need to support. 
-  Karma is executed on the command line and will display the results of your 
+. http://karma-runner.github.io/0.12/index.html[Karma for testing Javascript apps] - Karma is a JavaScript command line tool
+  that can be used to spawn a web server which loads your application's source code
+  and executes your tests. You can configure Karma to run against a number of browsers,
+  which is useful for being confident that your application works on all browsers you need to support.
+  Karma is executed on the command line and will display the results of your
   tests on the command line once they have run in the browser.
 . http://httptea.sourceforge.net/[HttpTea]
 . https://github.com/isaacs/node-tap[node-tap for javascript testing]
-. https://github.com/substack/tape[Tape for javascript testing 
+. https://github.com/substack/tape[Tape for javascript testing
 
 ### DB libraries
 . https://github.com/twitter/scalding[Scalding] Scalding is a Scala library that makes it easy to specify Hadoop MapReduce jobs. Scalding is built on top of Cascading, a Java library that abstracts away low-level Hadoop details. Scalding is comparable to Pig, but offers tight integration with Scala, bringing advantages of Scala to your MapReduce jobs.
@@ -64,11 +64,11 @@ Play
 . http://software.clapper.org/grizzled-slf4j/[ Grizzled SLF4J] package provides a very thin Scala-friendly layer on top of the SLF4J (Simple Logging Façade for Java) API. It is released under a BSD license.
 
 ### File manipulation
-. https://github.com/isaacs/minimatch[minimatch] converts glob expressions into JavaScript RegExp objects. This is 
+. https://github.com/isaacs/minimatch[minimatch] converts glob expressions into JavaScript RegExp objects. This is
 used by npm and Karma
 
 ### Javascript utility libraries
 
 . https://lodash.com/[lodash - A JavaScript utility library delivering consistency, modularity, performance, & extras.]
 . http://ramdajs.com/0.19.0/index.html[Ramda.js - A practical functional library for Javascript programmers.]
-
+. http://momentjs.com/ [Parse, validate, manipulate, and display dates in JavaScript.]
