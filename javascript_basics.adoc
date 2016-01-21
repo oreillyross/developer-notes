@@ -229,3 +229,33 @@ use window.onResize and check if it is small then change the link href
 to a different CSS
 
 Progressive enhancement allows you to create usable sites
+
+
+=== ES6 Pitfalls 
+
+Be careful when using the new for (let x in []) array. In the new syntax when you loop over an array
+it adds the ordinal values and not the actual values expected.
+
+function addPonies(...ponies) {
+  let myponys = [];
+  for (let pony in ponies) {
+    myponys.push(pony);
+  }
+  return myponys;
+}
+
+console.log(addPonies("Penny","Stardust","Grizzler" )) // ["0","1","2"]
+
+// but classic for loop works
+
+function addPonies(...ponies) {
+  let myponys = [];
+  for (let i = 0; i < ponies.length; i++) {
+    myponys.push(ponies[i]);
+  }
+  return myponys;
+}
+
+console.log(addPonies("Penny","Stardust","Grizzler" )) // ["Penny","Stardust","Grizzler"]
+
+
