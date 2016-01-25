@@ -140,3 +140,18 @@ The combination of these two properties leads to very powerful programming techn
 In fact, we can say that the whole layered construction of data abstractions that gives today's
 programming systems so much power is based on procedures with these two properties!
 So the procedure concept, as defined here, is one of the most important concepts in all of computer programming.
+
+
+=== Back to basics - laws
+
+// associative
+add(add(x, y), z) == add(x, add(y, z));
+
+// commutative
+add(x, y) == add(y, x);
+
+// identity
+add(x, 0) == x;
+
+// distributive
+multiply(x, add(y,z)) == add(multiply(x, y), multiply(x, z));
