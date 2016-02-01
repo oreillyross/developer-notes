@@ -78,6 +78,9 @@ Are a type with a flatmap and a function taht returns itself
 
 Are a type with a map
 
+A Functor is a type that implements map and obeys some laws
+Yes, Functor is simply an interface with a contract.
+
 === Monad transformers
 
 === Applicative functors
