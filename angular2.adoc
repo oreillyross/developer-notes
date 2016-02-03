@@ -38,3 +38,8 @@ for reflecting the state of the model in the view.
 .router.dev.js - the new Angular2 router for routing across views
 .system.js - the System.JS ES5 Module runtime library
 .es6-shim.js - a shim file to support ES6 API features in ES5 browsers
+
+
+=== Guides
+
+. https://github.com/mgechev/angular2-style-guide[Style Guide]
