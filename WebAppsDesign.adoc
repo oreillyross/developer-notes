@@ -18,3 +18,12 @@ http://www.macwright.org/2014/03/11/tape-is-cool.html[tape is cool
 
 or in short, FIRST.
 ~ Addy Osmani
+
+
+== Testing packages
+
+=== TDD / BDD
+. https://github.com/substack/tape[Tape]
+
+=== Automated testing (Browsers)
+. https://saucelabs.com/[Sauce Labs offer a hosting service for testing]
