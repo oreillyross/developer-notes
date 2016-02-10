@@ -9,3 +9,7 @@
 * Use the imperative mood in the subject line
 * Wrap the body at 72 characters
 * Use the body to explain what and why vs. how
+
+
+== Changin NPM permissions
+. https://docs.npmjs.com/getting-started/fixing-npm-permissions[Great video on how to avoid the dreaded EACCESS error when installing modules]
