@@ -11,5 +11,24 @@
 * Use the body to explain what and why vs. how
 
 
-== Changin NPM permissions
+== Changing npm permissions
 . https://docs.npmjs.com/getting-started/fixing-npm-permissions[Great video on how to avoid the dreaded EACCESS error when installing modules]
+
+=== Seeing whats installed under npm
+
+In order to see what is installed as a dependency for the project you are working on
+(i.e. the folder you are in) then type
+
+[source, unix]
+----
+npm ls
+
+To see global dependencies, type
+
+npm -g ls
+
+and to remove all the dependency graph and to see only single line entries type
+
+npm ls --depth=0 or npm -g ls --depth=0
+
+----
