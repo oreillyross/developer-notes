@@ -57,6 +57,13 @@ Play
 . https://github.com/substack/tape[Tape for javascript testing]
 . https://qunitjs.com/[Qunit javascript unit testing]
 
+#### Testing Stack in Javascript
+
+==== Unit testing
+
+. https://www.npmjs.com/package/babel-tape-runner[babel-tape-runner, A test runner for tape 
+  that utilizes babel in order to run test suites that include ESNext/Harmony features.]
+
 ### DB libraries
 . https://github.com/twitter/scalding[Scalding] Scalding is a Scala library that makes it easy to specify Hadoop MapReduce jobs. Scalding is built on top of Cascading, a Java library that abstracts away low-level Hadoop details. Scalding is comparable to Pig, but offers tight integration with Scala, bringing advantages of Scala to your MapReduce jobs.
 . https://github.com/mongodb/casbah[Casbah] A Scala library which wraps the Java Mongo DB driver.
