@@ -83,3 +83,10 @@ used by npm and Karma
 . http://ramdajs.com/0.19.0/index.html[Ramda.js - A practical functional library for Javascript programmers.]
 . http://momentjs.com/ [Parse, validate, manipulate, and display dates in JavaScript.]
 . http://bevacqua.github.io/dragula/[Drag and drop library]
+
+### Image manipulation
+
+. http://openclipart.org/[great number of free-to-use SVG images at]
+. http://www.irfanview.com/[Irfanview]
+. Gimp
+. Advanced Google Image search
