@@ -58,6 +58,7 @@ console.log(value)
 };
 ```
 
+
 TIP: A good style convention is to stick with one way of declaring functions and stick with it throughout. 
 As function declarations are always 'hoisted' it may be better to use function expressions because you get more
 predictable results. Function expressions are never hoisted, additionally they 
@@ -106,9 +107,9 @@ not logical operators. The above code would result in a stack overflow exception
 right side expressions were evaluated. Instead it checks the left hand side and if true ends.
 
 
+### Arrow Functions
 
-
-
+TIP: Best Practice: Use Arrow Functions whenever you need to preserve the lexical value of this.
 
 methods which takes an array function.
 
