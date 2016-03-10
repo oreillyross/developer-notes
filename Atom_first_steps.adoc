@@ -4,3 +4,7 @@
 .acp
 .typescript
 
+
+### Getting started
+
+== linter-eslint, use the AirBNB style convention file (.eslintrc) 
