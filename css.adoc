@@ -1,0 +1,5 @@
+=== CSS
+
+When using Precss in the postcss always adhere to the convention of naming your
+css files with an _underscore, i.e. _base.css. This ensures your css files are treated as
+modules by the postcss compiler.
