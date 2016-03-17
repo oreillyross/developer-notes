@@ -15,6 +15,8 @@
 
 ### IDE's
 
+==== Desktop
+
 . https://atom.io/[Atom]
 . http://www.vim.org/[Vim]
 . http://brackets.io/[Brackets]
@@ -23,6 +25,12 @@
 . http://www.pnotepad.org/[Pnotepad]
 . http://www.aptana.com/[Aptana]
 . https://code.visualstudio.com/[Visual Studio Code]
+
+==== Online
+
+. https://chrome.google.com/webstore/detail/chrome-dev-editor/pnoffddplpippgcfjdhbmhkofpnaalpg?utm_source=gmail[Chrome Devleoper IDE]
+. https://ide.c9.io[Cloud 9 IDE]
+. https://nitrous.io [Nitrous IDE, good for Chromebook]
 
 ### Javascript development
 
