@@ -26,11 +26,20 @@
 . http://www.aptana.com/[Aptana]
 . https://code.visualstudio.com/[Visual Studio Code]
 
-==== Online
+
+### Cloud IDE's
 
 . https://chrome.google.com/webstore/detail/chrome-dev-editor/pnoffddplpippgcfjdhbmhkofpnaalpg?utm_source=gmail[Chrome Devleoper IDE]
 . https://ide.c9.io[Cloud 9 IDE]
 . https://nitrous.io [Nitrous IDE, good for Chromebook]
+
+### Online Code Editors for javascript
+
+. JSBin
+. JSFiddle
+. Codepen
+
+>>>>>>> e2a6b6ce54a60218f41f42de088145830a22ff71
 
 ### Javascript development
 
@@ -43,13 +52,13 @@
 
 ### Testing
 
-. https://github.com/jkbrzt/httpie[httpie - CLI HTTP client; user-friendly cURL replacement featuring intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions] 
+. https://github.com/jkbrzt/httpie[httpie - CLI HTTP client; user-friendly cURL replacement featuring intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions]
 
 ### API's
 
 . https://console.developers.google.com/project[Google API console]
 
-### Security 
-. https://letsencrypt.org/getinvolved/[Lets encrypt] Let’s Encrypt is a free, automated, and 
-open certificate authority (CA), run for the public’s benefit. Let’s Encrypt is a 
+### Security
+. https://letsencrypt.org/getinvolved/[Lets encrypt] Let’s Encrypt is a free, automated, and
+open certificate authority (CA), run for the public’s benefit. Let’s Encrypt is a
 service provided by the Internet Security Research Group (ISRG).

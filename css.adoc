@@ -1,0 +1,17 @@
+=== CSS
+
+When using Precss in the postcss always adhere to the convention of naming your
+css files with an _underscore, i.e. _base.css. This ensures your css files are treated as
+modules by the postcss compiler.
+
+=== Fonts
+
+1rem is usually equal to about 16px
+
+To get a good sizing ratio set a css element
+`
+html {
+  font-size: 62.5% # comment - this ensures your 1 rem = 10px and setting a 1.8rem means its 18px
+
+}
+`
