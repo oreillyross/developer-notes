@@ -39,12 +39,19 @@
 . JSFiddle
 . Codepen
 
->>>>>>> e2a6b6ce54a60218f41f42de088145830a22ff71
-
 ### Javascript development
 
 . http://webpack.github.io/docs/[Webpack - webpack takes modules with dependencies and generates static assets representing those modules.]
 . http://www.jsoneditoronline.org/[JSON online editor]
+
+
+### JSON tools
+
+. http://www.JSHint.com[JSHint]
+. http://JSONLint.com
+. http://JSONEditorOnline.org[JSON Editor Online]
+. JSONView (Chrome addon)
+. JSONPad (offline app)
 
 ### CDNs
 
