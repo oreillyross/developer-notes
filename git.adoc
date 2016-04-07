@@ -1,0 +1,6 @@
+== Git commands
+
+git clone --bare <repo> .git
+
+git config --bool core-bare false
+git reset --hard
