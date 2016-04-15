@@ -31,3 +31,13 @@ to delete the cursors press esc key.
 
 ### Easily comment
 ctrl + /
+
+### Modifying your themes and syntax
+
+Other than the normal way to modify to preset themes one can also go to
+View | Developer | View in dev mode
+
+then right clikc on inspect element and you get the chrome dev tools to see what classes to change
+* Remember * Atom is just a browser. You can then go
+
+File | modify stylesheet and it is a regular less css file which you can modify the settings there.
