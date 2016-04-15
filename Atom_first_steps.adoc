@@ -7,10 +7,10 @@
 
 ## additional packages that are helpful
 
-.sort-lines
-.language post-css
-.terminal-plus
-.open-browser-here
+ .sort-lines
+ .language post-css
+ .terminal-plus
+ .open-browser-here
 
 ### Web development
 .pigments
@@ -41,3 +41,8 @@ then right clikc on inspect element and you get the chrome dev tools to see what
 * Remember * Atom is just a browser. You can then go
 
 File | modify stylesheet and it is a regular less css file which you can modify the settings there.
+
+=== Integrating with Github
+
+. Use Ctrl + alt + z on the file where changes have occured and you can revert to HEAD
+same as doing a git checkout in terminal
