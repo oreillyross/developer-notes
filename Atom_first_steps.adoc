@@ -9,8 +9,12 @@
 
 .sort-lines
 .language post-css
-.open-terminal-here
+.terminal-plus
 .open-browser-here
+
+### Web development
+.pigments
+
 
 
 ### Getting started
