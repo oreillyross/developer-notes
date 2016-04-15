@@ -23,3 +23,11 @@
 
 ### check your settings and the settings under packages
 . ensure soft wraps is on
+
+
+### To get multiple cursors
+Hold down ctrl key and click with mouse where you want extra cursors
+to delete the cursors press esc key.
+
+### Easily comment
+ctrl + /
