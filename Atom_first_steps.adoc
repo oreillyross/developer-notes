@@ -46,3 +46,5 @@ File | modify stylesheet and it is a regular less css file which you can modify 
 
 . Use Ctrl + alt + z on the file where changes have occured and you can revert to HEAD
 same as doing a git checkout in terminal
+
+alt + g, c - use to get the github version hyperlink of the file 
