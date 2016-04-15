@@ -5,6 +5,17 @@
 .typescript
 
 
+## additional packages that are helpful
+
+.sort-lines
+.language post-css
+.open-terminal-here
+.open-browser-here
+
+
 ### Getting started
 
-== linter-eslint, use the AirBNB style convention file (.eslintrc) 
+== linter-eslint, use the AirBNB style convention file (.eslintrc)
+
+### check your settings and the settings under packages
+. ensure soft wraps is on
