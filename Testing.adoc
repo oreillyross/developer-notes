@@ -7,3 +7,12 @@ Whatever test runner and assertion library you use, a failing unit test should t
 . What was the actual result?
 . What is the expected result?
 . How is the behavior reproduced?
+
+== Useful libraries to use
+
+Functional testing
+.Nightwatch.js
+
+Unit testing
+.Tape.js
+
