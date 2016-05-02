@@ -1,4 +1,4 @@
-# Angular 2 - Tutorial
+== Angular 2 - Tutorial
 
 === A component consists of two parts: 
 . the component controller which is an ES6 class

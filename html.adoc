@@ -1,4 +1,4 @@
-=== HTML styling
+== HTML styling
 
 Three important properties control the space that surrounds each HTML element: 
 . padding, 

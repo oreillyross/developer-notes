@@ -1,4 +1,4 @@
-= Scala First steps
+== Scala First steps
 -- 
 
 This document describes in fairly generic terms the steps required to get up and running with a scala project in Vim.

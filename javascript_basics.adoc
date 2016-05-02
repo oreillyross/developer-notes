@@ -1,4 +1,4 @@
-=== JavaScript reference
+== JavaScript reference
 
 The purpose of this file is to highlight some of the most used features of Javascript
 

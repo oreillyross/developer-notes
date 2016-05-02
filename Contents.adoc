@@ -1,4 +1,4 @@
-=== My Software mind
+== My Software mind
 
 [quote, Erik Meijer, FP101]
 --

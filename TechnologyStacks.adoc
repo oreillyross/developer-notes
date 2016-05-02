@@ -1,4 +1,4 @@
-= Technology stacks
+== Technology stacks
 
 == Web frameworks 
 . Play framework

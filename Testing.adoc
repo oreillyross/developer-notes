@@ -1,4 +1,4 @@
-==== Javascript testing
+== Javascript testing
 
 Whatever test runner and assertion library you use, a failing unit test should tell you at a glance:
 

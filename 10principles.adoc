@@ -1,11 +1,8 @@
-Main Header
-===========
-:Author:    Ross O'Reilly
-:Email:     oreillyross@gmail.com
-:Date:      05 May 2015
-:Revision:  1.0
+== Object Oriented Design principles
 
- <span style="color:red"> 10 Common Principles of OOD </span>
+
+
+
 
 = Object oriented design principle 1 – DRY (Don’t repeat yourself)
 
