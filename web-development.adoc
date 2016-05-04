@@ -42,3 +42,6 @@ Create an empty tasks to assign a common name to a set of dependencies:
 ```
 gulp.task('compile', ['jade2html', 'coffee2js', 'less2css']);
 ```
+=== Getting started on a PostCSS project
+```
+npm i gulp gulp-postcss postcss-reporter --save-dev
