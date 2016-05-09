@@ -45,3 +45,26 @@ gulp.task('compile', ['jade2html', 'coffee2js', 'less2css']);
 === Getting started on a PostCSS project
 ```
 npm i gulp gulp-postcss postcss-reporter --save-dev
+
+Ensure you use the following plugins
+. Stylelint and get the rules from https://github.com/stylelint/stylelint-config-standard
+```
+npm i stylelint stylelint-config-standard --save-dev
+
+Basic Gulp file setup
+
+[Code]
+var gulp = require('gulp');
+gulp.task('analyze-css', function () {
+  var postcss = require('gulp-postcss');
+  var stylelint = require('stylelint');
+  var reporter = require('postcss-reporter');
+
+  return gulp.src('style.css')
+    .pipe(postcss([
+      stylelint(), 
+      reporter()
+    ]));
+});
+----
+
