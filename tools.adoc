@@ -14,6 +14,7 @@
 . Firebug Lite
 . Advanced REST client
 . https://github.com/richgilbank/Scratch-JS[ScratchJS repl]
+. https://chrome.google.com/webstore/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo?hl=en[HTML5 Outliner]
 
 ### IDE's
 

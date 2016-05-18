@@ -25,7 +25,7 @@ npm install angular2
 . Views
 . Properties and Events
 
-Note: *Event bindings*, which can be added using the *() syntax*, can be used to capture 
+[Note] *Event bindings*, which can be added using the *() syntax*, can be used to capture 
 a browser event execute some function on a component. So they trigger the first phase.
 
 *Property bindings*, which can be added using the *[] syntax*, should be used only 
