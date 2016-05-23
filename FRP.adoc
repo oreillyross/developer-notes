@@ -15,3 +15,8 @@ is invoked (which may be any actor or actor system).
 actors, or verify existence of actors when the selection is created.
 3. *actorFor* (deprecated in favor of *actorSelection*) only ever looks up an existing actor, i.e. does not create
 one.
+
+
+== Thunk
+A thunk is a function that wraps an expression to delay its evaluation.
+https://blog.getify.com/thoughts-on-thunks/
