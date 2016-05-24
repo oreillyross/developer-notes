@@ -76,3 +76,8 @@ service provided by the Internet Security Research Group (ISRG).
 ### React / JSX tools
 
 . https://facebook.github.io/react/html-jsx.html[Html to JSX convertor]
+
+### HTML5 tools
+
+. http://www.universalsubtitles.org[Subtitles for embedded video] 
+. http://www.amara.org[Another tool for subtitles in videos]
