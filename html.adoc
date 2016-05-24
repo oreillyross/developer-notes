@@ -24,3 +24,9 @@ and codecs, and use a browser extension such as VideoDownloadHelper (for Firefox
 video in your chosen formats.
 
 recommended formats are mp4/H264 and in webm formats, and ogg.
+
+= Adding subtitles
+Many tools - both free and commercial - are available to add subtitles to a video. 
+Most are native applications you need to install on your computer. However, a free and 
+very practical tool is available for doing this 100% in a Web browser: http://www.universalsubtitles.org, 
+also known as http://www.amara.org.
