@@ -13,4 +13,14 @@ CSS Styling.
 
 Browsers read CSS from top to bottom. That means that, in the event of a conflict, 
 the browser will use whichever CSS declaration came last. Except an Id tag which takes precedence
-over classes
+over classes.
+
+== HTML5 video and audio
+
+any sort of open source, free or commercial video encoding software, such as Handbrake 
+(free, open source) or Super (free). There are also online video encoding services, 
+and you can even upload your video to YouTube, let it encode your video in several resolutions 
+and codecs, and use a browser extension such as VideoDownloadHelper (for Firefox) to download the 
+video in your chosen formats.
+
+recommended formats are mp4/H264 and in webm formats, and ogg.
