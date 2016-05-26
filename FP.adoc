@@ -2,6 +2,8 @@
 
 Functional programming is not only about composing functions and algebraic data structures — it makes concurrency composable
 
+Note: “Functioneers” like to think of data in terms of nouns, not verbs
+
 Functional programming or (Declarative programming) in the long term is a vision for computer
 programming: the programmer should say only what he or she wants, and the computer
 should figure out how to calculate it.
