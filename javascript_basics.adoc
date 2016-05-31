@@ -2,6 +2,13 @@
 
 The purpose of this file is to highlight some of the most used features of Javascript
 
+== Values versus reference types.
+
+Note: “Function” is a reference type.
+
+** JavaScript implements 'duck' typing. Duck typing is a style of dynamic typing in which an object's methods and properties determine the valid semantics, rather than its inheritance from a particular class or implementation of a specific interface. The name of the concept refers to the duck test, attributed to James Whitcomb Riley, which may be phrased as follows:
+
+  "When I see a bird that walks like a duck and swims like a duck and quacks like a duck, I call that bird a duck"
 
 ==== Javascript as a language offers two main paradigm which other languages don't always have:
 
