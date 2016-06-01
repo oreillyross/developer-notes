@@ -81,3 +81,4 @@ service provided by the Internet Security Research Group (ISRG).
 
 . http://www.universalsubtitles.org[Subtitles for embedded video] 
 . http://www.amara.org[Another tool for subtitles in videos]
+. http://caniuse.com[Feature detection for browsers]
