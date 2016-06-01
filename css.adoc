@@ -17,3 +17,20 @@ html {
 `
 ### Font sizing
 .http://snook.ca/archives/html_and_css/font-size-with-rem[Font Sizing with Rem]
+
+
+The HTML5 Canvas api
+
+Accepted values are: 
+
+. font style: normal, italic, oblique, inherit
+. font weight: normal, bold, bolder, lighter, auto, inherit, 100, 200, 300, 400, 500, 600, 700, 800, 900
+. font size: a size in pixels or in points, such as 60pt, 20px, 36px, etc.
+. font face: Arial, Calibri, Times, Courier, etc. Some font faces may not work in all browsers.
+
+==== Examples: 
+
+context.font = "60pt Calibri";
+context.font = "normal normal 20px Verdana";
+context.font = "normal 36px Arial";
+context.font = "italic bold 36px Arial";
