@@ -30,3 +30,8 @@ Many tools - both free and commercial - are available to add subtitles to a vide
 Most are native applications you need to install on your computer. However, a free and 
 very practical tool is available for doing this 100% in a Web browser: http://www.universalsubtitles.org, 
 also known as http://www.amara.org.
+
+### HTML5 api
+
+For 60 frames/second animation, use requestAnimationFrame API, this is a good 
+complement to the canvas API.
