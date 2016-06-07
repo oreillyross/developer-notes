@@ -38,3 +38,14 @@ complement to the canvas API.
 
 ## Input key and mouse events
 . https://css-tricks.com/snippets/javascript/javascript-keycodes/[Keycodes table and tester]
+
+```code Javascript
+
+// Best practice is to use which property of event object
+var code = e.keyCode || e.which
+
+// and to get access to events on canvas use window object.
+
+ window.addEventListener('keydown', handleKeydown, false);
+ 
+ 
