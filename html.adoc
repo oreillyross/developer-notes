@@ -35,3 +35,6 @@ also known as http://www.amara.org.
 
 For 60 frames/second animation, use requestAnimationFrame API, this is a good 
 complement to the canvas API.
+
+## Input key and mouse events
+. https://css-tricks.com/snippets/javascript/javascript-keycodes/[Keycodes table and tester]
