@@ -1,0 +1,17 @@
+=== One of the difficulties with properly prearing for Job interviews at tech companies
+    is getting past the job technical interview questions and problem solving which are usually founded
+    in a healthy dose of mathematics.
+    
+    A notable resource to practice these types of questins is Codefights[link] and one will
+    quickly notice that mathematical terms, and understanding a requickly flung about
+    
+== This addition is to capture the necessary maths required and some links to additional resources to properly solve these
+  maths heavy questions.
+  
+  Gauss’s formula
+  
+1 + 2 + 3 + · · · + (n − 1) + n =  n(n + 1) / 2
+
+  
+  
+  
