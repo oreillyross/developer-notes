@@ -49,3 +49,19 @@ var code = e.keyCode || e.which
  window.addEventListener('keydown', handleKeydown, false);
  
  
+ ** The tabindex attribute of the canvas element makes it focusable. Without it, it will never get the focus!
+
+The trick is to declare the canvas like this:
+
+``` HTML5
+
+<canvas id="myCanvas" width="350" tabindex="1" height="200">
+</canvas>
+
+// And we force the canvas to get the focus with:
+
+
+canvas=document.getElementById('myCanvas');
+...
+canvas.focus();
+ 
