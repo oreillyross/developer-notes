@@ -1,0 +1,8 @@
+Mini tip! You might notice the URL change when you open/close differnet code panels. 
+There are four numbers, and stand for HTML, CSS, JS, and Console (in that order). So the URL parameter:
+
+?editors=0011
+
+Stands for HTML closed, CSS closed, JavaScript open, Console open. Passing a 2 
+as the last number maximizes the console. In this way you could share a Pen 
+where the output is intentionally only for the console.
