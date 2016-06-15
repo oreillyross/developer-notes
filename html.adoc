@@ -65,3 +65,21 @@ canvas=document.getElementById('myCanvas');
 ...
 canvas.focus();
  
+HTML5 forms
+--------------
+
+HTML5 introduced 13 new input types, covering most of the needs reported by Web 
+developers who until now had relied on JavaScript frameworks.
+.color
+.date
+.datetime
+.datetime-local
+.email
+.month
+.number
+.range
+.search
+.tel
+.time
+.url
+.week
