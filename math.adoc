@@ -19,7 +19,9 @@ two numbers is called the *Euclidean algorithm*.
 
 It consists of doing a sequence of divisions with remainder until the remainder is zero.
 
+=== Linear equations and GCD
 
+The smallest positive value of ax + by is equal to gcd(a, b)
 
   
   
