@@ -83,3 +83,9 @@ developers who until now had relied on JavaScript frameworks.
 .time
 .url
 .week
+
+=== Manifest File generator
+
+http://westciv.com/tools/manifestR/[manifestR] is a bookmarklet, meaning that you are able to drag it to your bookmarks bar. 
+Then, when you visit a page, you will click on the manifestR button, and it will 
+create an HTML5 appcache manifest file for that page.
