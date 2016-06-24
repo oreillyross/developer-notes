@@ -84,8 +84,12 @@ developers who until now had relied on JavaScript frameworks.
 .url
 .week
 
-=== Manifest File generator
+=== App Cache and Manifest File generator 
 
 http://westciv.com/tools/manifestR/[manifestR] is a bookmarklet, meaning that you are able to drag it to your bookmarks bar. 
 Then, when you visit a page, you will click on the manifestR button, and it will 
 create an HTML5 appcache manifest file for that page.
+
+App Cache Best Practice - Updating the manifest file server side will update the 
+files cached by browsers: the easiest way to make the browser update the cache
+is to update the manifest file itself.
