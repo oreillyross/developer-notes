@@ -93,3 +93,12 @@ create an HTML5 appcache manifest file for that page.
 App Cache Best Practice - Updating the manifest file server side will update the 
 files cached by browsers: the easiest way to make the browser update the cache
 is to update the manifest file itself.
+
+WEB Audio API 
+
+Some third party libraries
+====
+
+. http://goldfirestudios.com/blog/104/howler.js-Modern-Web-Audio-Javascript-Library
+[Howler.js - useful for loading and playing sound sample in video games.]
+. https://github.com/Tonejs/Tone.js[Tone.js - For writing musical applications]
