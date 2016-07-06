@@ -273,3 +273,9 @@ function addPonies(...ponies) {
 console.log(addPonies("Penny","Stardust","Grizzler" )) // ["Penny","Stardust","Grizzler"]
 
 
+=== Handling Events
+
+When dealing with Mouse coordinates ensure you use the new canvas api method
+
+    // necessary to take into account CSS boudaries
+    var rect = canvas.getBoundingClientRect();
