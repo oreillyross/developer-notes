@@ -1,39 +1,39 @@
 == HTML styling
 
-Three important properties control the space that surrounds each HTML element: 
-. padding, 
-. margin, and 
+Three important properties control the space that surrounds each HTML element:
+. padding,
+. margin, and
 . border.
 
 The four values available for padding and margin: -top, -right, -left and -bottom
-These four values work like a clock: top, right, bottom, left, and will produce 
+These four values work like a clock: top, right, bottom, left, and will produce
 the exact same result as using the side-specific padding instructions.
 
 CSS Styling.
 
-Browsers read CSS from top to bottom. That means that, in the event of a conflict, 
+Browsers read CSS from top to bottom. That means that, in the event of a conflict,
 the browser will use whichever CSS declaration came last. Except an Id tag which takes precedence
 over classes.
 
 == HTML5 video and audio
 
-any sort of open source, free or commercial video encoding software, such as Handbrake 
-(free, open source) or Super (free). There are also online video encoding services, 
-and you can even upload your video to YouTube, let it encode your video in several resolutions 
-and codecs, and use a browser extension such as VideoDownloadHelper (for Firefox) to download the 
+any sort of open source, free or commercial video encoding software, such as Handbrake
+(free, open source) or Super (free). There are also online video encoding services,
+and you can even upload your video to YouTube, let it encode your video in several resolutions
+and codecs, and use a browser extension such as VideoDownloadHelper (for Firefox) to download the
 video in your chosen formats.
 
 recommended formats are mp4/H264 and in webm formats, and ogg.
 
 = Adding subtitles
-Many tools - both free and commercial - are available to add subtitles to a video. 
-Most are native applications you need to install on your computer. However, a free and 
-very practical tool is available for doing this 100% in a Web browser: http://www.universalsubtitles.org, 
+Many tools - both free and commercial - are available to add subtitles to a video.
+Most are native applications you need to install on your computer. However, a free and
+very practical tool is available for doing this 100% in a Web browser: http://www.universalsubtitles.org,
 also known as http://www.amara.org.
 
 ### HTML5 api
 
-For 60 frames/second animation, use requestAnimationFrame API, this is a good 
+For 60 frames/second animation, use requestAnimationFrame API, this is a good
 complement to the canvas API.
 
 ## Input key and mouse events
@@ -47,8 +47,8 @@ var code = e.keyCode || e.which
 // and to get access to events on canvas use window object.
 
  window.addEventListener('keydown', handleKeydown, false);
- 
- 
+
+
  ** The tabindex attribute of the canvas element makes it focusable. Without it, it will never get the focus!
 
 The trick is to declare the canvas like this:
@@ -64,11 +64,11 @@ The trick is to declare the canvas like this:
 canvas=document.getElementById('myCanvas');
 ...
 canvas.focus();
- 
+
 HTML5 forms
 --------------
 
-HTML5 introduced 13 new input types, covering most of the needs reported by Web 
+HTML5 introduced 13 new input types, covering most of the needs reported by Web
 developers who until now had relied on JavaScript frameworks.
 .color
 .date
@@ -84,17 +84,17 @@ developers who until now had relied on JavaScript frameworks.
 .url
 .week
 
-=== App Cache and Manifest File generator 
+=== App Cache and Manifest File generator
 
-http://westciv.com/tools/manifestR/[manifestR] is a bookmarklet, meaning that you are able to drag it to your bookmarks bar. 
-Then, when you visit a page, you will click on the manifestR button, and it will 
+http://westciv.com/tools/manifestR/[manifestR] is a bookmarklet, meaning that you are able to drag it to your bookmarks bar.
+Then, when you visit a page, you will click on the manifestR button, and it will
 create an HTML5 appcache manifest file for that page.
 
-App Cache Best Practice - Updating the manifest file server side will update the 
+App Cache Best Practice - Updating the manifest file server side will update the
 files cached by browsers: the easiest way to make the browser update the cache
 is to update the manifest file itself.
 
-WEB Audio API 
+WEB Audio API
 
 Some third party libraries
 ====
@@ -102,3 +102,13 @@ Some third party libraries
 . http://goldfirestudios.com/blog/104/howler.js-Modern-Web-Audio-Javascript-Library
 [Howler.js - useful for loading and playing sound sample in video games.]
 . https://github.com/Tonejs/Tone.js[Tone.js - For writing musical applications]
+
+
+== Drag and drop in html
+
+Always use dataTransfer copy to clipboard and then paste for drag and drop actions.
+
+``` script Javascript`
+event.dataTransfer.setData("Fruit", event.target.dataset.value);
+...
+var data = event.dataTransfer.getData("Fruit");
