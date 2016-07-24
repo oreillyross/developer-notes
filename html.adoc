@@ -103,6 +103,11 @@ Some third party libraries
 [Howler.js - useful for loading and playing sound sample in video games.]
 . https://github.com/Tonejs/Tone.js[Tone.js - For writing musical applications]
 
+== Shadow DOM
+
+.http://html5-demos.appspot.com/shadowdom-visualizer [This tools allows you to visualize how Shadow DOM renders in the browser]
+
+
 
 == Drag and drop in html
 
