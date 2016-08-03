@@ -1,0 +1,16 @@
+=== Functional Javascript
+
+These are some steps one can take when writing code, usually this would be an iterative process 
+during refactoring.
+
+.Reduce functions dependence on shared state
+.Use more readable language abstractions like forEach to iterate
+.Use higher level abstractions like map to reduce the amount of code
+.Reduce functions to their simplest forms
+.Delete code until it stops working
+
+These steps are explained in greater detail with examples in the following article
+https://www.sitepoint.com/an-introduction-to-reasonably-pure-functional-programming/
+[introduction to reasonably pure functional programming]
+
+
