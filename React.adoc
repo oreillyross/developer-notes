@@ -3,7 +3,9 @@
 . https://jsfiddle.net/reactjs/69z2wepo/[React Base fiddle (jsx)]
 
 
-Always try to use stateless components and write idiomatic React 
+Always try to use stateless components and write idiomatic React. Be a pragmatic 
+programmer: go for stateless components where possible, but state is there to 
+be used when you really need it.
 
 ``` code
 
