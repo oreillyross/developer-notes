@@ -1,3 +1,14 @@
 ### React
 
 . https://jsfiddle.net/reactjs/69z2wepo/[React Base fiddle (jsx)]
+
+
+Always try to use stateless components and write idiomatic React 
+
+``` code
+
+const FunctionalTest = (props) => {
+    return {props.message};
+};
+
+```
