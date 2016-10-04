@@ -1,0 +1,10 @@
+Haskell is a purely functional programming language. 
+
+Recusrion in Haskell.
+
+Recursive definition of length. The length of a list can be computed recursively as follows:
+
+length :: [a] -> Int
+length [] = 0                  # the base case
+length (x:xs) = 1 + length xs  # recursion case
+
