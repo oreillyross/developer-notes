@@ -15,3 +15,9 @@ filter pred []    = []
 filter pred (x:xs)
   | pred x         = x : filter pred xs
   | otherwise      = filter pred xs
+  
+### Recursive definition of map
+
+map :: (a -> b) -> [a] -> [b]
+map _ []     = []
+map f (x:xs) = f x : map f xs
