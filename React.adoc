@@ -14,3 +14,12 @@ const FunctionalTest = (props) => {
 };
 
 ```
+
+
+=== Why the parens within the render function / method.
+
+Why do we need the parentheses around the return statement? 
+This is because of JavaScript's automatic semicolon insertion. 
+Without the parentheses, JavaScript would ignore the following lines and 
+return without a value. If the JSX starts on the same line as the return, 
+then parentheses are not needed.
