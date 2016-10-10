@@ -86,3 +86,9 @@ service provided by the Internet Security Research Group (ISRG).
 ### ES6
 
 . https://github.com/addyosmani/es6-tools[Addy Osmani’s “ECMAScript 6 Tools]
+
+
+### Code repositories / source graphs
+
+. https://sourcegraph.com/[Sourcegraph answers everyday programming questions in seconds]
+
