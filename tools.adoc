@@ -92,3 +92,6 @@ service provided by the Internet Security Research Group (ISRG).
 
 . https://sourcegraph.com/[Sourcegraph answers everyday programming questions in seconds]
 
+### REPL Tools
+
+. http://thlorenz.com/replpad/[This is useful for Javascript functions in node and testing of files on the fly]
