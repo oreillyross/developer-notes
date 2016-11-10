@@ -23,3 +23,28 @@ This is because of JavaScript's automatic semicolon insertion.
 Without the parentheses, JavaScript would ignore the following lines and 
 return without a value. If the JSX starts on the same line as the return, 
 then parentheses are not needed.
+
+=== When to use bind 
+
+Advice from .https://www.reddit.com/r/reactjs/comments/54xnao/fat_arrow_vs_autobind_vs_bindbindbindbindbind/d85wj0l/ 
+[Dan Abramov]
+
+You do, however, need to bind functions that you take off this. So if you write 
+onChange={this.handleChange}, you get an unbound function unless you bind it
+yourself. In practice this means that with React, you generally only want to 
+bind event handlers and timer/interval/AJAX callbacks. You don’t need to bind 
+render or React lifecycle methods. 
+
+``` code Bind pattern inside a class for react component
+class Example extends Component {
+  constructor(props) {
+    super(props);
+    this.handleThing = this.handleThing.bind(this);
+  }
+
+  handleThing () {
+    // ...
+  }
+}
+
+```
