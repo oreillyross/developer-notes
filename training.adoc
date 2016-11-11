@@ -1,0 +1,6 @@
+==== Online training platforms
+
+. https://frontendmasters.com/[Frontend masters]
+. https://egghead.io/[Egghead.io]
+. https://www.pluralsight.com/[Pluralsight]
+. Lynda.com[Lynda.com]
