@@ -1,0 +1,32 @@
+
+=== Using Let as oppose to var
+    . Prefer const. You can use it for all variables whose values never change.
+    . Otherwise, use let – for variables whose values do change. 
+    . Avoid var.
+    
+    
+=== For .. of loop.
+
+If you want both index and value of each array element, for-of has got you covered, too, via the new Array method entries() and destructuring:
+
+```code js
+for (const [index, elem] of arr.entries()) {
+    console.log(index+'. '+elem);
+}
+
+```
+
+Taken from http://exploringjs.com/es6/ch_core-features.html
+
+ES6 Spread operator
+
+# turns an Array into their seperate values.
+
+A good example is the Math.max function which expects sperate values and not an array.
+
+
+
+
+
+    
+    
