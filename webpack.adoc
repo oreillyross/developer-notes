@@ -1,0 +1,6 @@
+=== Hot module replacement
+
+There appears to be a problem with fs npm module on Ubuntu14.04. You need to run the following
+command. See .http://stackoverflow.com/questions/29722755/webpack-dev-server-does-not-watch-for-my-file-changes[link on stackoverflow] 
+
+ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
