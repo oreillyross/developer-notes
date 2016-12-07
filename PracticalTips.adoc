@@ -32,3 +32,11 @@ and to remove all the dependency graph and to see only single line entries type
 npm ls --depth=0 or npm -g ls --depth=0
 
 ----
+
+=== Developer productivity tips
+
+* First thing in the morning, do not look at your phone. Simply do something, anything else
+  but check twitter, emails, whatsapp, slack etc.
+* Clear your inbox (if you are using gmail of course). Having a empty inbox lessens the mental
+  load of things to do or think about. Using inbox your inbox is not actually empty, it just 
+  does not show on initial page load, you see a nice picture of the sun. 
