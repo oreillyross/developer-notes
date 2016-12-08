@@ -6,3 +6,9 @@
 
  . https://medium.freecodecamp.com/javascript-modules-a-beginner-s-guide-783f7d7a5fcc#.8xvkgfekx[JavaScript Modules: A Beginner’s Guide]
  
+ 
+ == Newsletters
+ 
+ . http://frontendfocus.co/[Front End Focus - A once–weekly roundup of the best 
+   frontend news, articles and tutorials. HTML, CSS, WebGL, Canvas, browser 
+   technology, and more.]
