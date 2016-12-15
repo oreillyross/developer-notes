@@ -103,8 +103,9 @@ Falsy values:
 . "" (empty string)
 . 0
 . NaN
+. undefined
 
-All other values (including objects) are truthy
+All other values (including objects and empty arrays) are truthy
 
 *!!* is the way we write “is truthy” in JavaScript.
 
