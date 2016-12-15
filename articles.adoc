@@ -12,3 +12,9 @@
  . http://frontendfocus.co/[Front End Focus - A once–weekly roundup of the best 
    frontend news, articles and tutorials. HTML, CSS, WebGL, Canvas, browser 
    technology, and more.]
+   
+   === Books
+   
+   . https://mjavascript.com/[Modular Javascript by Nicholas Bevacqua]
+   
+   
