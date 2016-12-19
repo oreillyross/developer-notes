@@ -12,6 +12,10 @@
 . https://www.info.ucl.ac.be/~pvr/VanRoyChapter.pdf[Programming Paradigms for Dummies: What Every Programmer Should Know (Peter van Roy)]
 
 
+=== Testing
+
+. https://www.amazon.com/Test-Driven-Development-By-Example/dp/0321146530[Test Driven Development by Kent Beck]
+
 === Java
 . http://www.mindview.net/Books/TIJ[Thinking in Java by Bruce Eckel]
 
