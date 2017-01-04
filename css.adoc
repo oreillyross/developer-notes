@@ -34,3 +34,14 @@ context.font = "60pt Calibri";
 context.font = "normal normal 20px Verdana";
 context.font = "normal 36px Arial";
 context.font = "italic bold 36px Arial";
+
+=== BEM Standard (Block Element Modifier)
+
+BEM follows a simple method which can be described in just one selector
+block__element--modifier example. We can relate blocks to React components,
+elements to component children, and modifiers to props which may modify
+block or element look and feel.
+
+An example is card__title--active selector name which conveys style for Card
+component or block, title child node or element, when active prop or modifier
+is set to true.
