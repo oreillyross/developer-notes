@@ -45,3 +45,12 @@ block or element look and feel.
 An example is card__title--active selector name which conveys style for Card
 component or block, title child node or element, when active prop or modifier
 is set to true.
+
+### Flexbox
+Consists of a .flex-container
+              .flex-items      
+
+
+The flex shorthand allows you set the flex-grow, flex-shrink and flex-basis properties all at once.
+
+Flex-grow first, then flex-shrink, and then flex-basis. The acronym, *GSB* may help.
