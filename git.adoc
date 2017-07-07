@@ -4,3 +4,30 @@ git clone --bare <repo> .git
 
 git config --bool core-bare false
 git reset --hard
+
+== 20 tips for mastering Git and GitHub
+====================================
+
+http://www.infoworld.com/article/3205884/application-development/20-tips-for-mastering-git-and-github.html?upd=1499415090366[Mastering Git by Martin Heller]
+
+
+.1 Clone almost anything
+.2 Pull frequently
+.3 Commit early and often
+.4 Comment your commits as you would have others comment theirs
+.5 Push when your changes are tested
+.6 Branch freely
+.7 Merge carefully
+.8 Stash before switching branches
+.9 Use gists to share snippets and pastes
+.10 Explore GitHub
+.11 Contribute to open source projects
+.12 Use editors and IDEs that “git it”
+.13 Fork a repo
+.14 Watch projects
+.15 Follow friends
+.16 Send pull requests
+.17 Create and resolve issues
+.18 Write informative README pages
+.19 Use Markdown
+.20 Convert your older repos to Git
