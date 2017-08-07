@@ -1,0 +1,4 @@
+
+TIP: view the source code behind this page. In both Chrome and Firefox, you can type viewsource:
+http://localhost:3000/ into the address bar
+
