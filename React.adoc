@@ -99,3 +99,12 @@ Last but not least there is the unmounting lifecycle. It has only one lifecycle 
 * PropTypes.number
 * PropTypes.object
 * PropTypes.string
+
+Use isRequired to enforce this.
+
+Button.propTypes = {
+onClick: PropTypes.func.isRequired,
+className: PropTypes.string,
+children: PropTypes.node.isRequired,
+};
+
