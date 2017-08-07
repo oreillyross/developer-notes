@@ -69,3 +69,22 @@ hierarchy.
 methods from element event handlers.
 9. Specify component state based on event driven UI state change.
 10. Import and render component in an owner component.
+
+=== Lifecycle meothds for class based components
+
+Overall the mounting process has 4 lifecycle methods. They are invoked in the following order:
+• constructor()
+• componentWillMount()
+• render()
+• componentDidMount()
+
+But what about the update lifecycle of a component that happens when the state or the props change?
+Overall it has 5 lifecycle methods in the following order:
+
+• componentWillReceiveProps()
+• shouldComponentUpdate()
+• componentWillUpdate()
+• render()
+• componentDidUpdate()
+
+Last but not least there is the unmounting lifecycle. It has only one lifecycle method: componentWillUnmount().
