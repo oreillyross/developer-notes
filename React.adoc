@@ -88,3 +88,14 @@ Overall it has 5 lifecycle methods in the following order:
 • componentDidUpdate()
 
 Last but not least there is the unmounting lifecycle. It has only one lifecycle method: componentWillUnmount().
+
+=== React Component props interface - validating your props
+
+. types of props:
+
+* PropTypes.array
+* PropTypes.bool
+* PropTypes.func
+* PropTypes.number
+* PropTypes.object
+* PropTypes.string
