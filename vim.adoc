@@ -1,0 +1,11 @@
+Vim commands
+
+How to run javascript files directly without leaving the editing window.
+
+:!{cmd} syntax
+
+The ! (bang operator) says to vim execute a shell command
+The % refers to the current file
+
+TYPE: :!node %
+
