@@ -9,3 +9,18 @@ The % refers to the current file
 
 TYPE: :!node %
 
+# Verbs 
+d: delete
+c: change (overwrite)
+y: yank (copy)
+>: indent
+<: unindent
+
+# Actions
+h,j,k,l: left, down, up, right
+w: next word
+b: previous word
+0: start of line
+$: end of line
+i: inside (excluding the following character)
+a: around (including the encasing characters)
