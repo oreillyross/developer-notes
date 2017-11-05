@@ -1,0 +1,5 @@
+Gallium OS guide to improve developer experience and productivitiy
+
+
+https://www.reddit.com/r/GalliumOS/comments/4y3jjn/what_to_do_after_installing_gallium_os_a_noobies/
+
