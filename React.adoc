@@ -108,3 +108,8 @@ className: PropTypes.string,
 children: PropTypes.node.isRequired,
 };
 
+Advanced React Patterns
+
+* Context module Functions pattern  // taken from Kent C Dodds Epic React course 
+
+
