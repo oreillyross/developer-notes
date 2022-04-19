@@ -1,4 +1,9 @@
-== Javascript testing
+# React and Javascript testing
+
+### Install
+- npm install @testing-library/react
+- npm install jest
+- Jest by Orta vs code extension
 
 Whatever test runner and assertion library you use, a failing unit test should tell you at a glance:
 
