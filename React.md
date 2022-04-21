@@ -49,6 +49,29 @@ class Example extends Component {
 
 ```
 
+###Context
+
+What is context, and what use is it in React?
+
+Context is a mechanism that allows you to pass data through the app without prop drilling (passing data through each components props to get deeper into component tree.
+
+It is useful for global state such as theming, authenticated users etc.
+
+Alternatives to using context is to consider using the inversion of control and component composition patterns including the render prop pattern if the child component needs to communicate with the parent before rendering. 
+
+
+
+
+
+How do you set it up?
+
+Use the react utility function React.createContext() which returns a Context component. Wrap the Context.Provider component around the React elements you want context to be available on, it takes a prop called value which can be what you pass down. 
+
+Deep down in your component tree you can call on the next available provider up in the tree for its stored state using the useContext hook.
+
+
+
+
 === Designing from Wireframes (taken from Manav Sehgal book ReactSpeedCoding)
 
 The steps followed to design React components from a wireframe can be outlined
