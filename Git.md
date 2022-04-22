@@ -21,11 +21,16 @@ if the git log is large git will open the page into the UNIX less pager output.
 - git log -p -S"Math"  # use pickaxe option to look since files for search term, include -p to see changes, use the -i to ignore case
 - git log -p GMath\|Random # this is a search using regexp to search in files for Math or Random, use the -i to ignore case
 - git log --no-merges # only show files which have not been merged
-- git log main..cool-feature # to see where the branches diverge, from main and then cool-feautre branch, the two dots are required, see the commits contained between the two refs.
+- git log main..cool-feature # to see where the branches diverge, from main and then cool-feautre branch, the two dots are required, see the commits contained between the two refs. These commands can be composed together on one line as well.
 
-
+### Git diff
+- --- or +++ (three plus or minus) means it refers to a file
+- Only one - or + refers to a lie in a file being changed
+- Run git diff with --stat option to get a condensed view with lines counts that have been modified
+- By default the comparison is made with working directory and last commit
+- git diff --cached shows comparison between working directory and staging area
+- git diff HEAD shows both staging and working directory against last commit
+- __HANDY TIP__ run git fetch, then git diff origin/main to see local changes that have not merged yet with current pulled data from remote main branch
 - 
- 
-These commands can be composed together on one line as well.
 
 
