@@ -36,6 +36,13 @@ if the git log is large git will open the page into the UNIX less pager output.
 - used to tell who made what changes when
 - can be used to get the commit id, which can beinterrogated further
 - Then run ```git log {commit id} -p ``` to see more info
+
+### git tag
+- run like so ``` git tag V1.0.0``` to version for specific releases, semantic versioning.
+- Major (breaking changes) Minor (feature changes) and Patch (fix bugs)
+- __must use__ ```git push --tags``` to ensure the tags are recorded on remote repo.
+- use ```git tag -a V1.0.2 -m "Some message annotated"``` to annotate messages to tags
+- Leave the -m option off to open up a code editor where you can provide your release notes.
 - 
 
 
