@@ -31,6 +31,11 @@ if the git log is large git will open the page into the UNIX less pager output.
 - git diff --cached shows comparison between working directory and staging area
 - git diff HEAD shows both staging and working directory against last commit
 - __HANDY TIP__ run git fetch, then git diff origin/main to see local changes that have not merged yet with current pulled data from remote main branch
+
+### git blame
+- used to tell who made what changes when
+- can be used to get the commit id, which can beinterrogated further
+- Then run ```git log {commit id} -p ``` to see more info
 - 
 
 
