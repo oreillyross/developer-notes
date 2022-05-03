@@ -1,6 +1,0 @@
-Setting up React project for Typescript.
-
-1) Use files with the esxtension .tsx (instead of .ts)
-2) Use "jsx":"react" in your tsconfig's compilerOptions
-3) Install the definitions for JSX and React into your project: (npm i -D @types/react @types/react-dom)
-4) Import react into your .tsx files
