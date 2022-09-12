@@ -40,4 +40,58 @@ round(17.6) # 18
   min(-2,3,5,33) # -2
 ```
 
+## Variables in python
+
+Containers that hold values
+
+```python
+    salary = 24000
+```
+## Types in Python
+
+### primitive types in python are:
+
+- bool # True False
+You can use logical operators here. **and, or **
+
+- str # ""
+
+- int, float # 5 , 5.6
+
+- NoneType
+
+## Assigning values to variables
+
+string variable assignments are immutable by default. Whatever the value was at the time of assignment.
+
+### muliple assignments, shortcut
+
+```python
+x = y = z = "Python"
+
+# one can also assign multiple values
+
+x,y = 5, "Python" # x = 5, y = "Python"
+```
+
+### Comparison operators
+
+== # equal to
+>= <= > < > # greater than less than
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
