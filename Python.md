@@ -53,12 +53,21 @@ Containers that hold values
 
 - bool # True False
 You can use logical operators here. **and, or **
+  - bool is the type
 
 - str # ""
+  -   
 
 - int, float # 5 , 5.6
+  -   int is a built in class, of int
+  -   float is a built in class of float
+  -   complex numbers can be invoked by appending j to number 
 
 - NoneType
+
+- binary types
+  - use 0b to prepend the numbers 0 or 1
+  - 0b111 = 7
 
 ## Assigning values to variables
 
@@ -79,6 +88,14 @@ x,y = 5, "Python" # x = 5, y = "Python"
 == # equal to
 >= <= > < > # greater than less than
 
+
+### Working with strings in python
+
+- use single or double quotes
+- use three double quotes, """ python """
+- string can be multiplied by an int # "python" * 3 will result in "python python python"
+
+use the builtin ```input() ``` function to get iput from the user. the result will be the string value the user provides.
 
 
 
