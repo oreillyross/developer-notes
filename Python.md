@@ -97,6 +97,24 @@ x,y = 5, "Python" # x = 5, y = "Python"
 
 use the builtin ```input() ``` function to get iput from the user. the result will be the string value the user provides.
 
+use the \ escape character before the value to ignore the meaning of the char
+so \" will ignore the " inside a " " value
+"Hello \"There\" "
+
+You can also use \n - for new line, or use the triple quote for multi lines
+\t for a tab char
+
+
+Use the f prefix to inject variables into a string
+
+```python
+my_var = "barks
+print(f'A dog {my_var}!' # a dog barks
+```
+alternatively call the .format function onthe string class
+
+
+
 
 
 
