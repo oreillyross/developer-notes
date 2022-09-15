@@ -113,6 +113,22 @@ print(f'A dog {my_var}!' # a dog barks
 ```
 alternatively call the .format function onthe string class
 
+## List operations and common hacks
+---
+
+Handy **slicing syntax** to reverse a list
+
+```python
+my_car_list = ['Nissan Altima', 'Kia Soul', 'Kia Optima', 'Honda Civic']
+print(my_car_list[::-1])
+```
+
+<details>
+  <summary markdown="span">This is a test</summary>
+  I should only be visible after someone click on me above....
+  
+</details>
+
 
 
 
