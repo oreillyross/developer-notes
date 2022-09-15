@@ -1,4 +1,5 @@
 <i class="fas fa-puzzle-piece" aria-hidden="true"></i>
+{: #puzzle}
 ## in-built functions
 
 For a full list of the built in functions go to [built-in](https://www.programiz.com/python-programming/methods/built-in)
