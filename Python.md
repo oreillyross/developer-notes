@@ -213,6 +213,25 @@ Ordered collection of elements.
 - key is always a string ???
 - ``` type(dictionary_var) # dict```
 
+An empty dict is just instantiated as {}
+
+```
+  bike_owners = {"James":"Ducati","Jacob":"BMW S 1000","Aiden":"Harley"}
+  bike_owners["James"] # will return the value
+  .keys() # gives you a list of the keys
+  .values() # access all the values
+  .get() # pass in a key and you get the value in return
+  del bike_owners["James"] # will delete the key-value pair
+```
+
+
+
+KeyError will be thrown if key doesn't exist. str in keys are case-sensitive
+
+**NOTE** int and str can be used as keys, actually even bool. However, keys must be unique
+The values can be complex data types, so storing lists in the values is allowed. Even dicts
+So using [][] will look up multidimensional values (nested dictionaries)
+
 #### sets
 - sets are unordered, but unique
 - ``` type(set_var) # set ```
