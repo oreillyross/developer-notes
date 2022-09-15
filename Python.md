@@ -1,4 +1,4 @@
-:spark:
+
 
 ## in-built functions
 
