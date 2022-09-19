@@ -1,4 +1,11 @@
+TEMPLATE TO COPY EVERY TIME
 
+<details>
+  <summary>QUESTION FOR ACTIVE RECALL</summary>
+  ANSWER IN BULLET POINT
+</details>
+
+---
 
 ## in-built functions
 
@@ -217,14 +224,27 @@ Ordered collection of elements.
 
 An empty dict is just instantiated as {}
 
-```
+```python
   bike_owners = {"James":"Ducati","Jacob":"BMW S 1000","Aiden":"Harley"}
   bike_owners["James"] # will return the value
   .keys() # gives you a list of the keys
   .values() # access all the values
   .get() # pass in a key and you get the value in return
   del bike_owners["James"] # will delete the key-value pair
+  .copy() # makes an immutable copy
+  .pop() # pass in the key and it returns the value and removes item from dict
+  .popitem() # arbitrarily remove an item from the dict, cannot be certain which one
+  .update # takes another list with key-value pairs which are merged, or replaced / update
+  .clear() # removes all key-value pairs, leaving an empty # use del command to free up memory, var is gone
+  
 ```
+
+The **sorted** function also works on dicts, and passing a second argument reverse = True
+
+If you need to return a tuple of key-value pairs use the **.items()** function
+
+
+
 
 
 
@@ -236,7 +256,24 @@ So using [][] will look up multidimensional values (nested dictionaries)
 
 #### sets
 - sets are unordered, but unique
-- ``` type(set_var) # set ```
+- 
+- ```python type(set_var) # set 
+-    .add(<value>) to add an item to the set
+     len(pass in a set) # also works
+-    min and max functions also work
+    .discard(element) # does nothing if it doesn't exist, silent
+    .remove(element) # # throws an error if item does not exist
+    .clear() # also works
+  
+- ```
+
+When creating a set us the { } and it only has a value, so no key-value pair like a dict. As long as values are unique you can have any type stored or DS structures, except for a list. A tuple is immutable, a list, and dict in python is not.
+
+an empty set can be created by calling ```python empty_set = set() ```
+
+
+
+
 
 
 
