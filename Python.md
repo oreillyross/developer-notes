@@ -257,15 +257,22 @@ So using [][] will look up multidimensional values (nested dictionaries)
 #### sets
 - sets are unordered, but unique
 - 
-- ```python type(set_var) # set 
--    .add(<value>) to add an item to the set
+
+```python type(set_var) # set 
+    .add(<value>) to add an item to the set
      len(pass in a set) # also works
--    min and max functions also work
+    min and max functions also work
     .discard(element) # does nothing if it doesn't exist, silent
     .remove(element) # # throws an error if item does not exist
     .clear() # also works
-  
-- ```
+    .union(comma seperated list of sets) # removes duplicates
+    .intersection(comma seperated list of sets) # find common numbers and keep these, return them from the function call
+    .difference(comma seperated list of sets) # only those that are not in either of the other sets
+    {1,2,3}.isdisjoint(4,5,6) # True
+    {1,2,3}.isdisjoint(1,5,6) # False
+    {10,20}.isubset(20,10, 30,40) # True
+    .issuperset()
+```
 
 When creating a set us the { } and it only has a value, so no key-value pair like a dict. As long as values are unique you can have any type stored or DS structures, except for a list. A tuple is immutable, a list, and dict in python is not.
 
