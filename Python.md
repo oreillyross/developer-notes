@@ -255,8 +255,9 @@ The values can be complex data types, so storing lists in the values is allowed.
 So using [][] will look up multidimensional values (nested dictionaries)
 
 #### sets
-- sets are unordered, but unique
-- 
+
+Sets are unordered, but unique
+---
 
 ```python type(set_var) # set 
     .add(<value>) to add an item to the set
@@ -276,7 +277,21 @@ So using [][] will look up multidimensional values (nested dictionaries)
 
 When creating a set us the { } and it only has a value, so no key-value pair like a dict. As long as values are unique you can have any type stored or DS structures, except for a list. A tuple is immutable, a list, and dict in python is not.
 
-an empty set can be created by calling ```python empty_set = set() ```
+an empty set can be created by calling 
+
+```python
+empty_set = set() 
+```
+### List conversions
+
+Nested lists, i.e. a list in a list can be converted to a tuple. Gives you a tuple of lists.
+
+``` python
+    mylist = 
+```
+
+Nested lists of only two items in the nested lists *CAN* be mapped to a dict, by calling ```dict()``` constructor.
+
 
 
 
