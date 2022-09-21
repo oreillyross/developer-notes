@@ -148,8 +148,14 @@ my_car_list = ['Nissan Altima', 'Kia Soul', 'Kia Optima', 'Honda Civic']
 print('Kia Soul' in my_car_list) # True
 ```
 ---
+#### lists and copy and deepcopy
 
+While you can use the copy and deepcopy functions from th copy package (import copy) you can also use the slicing operator shorthand to create a deep copy of the list.
 
+```python
+  new_list = old_list[:]
+  
+```
 
 #### Working with strings as lists
 
