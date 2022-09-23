@@ -78,6 +78,33 @@ You can use logical operators here. **and, or **
   - use 0b to prepend the numbers 0 or 1
   - 0b111 = 7
 
+#### Type conversions
+---
+
+*int* function rounds down an input either a string or float and will round value down.
+
+*str* converts inputs to a string datatype
+
+*hex* and *oct* *bin* are also functions that can be applied
+
+*chr* and *ord* can be called on chars
+
+##### Complex datatypes
+
+call *list* function passing in a string will result in a list of chars of that string, also use *tuple* built-in function
+
+calling *dict* needs a lsit of key-value pairs as tuples or a list of lists with two values in each sublist
+
+Calling *set* on a string will cature all unique characters from that string, ignoring repeat chars
+
+
+
+
+
+
+
+
+
 ## Assigning values to variables
 
 string variable assignments are immutable by default. Whatever the value was at the time of assignment.
@@ -297,6 +324,18 @@ Nested lists, i.e. a list in a list can be converted to a tuple. Gives you a tup
 ```
 
 Nested lists of only two items in the nested lists *CAN* be mapped to a dict, by calling ```dict()``` constructor.
+
+
+### Conditionals
+
+#### Ternary operators
+
+These are inline if else statements
+
+``` python
+   num = num - 20 if num > 20 else num + 20
+```
+
 
 
 
