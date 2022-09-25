@@ -337,8 +337,28 @@ These are inline if else statements
 ```
 
 
+## for..loops
 
+You can use the **range** function to set up a determinate looping sequence.
 
+```python
+    val = range(20, 100, 4)
+    # give range the start, end (exclusive) and step count if necessary, default is 1
+    
+    # reversed works on all collections, including strings
+    list(reversed(val))
+    
+    
+    
+```
+
+You can also pass **negative** indices to the above.
+
+---
+These values are the same notation used in iterables as in list **slices**
+start, stop step
+
+---
 
 
 
