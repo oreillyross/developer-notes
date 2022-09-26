@@ -13,9 +13,12 @@ For a full list of the built in functions go to [built-in](https://www.programiz
 
 <details>
   <summary>What two functions can you use to determine if a char is a digit or if a char is a text char?</summary>
+  
+  ```python
   for char in str:
      char.isalpha() # True or False
      char.isdigit() # True or False
+  ```
 </details>
 
 
