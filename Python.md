@@ -11,6 +11,14 @@ TEMPLATE TO COPY EVERY TIME
 
 For a full list of the built in functions go to [built-in](https://www.programiz.com/python-programming/methods/built-in)
 
+<details>
+  <summary>What two functions can you use to determine if a char is a digit or if a char is a text char?</summary>
+  for char in str:
+     char.isalpha() # True or False
+     char.isdigit() # True or False
+</details>
+
+
 ### print 
 
 ```python
@@ -172,7 +180,8 @@ print(my_car_list[::-1])
 <details>
   <summary>What function will you use to iterate over two lists and add their values in a dict</summary>
   
-  **zip** function, and here is an example:
+    **zip** function, and here is an example:
+    
     ```python
         count = [23, 45, 78, 12, 32]
         cars = ["BMW", "Merc", "Jaguar", "Volvo", "Nissan"]
