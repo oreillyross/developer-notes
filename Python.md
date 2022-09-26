@@ -168,6 +168,25 @@ print(my_car_list[::-1])
 
 ---
 
+
+<details>
+  <summary>What function will you use to iterate over two lists and add their values in a dict</summary>
+  
+  **zip** function, and here is an example:
+    ```python
+        count = [23, 45, 78, 12, 32]
+        cars = ["BMW", "Merc", "Jaguar", "Volvo", "Nissan"]
+        dict = {}
+        for i,j in zip(cars, count):
+            dict.update({i: j})
+        print(dict)
+    ```
+  
+</details>
+
+---
+
+
 Use the in command to see if a value is in a list
 
 ```python
