@@ -392,6 +392,53 @@ start, stop step
 ---
 
 
+---
+
+### Functions
+
+Keyword arguments and positional arguments. Positional arguments must be specified first.
+
+---
+**some rules**
+
+- Keyword arguments are often used in built-in functions, they are often default values in user defined functions.
+
+- default arguments must come at the end
+
+```python
+sorted(num_list, reverse=True)
+
+print("Alice", "Bob", sep="|")
+
+
+
+```
+
+---
+
+
+#### Variable length arguments
+
+---
+
+```python
+    def print_fn(*args): # note the * asterisk
+      args_type = type(args) # tuple
+```
+This gives you powers to pass in a list but include the * in the invocation to spread the list.
+
+Python offers another way to pass variable length arguments to a function
+---
+
+```python
+def student_details(**kwargs): # packs the variables up as a dictionary
+      print(type(kwargs)) # dictionary
+      
+
+```
+
+To pass in a dictionary, se the ** to pass the dictionary in.
+
 
 
 
