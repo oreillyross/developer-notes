@@ -441,6 +441,41 @@ To pass in a dictionary, se the ** to pass the dictionary in.
 
 
 
+### Lambda functions
+
+---
+
+Functions are first class citizens
+
+```python
+# anoymous functions are lambdas
+
+cube_of = lambda x: x * x * x
+
+add = lambda x, y: x + y
+mul = lambda x,y: x * y
+
+# Note lambdas can be defined and invoked immediately
+
+(lambda x: x + 10)(10) # 20
+
+# handy sum function
+
+(lambda *numbers: sum(numbers))(3,5,6,7)
+
+
+
+```
+
+Lambdas cannot have keywords or statements in the body
+Lambdas are often used with filter function,
+
+
+
+
+
+
+---
 
 
 
