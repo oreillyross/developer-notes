@@ -535,6 +535,21 @@ fibonacci(10, [0,1])
       - StopIteration Error is raised once all yield statements run
       - local variables inside a generator function maintain their state between function calls
     - generator functions are often used with for or while loops
+    - You can also pass generator object to list()
+    
+  ---
+  To generate infinite sequence
+  ---
+  ```python
+    num = o
+  while True:
+    num += 1
+    yield 2 ** num
+  ```
+  
+  
+  
+  ---
 </details>
 
 
