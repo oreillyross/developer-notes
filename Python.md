@@ -572,6 +572,14 @@ They hold a reference to local state even after the outer function that dfines t
 ---
 
 
+### Decorators
+
+@make_highlighted
+
+Functions that take a function, and return a function that has the passed in function invoked and then the returned function can be be invoked later.
+
+To then use this function delcaration name with the @ syntax above any function that you want decorated.
+
 
 
 
