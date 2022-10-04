@@ -517,6 +517,7 @@ fibonacci(10, [0,1])
 
 <details>
   <summary>What is an Iterator in Python?</summary>
+  
   Any object that responds to the built-in next() function
 </details>
 
@@ -524,7 +525,16 @@ fibonacci(10, [0,1])
 
 <details>
   <summary>What is a generator function?</summary>
-  A function that is a simple way of creating iterators over a sequence
+  
+  - A function that is a simple way of creating iterators over a sequence
+  - The function differs from normal, in taht the retun statement is replaced by yield command
+  - The yield takes control of function
+  - invoking the generator function creates a generator object
+      - this is an iterator
+      - The built in next function can take a generator object, and returns first up until first yield.
+      - StopIteration Error is raised once all yield statements run
+      - local variables inside a generator function maintain their state between function calls
+    - generator functions are often used with for or while loops
 </details>
 
 
