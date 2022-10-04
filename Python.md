@@ -60,6 +60,16 @@ round(17.6) # 18
   min(-2,3,5,33) # -2
 ```
 
+## Useful libraries that can be imported
+
+### random
+
+```python
+  import random
+  random.choice() # pass in a list of items which will be randomly returned
+```
+
+
 ## Variables in python
 
 Containers that hold values
@@ -552,9 +562,16 @@ fibonacci(10, [0,1])
   ---
 </details>
 
+#### Closures
 
+Nested functions within outer functions.
+That can be returned. Now invoking that function the inner function will be called.
+Closures can access local variables.
+They hold a reference to local state even after the outer function that dfines the local state no longer exists. (Backpack)
 
 ---
+
+
 
 
 
