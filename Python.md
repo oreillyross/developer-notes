@@ -471,11 +471,66 @@ Lambdas cannot have keywords or statements in the body
 Lambdas are often used with filter function,
 
 
+---
 
+### Complex functions
+
+#### Recursion
+
+```python
+
+import sys
+sys.getrecursionlimit() # 3000
+sys.setrecursionlimit(100) # to set a new recurison limit
+
+```
+
+- Recursive calls always need a solid base case(s) with a return statement,
+- Make sure the return values in recursive call and base case match
+- Recursive calls can often be formed through using while loops
+
+```python
+
+##### Fibonacci is a nice illustration of Python recursion in action
+
+def fibonacci(number, fib_series):
+  if number < 2:
+  return
+  
+  l = len(fib_series)
+  
+  new_number = fib_series[l - 1] + fib_series[l - 2]
+  
+  fib_series.append(new_number)
+  
+  print("Series so far ", fib_series)
+  
+  fibonacci(number - 1, fib_series)
+
+fibonacci(10, [0,1])
+
+```
+---
+
+##### Generator functions
+---
+
+<details>
+  <summary>What is an Iterator in Python?</summary>
+  Any object that responds to the built-in next() function
+</details>
+
+---
+
+<details>
+  <summary>What is a generator function?</summary>
+  A function that is a simple way of creating iterators over a sequence
+</details>
 
 
 
 ---
+
 
 
 
