@@ -581,7 +581,14 @@ Functions that take a function, and return a function that has the passed in fun
 To then use this function delcaration name with the @ syntax above any function that you want decorated.
 
 
+### Error handling in Python
+---
 
+Use the raise keyword followed by the type of error to throw and pass it a string message.
+
+```python
+    raise ValueError("Number must be a positive number")
+```
 
 
 
