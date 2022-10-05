@@ -114,6 +114,43 @@ print(f'A dog {my_var}!' # a dog barks
 alternatively call the .format function onthe string class
 
 
+## Lists 
+
+### list operations
+
+  * append # appends an item to the end of the list
+  * insert # inserts an item at a specificed index
+  * extend # takes an array and adds it to end of a list
+  * index # returns the zero-based index of item passed in, case matters
+  * remove # specify element to be removed
+  *  
+
+To concatenate two lists you can use the **+** operator
+This operation is a immutable operation
+You can also use **+=** to append an existing list
+
+#### handy other operations on lists
+  * sort()
+  * reverse()
+  * pop() # removes last element in the list
+  * count() # how many duplicates there are, pass in a value
+  * clear() # empties the list
+  * copy() # does a deep copy of a list, to create a shallow copy simply assign the list ref to another variable declaration, the variables point to the same list.  
+  
+To convert the list to a set pass the list to the **set()** function
+NOTE: Sets are enclosed in curly braces
+
+using the **del** command on a variable to a list, it removes list and all contents
+
+##### for operations on int or float:
+  * max(), min() # pass in array
+  * sorted() # used to assign to a new list which remains the sorted orded after append and remove operations
+  * 
+
+
+
+
+
 
 
 
