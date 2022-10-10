@@ -722,6 +722,52 @@ using the **del** command on a variable to a list, it removes list and all conte
    
 ```
 
+### Exception handling
+
+Use these to catch exceptions, and to manage them so that you can mitigate its effects and show the user a different message, or response than the default exception handling
+
+- Exception hierarchy, the prder of try except blocks are important due to this fact.
+
+- **Traceback** The list of functions called before that led to this exception being called
+- Use the **finally** block to ensure code is cleaned up, closing db connections etc.
+
+```python
+    try:
+      print(variable)
+    except:
+      print("Exception occured, variable was not defined")
+      
+  # endless while loop to keep promtping user.
+  while True:
+    try:
+      input_num = int(input("Enter a number: "))
+      break
+    except ValueError:
+      print("try again, ")
+      
+```
+
+### Command line arguments and parsing
+
+- python shell
+
+```python
+  import sys
+  argument_list = sys.argv # first arg is name of script
+  
+  # to make use of - and -- options
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-display")
+args = parser.parse_args()
+
+print(args.display)
+
+# argparse
+
+
+```
 
 
 
