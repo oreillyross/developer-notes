@@ -626,11 +626,155 @@ using the **del** command on a variable to a list, it removes list and all conte
   * 
 
 
+<<<<<<< HEAD
 ### Object Oriented Programming
 
 ##### useful methods
 
 - issubclass(<Child>, <Parent>)
+=======
+### File operations in Python
+
+##### opening
+
+```python
+    file = open("data/stat.txt") # relative path. an absolute path would begin with /
+    file.closed # these are properties available on the returned File object, or subcalss of File Object
+    file.mode
+    
+    file.read() # entire contents get returned if its a text file, the <cr> get returned as \n
+                # can also pass in how many bytes you want.
+    file.readline() # read an entire line, or from current cursor
+    file.readlines() # read multiple lines, pass how many lines as argument
+    file.seek(0) # use to navigate to beginning of file
+    file.tell() # where is the cursor pointing in the file, which byte
+    file.close() # always close the file after using it
+    
+    # to prevent forgetting to close a file use below syntax. The with as can be used for any db connection etc.
+    with open("file.txt") as f:
+      data = f.readlines()
+      line = f.readline()
+      while line:
+        # do something with line
+        line = f.readline()
+    # now file pointer gets closed once with block ends
+    print(data)
+  # Another very handy technique is to use the for ... in to iterate over a file pointer
+  file = open("file.txt")
+  for lines in file:
+    print(lines)
+  
+```
+
+---
+
+### writing to files
+
+```python
+    file = open("file.txt", "w")
+    file.close() # creates a new file, and closes it immediately
+    # or before closing, write to it
+    file.write("Here we go!")
+    file.writelines() # pass in a list of strings # open the file pointer as mode = "a", so a at end of open()
+    # r+ is also available, it opens in write mode but at beginnning of file
+    # a+ opens in write mode, with tell() at end of file. where does cursor point
+    
+    # to check the size of a file
+    import os
+    os.stat("file.txt").st_size # returns byte size
+    # rename
+    os.rename(oldfile, newfile)
+    # or remove
+    os.remove(file)
+    
+```
+
+
+#### JSON files
+
+
+```python
+   import json
+   car = """ {JSON DATA AS TEXT} """
+   car_dict = json.loads(car) # returns a dict object
+   
+   # loading json file from python
+   with open("file.json) as json_file:
+    data = json.load(json_file) # note no s at end of load
+    print(data) # data is a python dict
+   # use json.dump without s for the exact opposite, also can pass json.dumps(dict, indent = 2)
+   
+   # serialise dict to json
+   json_var = json.dumps(pass in dict object) # returns a json string, can then be written to a file
+   
+```
+
+### CSV files
+
+```python
+    import csv
+    with open("file.csv") as file:
+      read = csv.reader(file, delimiter="|") # or whatever is seperator , \t or something
+      for row in read:
+        print(row) # returns a list of items, then use [] syntax to get data
+    
+    csv.DictReader(file) # returns a csv file as dictionary, must typecast the row as dict()
+    
+    names =[["First", "Last"], ["Bob", "Jones"]]
+    file = open("file.csv", 'w')
+    with file:
+      file_writer = csv.writer(file)
+      for row in names:
+        file_writer.writerow(row) # or writerows() note the s at end to write everything
+   
+```
+
+### Exception handling
+
+Use these to catch exceptions, and to manage them so that you can mitigate its effects and show the user a different message, or response than the default exception handling
+
+- Exception hierarchy, the prder of try except blocks are important due to this fact.
+
+- **Traceback** The list of functions called before that led to this exception being called
+- Use the **finally** block to ensure code is cleaned up, closing db connections etc.
+
+```python
+    try:
+      print(variable)
+    except:
+      print("Exception occured, variable was not defined")
+      
+  # endless while loop to keep promtping user.
+  while True:
+    try:
+      input_num = int(input("Enter a number: "))
+      break
+    except ValueError:
+      print("try again, ")
+      
+```
+
+### Command line arguments and parsing
+
+- python shell
+
+```python
+  import sys
+  argument_list = sys.argv # first arg is name of script
+  
+  # to make use of - and -- options
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-display")
+args = parser.parse_args()
+
+print(args.display)
+
+# argparse
+
+
+```
 
 ### Multiple Inheritence
 
