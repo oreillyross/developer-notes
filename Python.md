@@ -626,9 +626,31 @@ using the **del** command on a variable to a list, it removes list and all conte
   * 
 
 
+### Object Oriented Programming
+
+##### useful methods
+
+- issubclass(<Child>, <Parent>)
+
+### Multiple Inheritence
+
+ - To instantiate a multiple inheritence relationship, pass both superclasses to the class being declared
+
+ ```python
 
 
+ # use the help method to see what methods are inherited from which super classes
 
+ help(Pass the class name here)
+
+
+ ```
+
+#### Polypmorphism
+
+Is the ability to define a method with no implementation and then to implement the implementation in the subclasses, calling the base method then calls appropriate method from subclass.
+
+ 
 
 
 
