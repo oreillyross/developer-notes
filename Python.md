@@ -796,7 +796,25 @@ Is the ability to define a method with no implementation and then to implement t
 
  
 
-
+#### Special Methods
+  
+  __init__ dunder init dunder
+  
+  Special method, passing self as first argument, like this in javascript
+  
+  the __repr__ is also a special method
+  ---
+  
+  ```python
+    def __repr__(self):
+        return "'{}', '{}'".format(self.__name, self.__prize)
+  
+  repr(<object instantiated with __repr__>)
+  ```
+  
+  Alternatively override the __str__ method
+  
+  
 
 
 
