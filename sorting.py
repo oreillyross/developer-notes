@@ -25,4 +25,33 @@ def selectionsort(nums):
 
 assert(selectionsort(nums) == testsortednums)
   
- 
+# Bubble sort
+#===================================================
+nums = [15,32,26,11,36,19,42,44,14]
+
+# Iterate through list
+# compare first two elements, which is larger, move it to the right
+# move one, compare next two elements, move or swop positions to get biggest element to the right
+# Keep bubbling up the biggest element.
+# once biggest element to the right, repeat, the process, untill all elements are sorted
+# O(n^2) but its a stable sort, same values will not be swapped., O(1) space
+
+nums = [15,32,26,11,36,19,42,44,14]
+testsortednums = [11,14,15,19,26,32,36,42,44]
+
+def bubblesort(nums):
+
+  for i in range(len(nums) - 1):
+    for j in range(len(nums) - i - 1):
+      if nums[j] > nums[j + 1]:
+        nums[j], nums[j + 1] = nums[j + 1], nums[j]
+  return nums    
+    
+print(bubblesort(nums))
+assert(bubblesort(nums) == testsortednums)
+
+
+
+
+
+
