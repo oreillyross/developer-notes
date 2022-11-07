@@ -50,6 +50,34 @@ def bubblesort(nums):
 print(bubblesort(nums))
 assert(bubblesort(nums) == testsortednums)
 
+# Insertion sort
+
+# Has two parts, sorted list to the left, and an unsorted list to the right
+# compare two numbers adjacent to each other, move smaller number to the left, keep iterating
+# sublist is sorted and grows to be equal to the entire list
+# assume sorted list is size of 1, and grows to be size of original list
+# O(n^2) stable sort
+# Nearly sorted lists complete very quickly like in bubble sort, adaptive sorting algorithm
+
+nums = [15,32,26,11,36,19,42,44,14]
+testsortednums = [11,14,15,19,26,32,36,42,44]
+
+def insertionsort(nums):
+  # after each inner loop, the sorted left side gets ignored in this outer loop as it iterates over the list naturally
+  for i in range(1, len(nums)):
+    # similar to bubble sort, but trickle smallest number down to the left
+    for j in range(i - 1, -1, -1):
+      if nums[j] > nums[j + 1]:
+        nums[j], nums[j + 1] = nums[j +1], nums[j]
+  return nums
+
+
+print(insertionsort(nums))
+assert(insertionsort(nums) == testsortednums)
+
+
+
+
 
 
 
