@@ -1,4 +1,4 @@
-TEMPLATE TO COPY EVERY TIME
+class return TEMPLATE TO COPY EVERY TIME
 
 <details>
   <summary>QUESTION FOR ACTIVE RECALL</summary>
@@ -793,6 +793,8 @@ print(args.display)
 #### Polypmorphism
 
 Is the ability to define a method with no implementation and then to implement the implementation in the subclasses, calling the base method then calls appropriate method from subclass.
+
+ #### Static and abstract classes
 
  
 
