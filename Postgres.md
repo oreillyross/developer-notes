@@ -1,7 +1,7 @@
 
 #### Default data directory for a local postgres DB
 
-/var/lib/postgresql/<version>/main
+/var/lib/postgresql/<version>//main
 
 #### Default installation of Postgres on Ubuntu
 
