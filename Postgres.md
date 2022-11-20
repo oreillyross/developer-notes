@@ -19,3 +19,9 @@ USe trust instead of md5 to reset postgres password, google instructions
 <pre>
 /etc/postgresql/VERSION/main/pg_hba.conf
 </pre>
+
+#### Start stop restart DB
+
+<pre>
+  pg_ctlcluster 12 main start
+</pre>
