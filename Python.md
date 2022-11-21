@@ -817,6 +817,44 @@ Is the ability to define a method with no implementation and then to implement t
   Alternatively override the __str__ method
   
   
+#### Python Testing
+
+Use the PyCharm IDE for including the access to unit testing
+
+```python
+import unittest
+
+class TestCase(unittest.TestCase):
+  
+    def test_string(self):
+      x = 'alpha'
+      y = 'alpha'
+      self.assertEqual(x, y)
+    
+if __name__ == '__main__':
+  unittest.main() 
+```
+
+##### Assertion functions
+
+ - assertTrue
+ - assertEqual(s)
+ - assertNotEqual
+ - assertRaises(ValueError, <<function to check>>)
+ - and many many more
+
+ <pre>
+   Use replit ghostwriter to see all the availabel assert methods.
+ </pre>
+
+ ```python
+   @unittest.skip("Temp skip test")
+   def test_error(self):
+      with self.assertRaises(ValueError):
+        rec_perim.get_perimiter(4,0)
+
+  # can also use @unittest.skipIf(and a condition) or skipUnless(need a truthy condition)
+ ```
 
 
 
