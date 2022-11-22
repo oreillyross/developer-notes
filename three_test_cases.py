@@ -48,5 +48,13 @@ class TestUCase(unittest.TestCase):
 
 if __name__ == '__main__':
     suite = unittest.TestSuite([TestString, TestUCase])
-    unittest.TextTestRunner().run(suite)
+    unittest.TextTestRunner(verbosity = 2).run(suite)
+
+# Or add tests programatticaly
+
+# suite.addTest(<ADD A TEST CLASS AND INVOKE IT with ()>)
+
+# Using makeSuite
+
+suite = unittest.makeSuite(SimpleTest, 'test')
 
