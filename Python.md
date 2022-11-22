@@ -856,7 +856,23 @@ if __name__ == '__main__':
   # can also use @unittest.skipIf(and a condition) or skipUnless(need a truthy condition)
  ```
 
+#### Types of unit testing in Python
 
+* Pytest
+* unittest
+* Doctest
+
+Fixtures can be used before and after tests. 
+
+```python
+   def setup(self):
+       [[INITIALIZATION FOR ALL COMMON TESTS]]
+
+   def tearDown(self):
+       pass
+
+
+````
 
 
 
