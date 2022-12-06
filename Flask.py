@@ -96,13 +96,13 @@ if __name__ == '__main__':
 
 ### Using templates
 
-from flask impoert Flask, render_template
+from flask import Flask, render_template
 
 #! create a folder called templates
 
 @app.route('/')
 def home():
-  return render_template('home.html)
+  return render_template('home.html')
 
 #### Boilerplate html
                          
