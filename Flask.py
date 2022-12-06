@@ -138,3 +138,87 @@ def home():
 {%block content %} Your own content {% endblock%}
 
 
+### Error handling
+
+@app.errorhandler(404)
+def page_not _found(e):
+  return render_template('404.html', 404)
+
+### Post requests
+
+feedback = []
+
+def store(url):
+  feedback.append(dict(
+    url=url,
+    user="Me"
+    date=datteim.utcnow()
+  ))
+
+@app.route('/add', methods=['GET', 'POST'])
+def add():
+  if request.method == "POST":
+    url = request.form['url']
+    store(url)
+
+  ### Logging
+
+from logging import DEBUG
+
+app.logger.setLevel(DEBUG)
+
+# inside whatever functions
+app.logger.debug('Stored feedback' + url)
+
+# redirection
+from flask import redirect, url_for
+
+# Message flashing
+
+python
+>>> import os 
+>>> os.urandom(8)
+
+# copy what is generated
+
+# secret key 
+
+app.secret_key = b'\xf1\xdc9\x8...'
+
+from flask import flash
+
+flash("Your feedback: " + url)
+
+# base.html
+
+<article>
+   {% with messages = get_flashed_messages() %}
+   {%if messages %}
+   <ul>
+     {% for message in messages %}
+     <li>{{message}}</li>
+   </ul>
+</article>
+
+
+# Using WTForms
+
+#! pip install flask-wtf
+
+# forms.py
+
+from flask_wtf import FlaskForm
+from wtforms import StringField, SubmitField
+from wtforms.validators import DataRequired, Length, Email, EqualTo
+
+class RegistrationForm(FlaskForm):
+  username = StringField('Username', validators=[DataRequired(), Length(min=2, max=20)])
+  email = StringField('Email', validators=[DataRequired(), Email()] )
+  #use EqualTo for checking passwords match
+  submit = SubmitField()
+
+
+
+
+
+
