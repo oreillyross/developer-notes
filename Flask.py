@@ -217,8 +217,27 @@ class RegistrationForm(FlaskForm):
   #use EqualTo for checking passwords match
   submit = SubmitField()
 
+# register.html
+
+{% extends "base.html" %}
+
+<div>
+    # used to prevent XSRF attacks
+    {{form.hidden_tag()}}
+    <label> Username</label>
+    {{form.username}}
+    ...
+
+</div>
 
 
 
+<a href={{url_for("register")}}>Register</a>
 
+
+# In app.py where routes are set
+
+if form.validate_on_submit():
+    return redirect(url_for('login'))
+    flash("account created")
 
