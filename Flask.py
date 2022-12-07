@@ -241,3 +241,109 @@ if form.validate_on_submit():
     return redirect(url_for('login'))
     flash("account created")
 
+# SQL Alchemy
+
+#! pip install flask-sqlalchemy
+
+# app.py
+
+from flask_sqlalchemy import SQLAlchemy
+
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
+
+db = SQLAlchemy(app)
+
+class User(db.Model):
+  id = db.Coluumn(db.Integer primary_key=True)
+  username = db.Column(db.String(80), unique=True, nullable=False)
+
+  def __repr__(self):
+    return f"User('{self.username}"
+
+  # Create tables from model def
+
+  #! python
+  >>> from app iport db
+  >>> db.create_all()
+
+  . flaskenv/bin/activate
+
+  less site.db
+
+  >>> from app import User
+  >>> user_regular = User(username="user")
+  >>> db.session.add(user_regular)
+  db.session.commit()
+  User.query.all()
+
+  User.query.filter_by(username='admin').all() # or .first()
+
+  >>> user
+  >>> db.drop_all()
+
+  # Maintaining a Flask app
+
+  # move init flask into __init__.py
+  # move routes into routes.py
+  # update imports
+
+  # Password hashes using Bcrypt
+
+  #! pip install flask-bcrypt
+# In your __init__ file you will pass in the app instance as below to Bcrypt constructor
+  python
+  >>> from flask_bcrypt import Bcrypt
+  >>> bcrypt = Bcrypt(app)
+  bcrypt.generate_password_hash('testing')
+  bcrypt.generate_password_hash('testing').decode('utf-8')
+  bcrypt.check_password_hash(hashed_pw, 'testing') # True
+
+
+  exit()
+
+
+# Custom validator functions syntax
+validate_<field_name>(slef, field)
+
+def validate_username(self, username):
+  pass # flash('username already exists')
+  # from wtforms.validators import ValidationError
+  raise ValidationError()
+
+# Login feature
+#! pip install flask-login
+
+# app.py
+from flask_login import LoginManager, UserMixin # object to maange session
+
+login_manager = LoginManager(app)
+
+@login_manage.user_loader
+def load_user(user_id):
+  return User.query.get(int(user_id))
+
+if user and bcrypt.check_password(...):
+  login_user(user)
+
+# loggin out
+
+@app.route("/logout")
+def logout():
+  logout_user()
+  redirect...
+
+# Using images in Flask app
+
+# img in static folder
+
+@app.route("/sale")
+def sale():
+  return render_html('sale.html')
+
+# href=({{url_for()}})
+
+#! deactivate # to exit from virtualenv
+
+
+
+
