@@ -69,7 +69,7 @@ square_sum = multiprocessing.Value('i')
 
 # ctypes must be the same
 
-# sharing using the Manager class , service process manager
+# sharing using the Manager class , server process manager
 
 with multiprocessing.Manager() as manager:
 
