@@ -74,7 +74,26 @@ async def main():
 
 func = main()
 
-func
+type(func) # coroutine
+
+import asyncio
+
+loop = asyncio.get_event_loop()
+
+loop.run_until_complete(main())
+
+loop.close()
+
+# To run asyncio.run asynchronously
+
+async def main():
+    
+    task_1 = asyncio.create_task(greeting("Hello"))
+    await task_1
+    # ... add as many tasks
+    # or us the below to pass multiple funcs
+    await asyncio.gather(...func1, func2, etc)
+
 
 
 
