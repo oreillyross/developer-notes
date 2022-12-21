@@ -27,7 +27,9 @@ Settinga font size using vw is super useful. Use it mainly for titles and not pa
 font-size: 8vw // makes things very responsive, makes font grow without media queries
 font-size: 8vmin // compares the smallest of the width and height and bases the sizing on that, can stop text from growing and growing as width increases
 
+In VsCode use emmet and type ! [tab]
 
+to get an html5 template filled in
 
 
 
