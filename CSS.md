@@ -2,10 +2,15 @@
 
 ### Defaults
 
+```css
 * {
   box-sizing: border-box;
 }
 
+img {
+   max-width: 100%
+}
+```
 ### ems and rems
 
 Use rems for all font sizing
