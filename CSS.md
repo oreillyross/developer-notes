@@ -7,6 +7,7 @@
   box-sizing: border-box;
 }
 
+/* This is a good default to prevent img overflowing content when screen size shrinks */
 img {
    max-width: 100%
 }
