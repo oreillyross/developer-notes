@@ -6,6 +6,8 @@ use the openpyxl library
 
     # open workbook
     work_book = openpyxl.load_workbook("sales.xlsx")
+    # alternatively open a new workbook in-memory
+    work_book = openpyxl.Workbook()
     # get a handle to the active sheet
     sheet = work_book.active
     # or call it by name
@@ -47,4 +49,41 @@ This is an in-memory representation, you need to workbook.save(""file.xlsx)
     sheet.freeze_panes = 'A2'
 ```
 
+#### Filtering and Sorting Data
+
+```
+    sheet.calculate_dimension() # A1:B22
+    sheet.auto_filter.ref = sheet.calculate_dimension()
+    sheet.auto_filter.add_filter_column(0, ['Brazil', 'Argentina'])
+    # there is a glitch, you need to go to Data in excel and click reapply
+
+    # for sorting you need a range string representing all of the data in the range
+    range_str = sheet['B'][1].coordinate + ':' + sheet['B'][-1].coordinate #     'B2:B22'
+
+
+    sheet.auto_filter.add_sort_condition(range_str, descending=True)
+    # there is a glitch, you need to go to Data in excel and click reapply
+
+```
+
+#### Resizing Rows and Columns
+
+```
+    sheet_obj # <Worksheet "Sheet">
+
+    sheet_obj['C1'] = 'A high row'
+
+    sheet_obj.row_dimensions[1].height = 70
+    sheet_obj.column_dimensions['D'].width = 100
+
+
+```
+
+```
+    from openpyxl.styles import Alignment
+    sheet['A1'].alignment = Alignment(horizontal='right', vertical='center')
+
+    sheet.merge_cells('B5:G5')
+    
+```
 
