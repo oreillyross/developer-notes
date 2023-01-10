@@ -87,3 +87,44 @@ This is an in-memory representation, you need to workbook.save(""file.xlsx)
     
 ```
 
+### Styling Excel sheets using openpyxl
+
+```
+    from openpyxl.styles import Font, Color, Alignment, Border, Side, colors
+    bold = Font(bold=True)
+    double_border = ...
+    square = Border(top=double_border)
+    sheet["D7"].font = bold
+    workbook.save(file location) # important to apply changes
+```
+
+Excel has indexes starting at 1
+
+```
+    sheet[1]
+```
+
+#### Other formatting objects
+- PatternFill
+- NamedStyle
+
+#### Applying formatting numbers 
+
+
+eforxcel.com is handy to get dummy data
+
+```
+for row in sheet["K2:M101"]:
+    for cell in row:
+        cell.number_format = "#,##0"
+```
+
+ColorScaleRule
+
+IconSetRule
+
+DataBarRule
+
+dat_bar_rule = DataBarRule(start_type="num", start_value=1, end_type="num", end_num=4, color=colors.RED)
+
+sheet.conditional_formatting.add("G2:G9234", dat_bar_rule)
