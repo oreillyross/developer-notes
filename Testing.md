@@ -5,6 +5,11 @@
 - npm install jest
 - Jest by Orta vscode extension
 
+### Install RTL and Jest into a NextJS app
+
+npm install --save-dev jest babel-jest @testing-library/react @testing-library/jest-dom identity-obj-proxy react-test-renderer
+
+
 ### Setup
 - import "@testing-library/jest-dom" // this will give you access to the expect matchers (toBe... etc)
 

@@ -1,4 +1,4 @@
-TEMPLATE TO COPY EVERY TIME
+class return TEMPLATE TO COPY EVERY TIME
 
 <details>
   <summary>QUESTION FOR ACTIVE RECALL</summary>
@@ -783,6 +783,10 @@ help(Pass the class name here)
 
 Is the ability to define a method with no implementation and then to implement the implementation in the subclasses, calling the base method then calls appropriate method from subclass.
 
+ #### Static and abstract classes
+
+ 
+
 #### Special Methods
 
 **init** dunder init dunder
@@ -805,27 +809,23 @@ Alternatively override the **str** method
 ---
 
 ```python
-
-# The + operand is really just syntactic sugar for the built-in __add__ function on the int class. This works on all other operators
-
-1 + 1
-
-int(1).__add__(1)
-# or
-
-float.__mul__(1.3, 3.4)
-```
-
-These built-ins can be overridden so the operand can carry out other operations
-
-```
+#### Python Testing
 
 
-class MethodSub:
-def **init**(self):
 
-    def __add__(self, other):
-        return self.val + other.val
-```
 
----
+
+
+
+ - assertTrue
+ - assertEqual(s)
+ - assertNotEqual
+ - assertRaises(ValueError, <<function to check>>)
+ - and many many more
+
+
+
+
+
+
+
