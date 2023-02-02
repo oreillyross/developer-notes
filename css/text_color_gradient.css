@@ -1,0 +1,15 @@
+p {
+	font-weight: bold;
+	max-width: 400px;
+	background: linear-gradient(90deg, green, red);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	  
+      }
+      
+      p::before {
+	content: '“';
+	font-size: 60px;
+	  
+      }     
