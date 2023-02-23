@@ -1714,5 +1714,36 @@ def **init**(self):
     def __add__(self, other):
         return self.val + other.val
 ```
+  
+  ### feedparser library for reading RSS files
+  
+  # install it using sudo pip install feedparser
+  
+  ```python
+  
+  import feedparser
+  feed = feedparser.parse(https://news....rss.xml)
+  
 
+  dir(feed) will give you a numbder of methods. It is atype of dict.
+  len(feed.entries) # will return number of entries
+  feed.entries[0].title or fee.entries[0].link etc. you will need to know the structure of object.
+  
+  ```  
 ---
+
+  
+ #### running an app indefinitely
+  
+  Use the ```while True:``` block and only a keyboard will interup it.
+  
+  time.sleep(30) # every 30 seconds refresh will happen if you call a function inside, like fetch, or feedparser etc.
+  
+---
+  
+  
+UDP sockets have a sendto method which has a combination of a hostname and a port. No guarantee of it arriving. You wont need a accept method.
+  
+When using a client app s.bind("", 8080) the empty strings refer to the localhost address.
+  
+  
