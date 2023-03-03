@@ -29,6 +29,38 @@ Choose three ways:
 
 
 
+1. Interface segregation principle
+Interface is effectively a contract that binds the class to implmenting certain beahviours
+Do not mix too many different behaviours
+
+2. Dependency Inversion principle
+Program to an interface not an implementation
+Depend on abstractions, abstract base classes, a method without an implementation, exposing an interface.
+Never make any assumptions about the inside / implementation
+   
+
+
+#### Principle of least knowledge
+Only talk to friends not friends of friends (strangers) - Law of Demeter
+promotes loose coupling
+friends include params of methods, objects, global vars
+
+#### The hollywood principle
+Dont call us we will call you.
+High level object to low level object, using events
+Low level objects should not communicate up, like pinging etc.
+Observer design pattern is an implementation
+
+#### The principle of single responsibility
+
+keep classes focused in what they do.
+
+
+
+
+
+
+
 
 
 
