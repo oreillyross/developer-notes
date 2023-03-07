@@ -57,6 +57,13 @@ keep classes focused in what they do.
 
 
 
+#### Liskovs substitution principle
+- The inheriting or derived class from a Base class should be predicable in behaviour.
+- The interface contract is the same, i.e. you can subsititue the base calss with derived flag.
+- Breaking this contract would happen where the derived class methods change their parameters, i.e. its invoked differently.
+- The api of both classes should ideally match, then you are observing or respecting Liskovs substitution principle.
+- If you start having isinstance checks in your derived methods this should be a RED flag that you are breaking this principle.
+- 
 
 
 
