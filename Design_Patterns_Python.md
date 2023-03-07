@@ -26,7 +26,7 @@ Choose three ways:
 2. Delegation - observer, chain of responsibility (state changes etc)
 3. Composition - If you take in member variables to determine behaviour - strategy pattern
 
-
+You can use multiple ways together to achieve the open/closed principle effect.
 
 
 1. Interface segregation principle
