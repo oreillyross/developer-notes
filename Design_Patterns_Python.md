@@ -66,6 +66,36 @@ keep classes focused in what they do.
 - 
 
 
+#### Interface Segragation principle
+- Clients should not have to implement bulky interfaces
+- Keep the interface focussed and granular
+- By declaring custom functions, you can pass a derived class through. 
+
+```python 
+class Eagle(Flying, Feeding):
+
+  # here you can overide the methods that will inherit from the inherited interfaces
+  
+  # call functions
+  eat_food(eagle)
+  
+  # or another example using a base class
+  class Mammal:
+    def aerial(self):
+      raise NotImplementedError
+      
+   # then a derived class
+   class Human(Mammal):
+    def aerial(self):
+      pass
+      # because humans cant fly
+    
+```
+
+#### Dependency Inversion Principle
+
+- Clients should only depend on abstractions and not on implmentation
+- Higher level modules should not depend on lower level modules
 
 
 
