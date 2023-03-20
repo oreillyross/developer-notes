@@ -99,8 +99,46 @@ class Eagle(Flying, Feeding):
 
 
 
+#### Global Object pattern
+
+Module is a logical unit that can be imported and consists of functions, variables.
+
+Use __ at beginning to indicate its a private label. 
 
 
+#### Factory and Abstract pattern
 
+Seperate the creation from their use, can be class creation or object creation.
 
+class creation use inheirtence
+Object creation often uses delegation
+
+---
+
+ ```python
+
+class Product:
+  def __init__(self, name, price):
+    self.__name = name
+    self.__price = price
+    
+  def get_price(self):
+     return self.__price
   
+ class AppleIpad(Product):
+ 
+  def __init__(self, generation):
+    Product.__init__(self, 'AppleIpad')
+
+
+class ProductFactory()
+
+  @staticmethod
+  def create(item_name, *args):
+    if item_name == "AppleIpad":
+      return AppleIpad("gen2")
+      
+  
+
+
+ ```
