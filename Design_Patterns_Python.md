@@ -142,3 +142,19 @@ class ProductFactory()
 
 
  ```
+## Structural design patterns
+  focus on how classes and components can be composed to form new complex structures
+### Adapter pattern
+
+- It is a structural object pattern
+- Adapters let classes work together that couldn't otherwise because of incompatible interfaces
+- It works by creating a third class that is the adapter and it inherits from the common interface
+- This then must __init__ and take the old legacy class and store a reference to it locally
+- All expected contract methods, i.e. the shape of interface, must then delegate the calls to legacy 
+- methods.
+
+### decorator pattern
+- Use this when you need to add behaviour at runtime
+- Inheritence will not work as it is static
+- Wrap each object with another. derived from abstract classes
+- Think of the application as wrapping functions around functions, like the HOC pattern in JS
