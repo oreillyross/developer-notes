@@ -158,3 +158,10 @@ class ProductFactory()
 - Inheritence will not work as it is static
 - Wrap each object with another. derived from abstract classes
 - Think of the application as wrapping functions around functions, like the HOC pattern in JS
+
+### Facade pattern
+- A class that hides a complex system
+- makes the subsystem easier to use, unified interface to a more complex sub interfaces
+- decouple complex, granular systems from clients
+- **watch out**: should not be only way to access system
+- can be a bunch of microservies, facade stands infront, hides complexity.
