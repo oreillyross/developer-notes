@@ -165,3 +165,15 @@ class ProductFactory()
 - decouple complex, granular systems from clients
 - **watch out**: should not be only way to access system
 - can be a bunch of microservies, facade stands infront, hides complexity.
+
+
+#### Behavioural patterns
+
+##### Strategy pattern
+- Focus on communication with the external world
+- Define a family of algorithms that achieve the same objective
+- Sorting is a perfect use case in high level languages for using the strategy pattern
+- Uses composition as oppose to inheritence to pass through these different objects
+- In the case of a sorting algorithm this would be telling the sort function how to sort, i.e. ignore case, or sort lexicographical or sort reverse etc.
+- You could apply it like passing a function with some functionality that acts on the first arguments you pass through.
+- The python sorted function uses the key named argument which can change how your list is sorted, this is the strategy pattern
