@@ -184,3 +184,43 @@ class ProductFactory()
 - Have every handler implement the same interface
 - Usually needs a nextHanlder pointer, and handler function
 
+##### Command pattern
+- commonly used in applying the undo feature so common
+- uses the abc module in Python
+
+```python
+
+from abc import ABC, abstractmethod
+
+class Command(ABC):
+  @abstractmethod
+  def execute(self):
+    pass
+  
+  @abstractmethod
+  def undo(self):
+    pass
+
+class italic(Command):
+  def execute(self):
+    print("italic")
+  def undo(self):
+    print("undo italic)
+
+commands_executed = []
+
+def execute(command):
+  command.execute()
+
+  commands_executed.append(command)
+
+def undo():
+  if len(commands_executed) == 0:
+    print("At most recent change")
+  command = commands_executed.pop()
+  command.undo()
+
+execute(italic) # commands_executed [italic]
+
+undo() # commands_executed [] prints undo italic
+```
