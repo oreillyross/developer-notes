@@ -49,10 +49,9 @@ if the git log is large git will open the page into the UNIX less pager output.
 ### Git Revision Selection
 An example of how to fix a mistake in your codebase the hardway
 
-    ```console
-        git checkout B
-        # now in detached head state
+```console
+        git checkout B # DETACHED HEAD state
         git checkout -b temp # create a temp branch
 
-    ```
+```
 
