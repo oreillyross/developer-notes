@@ -2,6 +2,7 @@
 
 ## git log
 if the git log is large git will open the page into the UNIX less pager output.
+
 ### useful commands in LESS
 - q = quit the terminal
 - use PGUP PGDOWN or cursors, or j and k, ctrl+f ctrl+b to go fwd and back
@@ -25,7 +26,7 @@ if the git log is large git will open the page into the UNIX less pager output.
 
 ### Git diff
 - --- or +++ (three plus or minus) means it refers to a file
-- Only one - or + refers to a lie in a file being changed
+- Only one - or + refers to a line in a file being changed
 - Run git diff with --stat option to get a condensed view with lines counts that have been modified
 - By default the comparison is made with working directory and last commit
 - git diff --cached shows comparison between working directory and staging area
@@ -45,4 +46,13 @@ if the git log is large git will open the page into the UNIX less pager output.
 - Leave the -m option off to open up a code editor where you can provide your release notes.
 - 
 
+### Git Revision Selection
+An example of how to fix a mistake in your codebase the hardway
+
+    ```console
+        git checkout B
+        # now in detached head state
+        git checkout -b temp # create a temp branch
+
+    ```
 
