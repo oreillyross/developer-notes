@@ -290,6 +290,17 @@ To return the original tuples, call the zip function and prepend an asterisk to 
 Ordered collection of elements.
 - created using [] brackets, can contain elements of different datatypes
 
+Lists can be created a number of ways:
+1. literal list creation
+2. explicit list() constructor
+3. list comprehensions
+
+Lists are mutable, although the reference to them is not. Lists are heterogenous, i.e. they can contain different types of data types at the same time.
+```python
+#create a literal list
+mylist = [1,2,"some", {key: "value"}]
+```
+
 #### Dictionary
 - key-value pair, like an object in javascript
 - JSON ready
