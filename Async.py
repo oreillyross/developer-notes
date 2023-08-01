@@ -1,3 +1,27 @@
+# A very good parallel execution strategy for downloading multiple files at once.
+
+template_url =   "https://api.worldbank.org/v2/en/indicator/{resource}?downloadformat=csv"
+urls = [template_url.format(resource="SP.POP.TOTL"), template_url.format(resource="NY.GDP.MKTP.CD"), template_url.format(resource='EN.POP.DNST')]
+
+# This is the helper download function
+import requests
+def download_file(url):
+    response = requests.get(url)
+    if 'content-disposition' in response.headers:
+        content_disposition = response.headers['content-disposition']
+        filename = content_disposition.split("filename=")[1]
+    else:
+        filename = url.split('/')[-1]
+    with open(filename, mode="wb") as file:
+        file.write(response.content)
+    print(f"Downloaded file {filename}")
+
+# Where the Magic happens with the downloads in parallel
+from concurrent.futures import ThreadPoolExecutor
+with ThreadPoolExecutor() as executor:
+    executor.map(download_file, urls)
+        
+
 # Process Pooling
 
 def cal_square(num):
