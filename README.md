@@ -1,16 +1,9 @@
 # Developer notes
-This is a repository for Asciidoc files to create a reference manual describing 
-all things related to programming paradigms. Generally includes 
+This is a repository for all of my learning. Many of the documents are markdown files. 
 
-Programming paradigms principles
-- functional programming
-- Object oriented programming
-- Deterministic data flow programming
+#### Table of contents
 
+[NextJS](nextjs.md)
 
-.Scala
-.Java 8
-.Akka
-.MEAN stack
 
 
