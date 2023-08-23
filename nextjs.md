@@ -12,4 +12,13 @@ In the RootLayout file that is default exported, return the default
 ```
 So essentially you are passing in the children prop to the function typed as React.ReactNode
 
+---
+#### Client side rendering
+*use* the client side directive `"use client"`
+
+> NOTE
+>An anti patttern of passing a server component to a client rendered component is to use a concept known as *slot*
+>This works by passing the `slot` server component as a child to the client rendered function as a prop
+
+
 [return to toc](README.md)
