@@ -1,5 +1,11 @@
 Vim commands
 
+
+I am currently using Lazyvim, it comes with many sensible defualts.
+
+<Leader> b d - use this to close the current tab
+
+
 How to run javascript files directly without leaving the editing window.
 
 :!{cmd} syntax
