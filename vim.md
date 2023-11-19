@@ -18,6 +18,9 @@ that at some time the actions will become more natural and built into your muscl
 
 
 #### Rename the current file
+- press : key to bring up the command panel
+- type file <new filename>
+
 
 
   
