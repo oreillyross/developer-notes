@@ -15,6 +15,15 @@ that at some time the actions will become more natural and built into your muscl
 #### Update dependencies in a package json file
 
 - The package json file is open in nvim
+- type Ctrl + a : opens a command lnie at bottom
+- type split-window -h
+- Use Ctrl + a o to toggle windows
+- OR type Ctrl + a q then quickly either 1, 2, or 3
+
+  ##### How to toggle between Neo-tree and editor
+  - to activate the neo-tree type <leader> + E
+  - then type Ctrl + h or Ctrl l
+  - 
 
 
 #### Rename the current file
