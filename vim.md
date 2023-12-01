@@ -60,7 +60,7 @@ i: inside (excluding the following character)
 a: around (including the encasing characters)
 
 #### LazyVIM commands
-- <leader> f b = bring up telescope with only open buffers to search
+- <space> f b = bring up telescope with only open buffers to search
 - [ + b ] + b to left and right or just use shift + h or l
 - Lazyvim search for help = <leader> s h
 - if the recording turns up press q to stop it.
