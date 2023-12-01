@@ -58,3 +58,24 @@ b: previous word
 $: end of line
 i: inside (excluding the following character)
 a: around (including the encasing characters)
+
+#### LazyVIM commands
+- <leader> f b = bring up telescope with only open buffers to search
+- [ + b ] + b to left and right or just use shift + h or l
+- Lazyvim search for help = <leader> s h
+- if the recording turns up press q to stop it.
+  
+#### LazyVIM splits
+- <leader> + | = to create a vertical split
+- to navigate is like navigating the buffers with hjkl but you use shift + hjkl
+- to change the size of each pane use ctrl and arrow keys
+- shift + : to bring up command, then type q to quit.
+- 
+### Debugging / Diagnostics
+<leader> x x = bring up trouble for more information on error in console
+
+### Code actions
+
+<leader> c a = do some action on a reccomedation fro LSP
+
+<leader> u C = change the theme
