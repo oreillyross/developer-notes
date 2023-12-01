@@ -31,6 +31,11 @@ that at some time the actions will become more natural and built into your muscl
 - type file <new filename>
 
 
+#### Search and Replace in NVIM
+leader s r = brings up search and replace 
+
+##### Spin up a terminal window on the fly in nvim
+leader f t = opens a terminal window, to close it type exit
 
   
 
