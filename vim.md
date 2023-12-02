@@ -81,6 +81,22 @@ leader x x = bring up trouble for more information on error in console
 
 ### Code actions
 
-leader c a = do some action on a reccomedation fro LSP
+leader c a = do some action on a reccomendation from LSP
 
 leader u C = change the theme
+
+#### TMUX 
+
+Ctrl + a + q (quickly show the open panes with a number over)
+Press the number to switch to the window 
+ctrl + a + z = maximise the screen if the screen is split
+
+##### NVIM commands
+
+: for cmdline, then type bd to close or delete current buffer
+Hold SHIFT key down then hl to move left or right respectively.
+
+###### Neotree 
+
+When the NeoTree side bar is open allowing you to navigate the folder structure then you can type
+type **a** and it will bring up a dialog to create a file or filder at the cursor location. 
