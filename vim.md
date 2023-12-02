@@ -12,8 +12,12 @@ The idea behind this section is to record exactly the keystrokes you regularly u
 that at some time the actions will become more natural and built into your muscle memory
 
 #### Moving around
-Ctrl + f = moves down a page
-Ctrl + b = moves up a page
+- Ctrl + f = moves down a page
+
+- Ctrl + b = moves up a page
+
+- To move half a page down Ctrl + d
+- To move half a page up Ctrl + u
 
 #### Update dependencies in a package json file
 
