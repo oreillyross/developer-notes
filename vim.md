@@ -11,6 +11,9 @@ I am currently using Lazyvim, it comes with many sensible defaults.
 The idea behind this section is to record exactly the keystrokes you regularly use and the idea is 
 that at some time the actions will become more natural and built into your muscle memory
 
+#### Moving around
+Ctrl + f = moves down a page
+Ctrl + b = moves up a page
 
 #### Update dependencies in a package json file
 
