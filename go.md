@@ -8,8 +8,8 @@ There is a command you can run which will give you a pretty html output highligh
 
 The command to run is a go command and run in your terminal
 
-`shell
+```
 
 go test -coverprofile=coverage.out && go tool cover -html=coverage.out
 
-`
+```
