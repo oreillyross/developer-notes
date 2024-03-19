@@ -13,3 +13,9 @@ The command to run is a go command and run in your terminal
 go test -coverprofile=coverage.out && go tool cover -html=coverage.out
 
 ```
+Alternatively to test all test file locally use the following command
+
+```
+go test ./...
+```
+
